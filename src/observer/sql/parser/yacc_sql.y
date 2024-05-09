@@ -359,6 +359,7 @@ index_list:
       $$ = new std::vector<std::string> ;
       $$->emplace_back($1) ;
     }
+    /*
     | ID COMMA index_list
     {
       if($3 != nullptr){
@@ -368,6 +369,7 @@ index_list:
       }
       $$->emplace_back($1);
     }
+    */
     ;
 
 drop_index_stmt:      /*drop index 语句的语法解析树*/
@@ -643,7 +645,7 @@ delete_stmt:    /*  delete 语句的语法解析树*/
     }
     ;
 update_stmt:      /*  update 语句的语法解析树*/
-    UPDATE ID SET ID EQ expression update_list where
+    SELECT ID SET ID EQ expression update_list where
     {
       $$ = new ParsedSqlNode(SCF_UPDATE);
       $$->update.relation_name = $2;
@@ -983,10 +985,12 @@ expression:
       $$->set_name(token_name(sql_string, &@$));
       delete $1;
     }
+    /*
     | select_stmt {
       $$ = new SqlExpr($1);
       $$->set_name(token_name(sql_string, &@$));
     }
+    */
     ;
 
 select_list:
