@@ -117,6 +117,7 @@ CHAR                                    RETURN_TOKEN(STRING_T);
 FLOAT                                   RETURN_TOKEN(FLOAT_T);
 DATE                                    RETURN_TOKEN(DATE_T);
 NULL                                    RETURN_TOKEN(NULL_T);
+NULLABLE                                    RETURN_TOKEN(NULL_T);
 TEXT                                    RETURN_TOKEN(TEXT_T);
 {QUOTE}[0-9]{4}\-(0?[1-9]|[1-9][0-9])\-(0?[1-9]|[1-9][0-9]){QUOTE} yylval->string=strdup(yytext); RETURN_TOKEN(DATE_STR);
 LOAD                                    RETURN_TOKEN(LOAD);
