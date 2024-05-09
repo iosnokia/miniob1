@@ -483,7 +483,7 @@ attr_def:
       $$->type = (AttrType)$2;
       $$->name = $1;
       $$->length = $4;
-      $$->is_allow_null = true;
+      $$->is_allow_null = false;
       free($1);
     }
     | ID type LBRACE number RBRACE NULL_T
@@ -508,7 +508,7 @@ attr_def:
       $$ = new AttrInfoSqlNode;
       $$->name = $1;
       $$->length = 4;
-      $$->is_allow_null = true;
+      $$->is_allow_null = false;
       free($1);
     }
     | ID type
@@ -520,7 +520,7 @@ attr_def:
       if ($$->type == TEXTS) {
         $$->length = 36;
       }
-      $$->is_allow_null = true;
+      $$->is_allow_null = false;
       free($1);
     }
     | ID type NULL_T

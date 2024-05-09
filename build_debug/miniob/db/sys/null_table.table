@@ -12,7 +12,7 @@
 		{
 			"len" : 4,
 			"name" : "id",
-			"null" : true,
+			"null" : false,
 			"offset" : 4,
 			"type" : "ints",
 			"visible" : true
