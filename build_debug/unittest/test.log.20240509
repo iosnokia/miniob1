@@ -4,3 +4,4 @@
 [2024-05-09 09:06:29.464715 pid:43013 tid:7fb5b44e8740 ctx:0 INFO: cleanup@mem_pool.h:237] >> Successfully do cleanup, this->name:BufPool.
 [2024-05-09 09:20:28.953207 pid:53062 tid:7f3fdfd5f740 ctx:0 INFO: cleanup@mem_pool.h:237] >> Successfully do cleanup, this->name:BufPool.
 [2024-05-09 09:41:30.824979 pid:66366 tid:7f3e1317f740 ctx:0 INFO: cleanup@mem_pool.h:237] >> Successfully do cleanup, this->name:BufPool.
+[2024-05-09 09:51:22.636075 pid:73091 tid:7f4f05741740 ctx:0 INFO: cleanup@mem_pool.h:237] >> Successfully do cleanup, this->name:BufPool.

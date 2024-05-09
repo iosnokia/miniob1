@@ -878,7 +878,7 @@ expression_list:
     }
     ;
 expression:
-    expression '+' expression {
+    expression '~' expression {
       $$ = create_arithmetic_expression(ArithmeticExpr::Type::ADD, $1, $3, sql_string, &@$);
     }
     | expression '-' expression {

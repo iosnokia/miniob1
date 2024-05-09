@@ -130,7 +130,7 @@ MIN                                     RETURN_TOKEN(MIN);
 COUNT                                   RETURN_TOKEN(COUNT);
 AVG                                     RETURN_TOKEN(AVG);
 INNER                                   RETURN_TOKEN(INNER);
-JOI                                    RETURN_TOKEN(JOIN);
+JOIN                                    RETURN_TOKEN(JOIN);
 GROU                                   RETURN_TOKEN(GROUP);
 IN                                      RETURN_TOKEN(IN);
 NOT                                     RETURN_TOKEN(NOT);
