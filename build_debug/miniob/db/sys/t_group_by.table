@@ -1,0 +1,40 @@
+{
+	"fields" : 
+	[
+		{
+			"len" : 4,
+			"name" : "null_field",
+			"null" : false,
+			"offset" : 0,
+			"type" : "chars",
+			"visible" : false
+		},
+		{
+			"len" : 4,
+			"name" : "id",
+			"null" : false,
+			"offset" : 4,
+			"type" : "ints",
+			"visible" : true
+		},
+		{
+			"len" : 4,
+			"name" : "score",
+			"null" : false,
+			"offset" : 8,
+			"type" : "floats",
+			"visible" : true
+		},
+		{
+			"len" : 4,
+			"name" : "name",
+			"null" : false,
+			"offset" : 12,
+			"type" : "chars",
+			"visible" : true
+		}
+	],
+	"indexes" : null,
+	"table_id" : 6,
+	"table_name" : "t_group_by"
+}

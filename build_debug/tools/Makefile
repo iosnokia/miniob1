@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/miniob2/Miniob-Solution-2023-main
+CMAKE_SOURCE_DIR = /root/miniob2/miniob
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/miniob2/Miniob-Solution-2023-main/build_debug
+CMAKE_BINARY_DIR = /root/miniob2/miniob/build_debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(CMAKE_COMMAND) -E cmake_progress_start /root/miniob2/Miniob-Solution-2023-main/build_debug/CMakeFiles /root/miniob2/Miniob-Solution-2023-main/build_debug/tools//CMakeFiles/progress.marks
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/miniob2/Miniob-Solution-2023-main/build_debug/CMakeFiles 0
+	cd /root/miniob2/miniob/build_debug && $(CMAKE_COMMAND) -E cmake_progress_start /root/miniob2/miniob/build_debug/CMakeFiles /root/miniob2/miniob/build_debug/tools//CMakeFiles/progress.marks
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/miniob2/miniob/build_debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/clean
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/preinstall
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/preinstall
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/miniob2/miniob/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/CMakeFiles/clog_reader.dir/rule:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/CMakeFiles/clog_reader.dir/rule
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/CMakeFiles/clog_reader.dir/rule
 .PHONY : tools/CMakeFiles/clog_reader.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ clog_reader: tools/CMakeFiles/clog_reader.dir/rule
 
 # fast build rule for target.
 clog_reader/fast:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/clog_reader.dir/build.make tools/CMakeFiles/clog_reader.dir/build
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/clog_reader.dir/build.make tools/CMakeFiles/clog_reader.dir/build
 .PHONY : clog_reader/fast
 
 clog_reader_cmd.o: clog_reader_cmd.cpp.o
@@ -190,7 +190,7 @@ clog_reader_cmd.o: clog_reader_cmd.cpp.o
 
 # target to build an object file
 clog_reader_cmd.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/clog_reader.dir/build.make tools/CMakeFiles/clog_reader.dir/clog_reader_cmd.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/clog_reader.dir/build.make tools/CMakeFiles/clog_reader.dir/clog_reader_cmd.cpp.o
 .PHONY : clog_reader_cmd.cpp.o
 
 clog_reader_cmd.i: clog_reader_cmd.cpp.i
@@ -198,7 +198,7 @@ clog_reader_cmd.i: clog_reader_cmd.cpp.i
 
 # target to preprocess a source file
 clog_reader_cmd.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/clog_reader.dir/build.make tools/CMakeFiles/clog_reader.dir/clog_reader_cmd.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/clog_reader.dir/build.make tools/CMakeFiles/clog_reader.dir/clog_reader_cmd.cpp.i
 .PHONY : clog_reader_cmd.cpp.i
 
 clog_reader_cmd.s: clog_reader_cmd.cpp.s
@@ -206,7 +206,7 @@ clog_reader_cmd.s: clog_reader_cmd.cpp.s
 
 # target to generate assembly for a file
 clog_reader_cmd.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/clog_reader.dir/build.make tools/CMakeFiles/clog_reader.dir/clog_reader_cmd.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f tools/CMakeFiles/clog_reader.dir/build.make tools/CMakeFiles/clog_reader.dir/clog_reader_cmd.cpp.s
 .PHONY : clog_reader_cmd.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/miniob2/miniob/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

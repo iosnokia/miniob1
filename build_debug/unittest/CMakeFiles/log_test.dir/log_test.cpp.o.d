@@ -1,8 +1,6 @@
 unittest/CMakeFiles/log_test.dir/log_test.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/unittest/log_test.cpp \
- /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/unittest/log_test.h \
- /usr/include/c++/11/string \
+ /root/miniob2/miniob/unittest/log_test.cpp /usr/include/stdc-predef.h \
+ /root/miniob2/miniob/unittest/log_test.h /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -304,9 +302,8 @@ unittest/CMakeFiles/log_test.dir/log_test.cpp.o: \
  /usr/local/include/gtest/gtest-typed-test.h \
  /usr/local/include/gtest/gtest_pred_impl.h \
  /usr/local/include/gtest/gtest_prod.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
- /usr/include/c++/11/fstream \
+ /root/miniob2/miniob/deps/common/log/log.h /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h
+ /root/miniob2/miniob/deps/common/defs.h

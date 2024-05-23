@@ -1,10 +1,9 @@
 deps/common/CMakeFiles/common.dir/seda/callback.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/callback.cpp \
+ /root/miniob2/miniob/deps/common/seda/callback.cpp \
  /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/callback.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/errno.h /usr/include/features.h \
- /usr/include/features-time64.h \
+ /root/miniob2/miniob/deps/common/seda/callback.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/errno.h \
+ /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -206,7 +205,7 @@ deps/common/CMakeFiles/common.dir/seda/callback.cpp.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h /usr/include/assert.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/string.h \
  /usr/include/strings.h /usr/include/c++/11/map \
  /usr/include/c++/11/bits/stl_tree.h \
@@ -224,8 +223,8 @@ deps/common/CMakeFiles/common.dir/seda/callback.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/stage.h \
- /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
- /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/list \
- /usr/include/c++/11/bits/stl_list.h /usr/include/c++/11/bits/list.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/stage_event.h
+ /root/miniob2/miniob/deps/common/seda/stage.h /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
+ /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
+ /usr/include/c++/11/bits/list.tcc \
+ /root/miniob2/miniob/deps/common/seda/stage_event.h

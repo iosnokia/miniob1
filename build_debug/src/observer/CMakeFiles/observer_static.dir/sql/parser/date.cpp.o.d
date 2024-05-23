@@ -1,7 +1,7 @@
 src/observer/CMakeFiles/observer_static.dir/sql/parser/date.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/date.cpp \
+ /root/miniob2/miniob/src/observer/sql/parser/date.cpp \
  /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/date.h \
+ /root/miniob2/miniob/src/observer/sql/parser/date.h \
  /usr/include/c++/11/string /usr/include/c++/11/sstream \
  /usr/include/c++/11/istream /usr/include/c++/11/ios \
  /usr/include/c++/11/ostream /usr/include/c++/11/bits/istream.tcc \

@@ -1,12 +1,12 @@
 src/observer/CMakeFiles/observer_static.dir/storage/persist/persist.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/persist/persist.cpp \
+ /root/miniob2/miniob/src/observer/storage/persist/persist.cpp \
  /usr/include/stdc-predef.h /usr/include/errno.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/strings.h /usr/include/unistd.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/persist/persist.h \
+ /root/miniob2/miniob/src/observer/storage/persist/persist.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -33,9 +33,8 @@ src/observer/CMakeFiles/observer_static.dir/storage/persist/persist.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdio.h \
  /usr/include/c++/11/stdlib.h /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
- /usr/include/c++/11/string \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/rc.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /usr/include/c++/11/string /root/miniob2/miniob/src/observer/common/rc.h \
+ /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
  /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/assert.h \
@@ -67,5 +66,5 @@ src/observer/CMakeFiles/observer_static.dir/storage/persist/persist.cpp.o: \
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/functional \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/memory /usr/include/x86_64-linux-gnu/sys/syscall.h
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/memory \
+ /usr/include/x86_64-linux-gnu/sys/syscall.h

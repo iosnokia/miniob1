@@ -1,7 +1,7 @@
 src/observer/CMakeFiles/observer_static.dir/net/communicator.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/net/communicator.cpp \
+ /root/miniob2/miniob/src/observer/net/communicator.cpp \
  /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/net/communicator.h \
+ /root/miniob2/miniob/src/observer/net/communicator.h \
  /usr/include/c++/11/string /usr/local/include/event.h \
  /usr/local/include/event2/event-config.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -55,16 +55,16 @@ src/observer/CMakeFiles/observer_static.dir/net/communicator.cpp.o: \
  /usr/local/include/event2/bufferevent_struct.h \
  /usr/local/include/event2/bufferevent_compat.h \
  /usr/local/include/event2/tag.h /usr/local/include/event2/tag_compat.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/rc.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/net/mysql_communicator.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/net/plain_communicator.h \
+ /root/miniob2/miniob/src/observer/common/rc.h \
+ /root/miniob2/miniob/src/observer/net/mysql_communicator.h \
+ /root/miniob2/miniob/src/observer/net/plain_communicator.h \
  /usr/include/c++/11/vector \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/net/cli_communicator.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/net/buffered_writer.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/net/ring_buffer.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/session/session.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/mutex.h \
- /usr/include/pthread.h /usr/include/string.h \
+ /root/miniob2/miniob/src/observer/net/cli_communicator.h \
+ /root/miniob2/miniob/src/observer/net/buffered_writer.h \
+ /root/miniob2/miniob/src/observer/net/ring_buffer.h \
+ /root/miniob2/miniob/src/observer/session/session.h \
+ /root/miniob2/miniob/deps/common/lang/mutex.h /usr/include/pthread.h \
+ /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/strings.h /usr/include/c++/11/unordered_map \
@@ -112,15 +112,13 @@ src/observer/CMakeFiles/observer_static.dir/net/communicator.cpp.o: \
  /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/mutex \
  /usr/include/c++/11/system_error /usr/include/c++/11/ext/atomicity.h \
  /usr/include/c++/11/shared_mutex /usr/include/c++/11/thread \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
- /usr/include/assert.h /usr/include/c++/11/fstream \
- /usr/include/c++/11/bits/codecvt.h \
+ /root/miniob2/miniob/deps/common/log/log.h /usr/include/assert.h \
+ /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/c++/11/bits/locale_classes.h /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/iostream \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/functional \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/memory /usr/include/x86_64-linux-gnu/sys/syscall.h \
- /usr/include/unistd.h
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/memory \
+ /usr/include/x86_64-linux-gnu/sys/syscall.h /usr/include/unistd.h

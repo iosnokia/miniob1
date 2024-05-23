@@ -1,5 +1,5 @@
 benchmark/CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/benchmark/record_manager_concurrency_test.cpp \
+ /root/miniob2/miniob/benchmark/record_manager_concurrency_test.cpp \
  /usr/include/stdc-predef.h /usr/include/inttypes.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -228,7 +228,7 @@ benchmark/CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurre
  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
  /usr/include/x86_64-linux-gnu/bits/syscall.h \
  /usr/include/c++/11/bits/std_mutex.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/record/record_manager.h \
+ /root/miniob2/miniob/src/observer/storage/record/record_manager.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/istream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/basic_ios.h \
  /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
@@ -240,7 +240,7 @@ benchmark/CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurre
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/disk_buffer_pool.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/disk_buffer_pool.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
@@ -264,9 +264,9 @@ benchmark/CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurre
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/rc.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/types.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/mutex.h \
+ /root/miniob2/miniob/src/observer/common/rc.h \
+ /root/miniob2/miniob/src/observer/common/types.h \
+ /root/miniob2/miniob/deps/common/lang/mutex.h \
  /usr/include/c++/11/condition_variable \
  /usr/include/c++/11/bits/shared_ptr.h \
  /usr/include/c++/11/bits/shared_ptr_base.h \
@@ -280,13 +280,12 @@ benchmark/CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurre
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/semaphore.h \
  /usr/include/x86_64-linux-gnu/bits/semaphore.h \
  /usr/include/c++/11/shared_mutex /usr/include/c++/11/thread \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
- /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
+ /root/miniob2/miniob/deps/common/log/log.h /usr/include/c++/11/fstream \
+ /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/iostream \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/memory \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h \
  /usr/include/c++/11/bits/shared_ptr_atomic.h \
@@ -294,27 +293,27 @@ benchmark/CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurre
  /usr/include/c++/11/bits/ranges_uninitialized.h \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/mm/mem_pool.h \
- /usr/include/c++/11/queue /usr/include/c++/11/deque \
- /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
- /usr/include/c++/11/bits/stl_queue.h /usr/include/c++/11/list \
- /usr/include/c++/11/bits/stl_list.h /usr/include/c++/11/bits/list.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/os.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/lru_cache.h \
+ /root/miniob2/miniob/deps/common/mm/mem_pool.h /usr/include/c++/11/queue \
+ /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
+ /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/bits/stl_queue.h \
+ /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
+ /usr/include/c++/11/bits/list.tcc \
+ /root/miniob2/miniob/deps/common/os/os.h \
+ /root/miniob2/miniob/deps/common/lang/lru_cache.h \
  /usr/include/c++/11/unordered_set \
  /usr/include/c++/11/bits/unordered_set.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/bitmap.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/page.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/frame.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/trx/latch_memo.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/record/record.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/index/index_meta.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/field/field_meta.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/parse_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/pch.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/value.h \
+ /root/miniob2/miniob/deps/common/lang/bitmap.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/page.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/frame.h \
+ /root/miniob2/miniob/src/observer/storage/trx/latch_memo.h \
+ /root/miniob2/miniob/src/observer/storage/record/record.h \
+ /root/miniob2/miniob/src/observer/storage/index/index_meta.h \
+ /root/miniob2/miniob/src/observer/storage/field/field_meta.h \
+ /root/miniob2/miniob/src/observer/sql/parser/parse_defs.h \
+ /root/miniob2/miniob/src/observer/pch.h \
+ /root/miniob2/miniob/src/observer/sql/parser/value.h \
  /usr/include/c++/11/span /usr/include/c++/11/complex \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/date.h \
+ /root/miniob2/miniob/src/observer/sql/parser/date.h \
  /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets_nonio.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
@@ -322,11 +321,11 @@ benchmark/CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurre
  /usr/include/libintl.h /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/quoted_string.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/common/condition_filter.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/parse.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/trx/vacuous_trx.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/trx/trx.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/table/table.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/table/table_meta.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/serializable.h \
- /root/miniob2/Miniob-Solution-2023-main/benchmark/integer_generator.h
+ /root/miniob2/miniob/src/observer/storage/common/condition_filter.h \
+ /root/miniob2/miniob/src/observer/sql/parser/parse.h \
+ /root/miniob2/miniob/src/observer/storage/trx/vacuous_trx.h \
+ /root/miniob2/miniob/src/observer/storage/trx/trx.h \
+ /root/miniob2/miniob/src/observer/storage/table/table.h \
+ /root/miniob2/miniob/src/observer/storage/table/table_meta.h \
+ /root/miniob2/miniob/deps/common/lang/serializable.h \
+ /root/miniob2/miniob/benchmark/integer_generator.h

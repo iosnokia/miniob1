@@ -1,9 +1,9 @@
 src/observer/CMakeFiles/observer_static.dir/cmake_pch.hxx.gch: \
- /root/miniob2/Miniob-Solution-2023-main/build_debug/src/observer/CMakeFiles/observer_static.dir/cmake_pch.hxx.cxx \
+ /root/miniob2/miniob/build_debug/src/observer/CMakeFiles/observer_static.dir/cmake_pch.hxx.cxx \
  /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/build_debug/src/observer/CMakeFiles/observer_static.dir/cmake_pch.hxx \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/pch.h \
- /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
+ /root/miniob2/miniob/build_debug/src/observer/CMakeFiles/observer_static.dir/cmake_pch.hxx \
+ /root/miniob2/miniob/src/observer/pch.h /usr/include/c++/11/vector \
+ /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

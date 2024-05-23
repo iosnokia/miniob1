@@ -1,10 +1,9 @@
 src/observer/CMakeFiles/observer_static.dir/net/ring_buffer.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/net/ring_buffer.cpp \
+ /root/miniob2/miniob/src/observer/net/ring_buffer.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/algorithm \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/net/ring_buffer.h \
- /usr/include/c++/11/vector \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/rc.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /root/miniob2/miniob/src/observer/net/ring_buffer.h \
+ /usr/include/c++/11/vector /root/miniob2/miniob/src/observer/common/rc.h \
+ /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -45,6 +44,6 @@ src/observer/CMakeFiles/observer_static.dir/net/ring_buffer.cpp.o: \
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/functional \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/memory /usr/include/x86_64-linux-gnu/sys/syscall.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/memory \
+ /usr/include/x86_64-linux-gnu/sys/syscall.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/unistd.h

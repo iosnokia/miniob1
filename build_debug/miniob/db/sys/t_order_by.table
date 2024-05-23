@@ -19,36 +19,22 @@
 		},
 		{
 			"len" : 4,
-			"name" : "num",
-			"null" : true,
-			"offset" : 8,
-			"type" : "ints",
-			"visible" : true
-		},
-		{
-			"len" : 4,
-			"name" : "price",
+			"name" : "score",
 			"null" : false,
-			"offset" : 12,
+			"offset" : 8,
 			"type" : "floats",
 			"visible" : true
 		},
 		{
 			"len" : 4,
-			"name" : "birthday",
-			"null" : true,
-			"offset" : 16,
-			"type" : "dates",
+			"name" : "name",
+			"null" : false,
+			"offset" : 12,
+			"type" : "chars",
 			"visible" : true
 		}
 	],
-	"indexes" : 
-	[
-		{
-			"field_name" : "num",
-			"name" : "index_num"
-		}
-	],
-	"table_id" : -1,
-	"table_name" : "null_table"
+	"indexes" : null,
+	"table_id" : 4,
+	"table_name" : "t_order_by"
 }

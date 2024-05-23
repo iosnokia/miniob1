@@ -1,7 +1,7 @@
 src/obclient/CMakeFiles/obclient.dir/client.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/src/obclient/client.cpp \
- /usr/include/stdc-predef.h /usr/include/arpa/inet.h \
- /usr/include/features.h /usr/include/features-time64.h \
+ /root/miniob2/miniob/src/obclient/client.cpp /usr/include/stdc-predef.h \
+ /usr/include/arpa/inet.h /usr/include/features.h \
+ /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -107,10 +107,9 @@ src/obclient/CMakeFiles/obclient.dir/client.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/timex.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/fstream /usr/include/c++/11/istream \
- /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
- /usr/include/c++/11/bits/stringfwd.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/fstream \
+ /usr/include/c++/11/istream /usr/include/c++/11/ios \
+ /usr/include/c++/11/iosfwd /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/memoryfwd.h /usr/include/c++/11/bits/postypes.h \
  /usr/include/c++/11/cwchar /usr/include/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
@@ -240,7 +239,7 @@ src/obclient/CMakeFiles/obclient.dir/client.cpp.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/string.h \
+ /root/miniob2/miniob/deps/common/lang/string.h \
  /usr/include/c++/11/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/signal.h \

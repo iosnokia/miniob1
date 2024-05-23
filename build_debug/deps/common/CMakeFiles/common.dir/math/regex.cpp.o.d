@@ -1,5 +1,5 @@
 deps/common/CMakeFiles/common.dir/math/regex.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/math/regex.cpp \
+ /root/miniob2/miniob/deps/common/math/regex.cpp \
  /usr/include/stdc-predef.h /usr/include/regex.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/features.h \
  /usr/include/features-time64.h \
@@ -48,4 +48,4 @@ deps/common/CMakeFiles/common.dir/math/regex.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/11/bits/std_abs.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/math/regex.h
+ /root/miniob2/miniob/deps/common/math/regex.h

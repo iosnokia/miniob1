@@ -1,4 +1,4 @@
-# Install script for directory: /root/miniob2/Miniob-Solution-2023-main/unittest
+# Install script for directory: /root/miniob2/miniob/unittest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

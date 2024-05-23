@@ -2,5 +2,5 @@
 
 #pragma GCC system_header
 #ifdef __cplusplus
-#include "/root/miniob2/Miniob-Solution-2023-main/src/observer/pch.h"
+#include "/root/miniob2/miniob/src/observer/pch.h"
 #endif // __cplusplus

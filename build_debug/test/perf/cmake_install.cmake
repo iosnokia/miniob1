@@ -1,4 +1,4 @@
-# Install script for directory: /root/miniob2/Miniob-Solution-2023-main/test/perf
+# Install script for directory: /root/miniob2/miniob/test/perf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,5 +1,5 @@
 unittest/CMakeFiles/record_manager_test.dir/record_manager_test.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/unittest/record_manager_test.cpp \
+ /root/miniob2/miniob/unittest/record_manager_test.cpp \
  /usr/include/stdc-predef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -299,44 +299,43 @@ unittest/CMakeFiles/record_manager_test.dir/record_manager_test.cpp.o: \
  /usr/local/include/gtest/gtest-typed-test.h \
  /usr/local/include/gtest/gtest_pred_impl.h \
  /usr/local/include/gtest/gtest_prod.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/disk_buffer_pool.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/disk_buffer_pool.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/linux/falloc.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/rc.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/types.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/mutex.h \
+ /root/miniob2/miniob/src/observer/common/rc.h \
+ /root/miniob2/miniob/src/observer/common/types.h \
+ /root/miniob2/miniob/deps/common/lang/mutex.h \
  /usr/include/c++/11/shared_mutex /usr/include/c++/11/thread \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
- /usr/include/c++/11/fstream \
+ /root/miniob2/miniob/deps/common/log/log.h /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/mm/mem_pool.h \
- /usr/include/c++/11/queue /usr/include/c++/11/deque \
- /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
- /usr/include/c++/11/bits/stl_queue.h /usr/include/c++/11/list \
- /usr/include/c++/11/bits/stl_list.h /usr/include/c++/11/bits/list.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/os.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/lru_cache.h \
+ /root/miniob2/miniob/deps/common/defs.h \
+ /root/miniob2/miniob/deps/common/mm/mem_pool.h /usr/include/c++/11/queue \
+ /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
+ /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/bits/stl_queue.h \
+ /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
+ /usr/include/c++/11/bits/list.tcc \
+ /root/miniob2/miniob/deps/common/os/os.h \
+ /root/miniob2/miniob/deps/common/lang/lru_cache.h \
  /usr/include/c++/11/unordered_set \
  /usr/include/c++/11/bits/unordered_set.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/bitmap.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/page.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/frame.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/record/record_manager.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/trx/latch_memo.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/record/record.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/index/index_meta.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/field/field_meta.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/parse_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/pch.h \
- /usr/include/c++/11/algorithm /usr/include/c++/11/bits/ranges_algo.h \
+ /root/miniob2/miniob/deps/common/lang/bitmap.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/page.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/frame.h \
+ /root/miniob2/miniob/src/observer/storage/record/record_manager.h \
+ /root/miniob2/miniob/src/observer/storage/trx/latch_memo.h \
+ /root/miniob2/miniob/src/observer/storage/record/record.h \
+ /root/miniob2/miniob/src/observer/storage/index/index_meta.h \
+ /root/miniob2/miniob/src/observer/storage/field/field_meta.h \
+ /root/miniob2/miniob/src/observer/sql/parser/parse_defs.h \
+ /root/miniob2/miniob/src/observer/pch.h /usr/include/c++/11/algorithm \
+ /usr/include/c++/11/bits/ranges_algo.h \
  /usr/include/c++/11/bits/ranges_util.h \
  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/value.h \
+ /root/miniob2/miniob/src/observer/sql/parser/value.h \
  /usr/include/c++/11/complex /usr/include/c++/11/cmath \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -359,11 +358,11 @@ unittest/CMakeFiles/record_manager_test.dir/record_manager_test.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/date.h \
+ /root/miniob2/miniob/src/observer/sql/parser/date.h \
  /usr/include/c++/11/iomanip /usr/include/c++/11/bits/quoted_string.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/trx/vacuous_trx.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/trx/trx.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/parse.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/table/table.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/table/table_meta.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/serializable.h
+ /root/miniob2/miniob/src/observer/storage/trx/vacuous_trx.h \
+ /root/miniob2/miniob/src/observer/storage/trx/trx.h \
+ /root/miniob2/miniob/src/observer/sql/parser/parse.h \
+ /root/miniob2/miniob/src/observer/storage/table/table.h \
+ /root/miniob2/miniob/src/observer/storage/table/table_meta.h \
+ /root/miniob2/miniob/deps/common/lang/serializable.h

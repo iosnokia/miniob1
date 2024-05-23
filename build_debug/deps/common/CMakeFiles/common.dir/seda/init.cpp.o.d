@@ -1,7 +1,6 @@
 deps/common/CMakeFiles/common.dir/seda/init.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/init.cpp \
- /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/init.h \
+ /root/miniob2/miniob/deps/common/seda/init.cpp \
+ /usr/include/stdc-predef.h /root/miniob2/miniob/deps/common/seda/init.h \
  /usr/include/assert.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -199,15 +198,14 @@ deps/common/CMakeFiles/common.dir/seda/init.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/conf/ini.h \
- /usr/include/c++/11/map /usr/include/c++/11/bits/stl_map.h \
- /usr/include/c++/11/tuple /usr/include/c++/11/utility \
- /usr/include/c++/11/bits/stl_relops.h /usr/include/c++/11/array \
- /usr/include/c++/11/bits/uses_allocator.h \
+ /root/miniob2/miniob/deps/common/conf/ini.h /usr/include/c++/11/map \
+ /usr/include/c++/11/bits/stl_map.h /usr/include/c++/11/tuple \
+ /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
+ /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/stl_multimap.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/fstream \
+ /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/memory \
@@ -242,8 +240,8 @@ deps/common/CMakeFiles/common.dir/seda/init.cpp.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/process_param.h \
- /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+ /root/miniob2/miniob/deps/common/os/process_param.h /usr/include/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/linux/falloc.h /usr/include/x86_64-linux-gnu/bits/stat.h \
@@ -261,8 +259,8 @@ deps/common/CMakeFiles/common.dir/seda/init.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/io/io.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /root/miniob2/miniob/deps/common/io/io.h \
+ /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/string.h \
  /usr/include/strings.h /usr/include/c++/11/functional \
  /usr/include/c++/11/bits/std_function.h \
@@ -270,7 +268,7 @@ deps/common/CMakeFiles/common.dir/seda/init.cpp.o: \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/unordered_map.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/time/datetime.h \
+ /root/miniob2/miniob/deps/common/time/datetime.h \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -301,18 +299,17 @@ deps/common/CMakeFiles/common.dir/seda/init.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/quoted_string.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/kill_thread.h \
+ /root/miniob2/miniob/deps/common/seda/kill_thread.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/list.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/stage.h \
- /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
- /usr/include/c++/11/bits/deque.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/stage_event.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/seda_config.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/thread_pool.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/seda_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/stage_factory.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/class_factory.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/metrics_stage.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/timer_stage.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/callback.h
+ /root/miniob2/miniob/deps/common/seda/stage.h /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
+ /root/miniob2/miniob/deps/common/seda/stage_event.h \
+ /root/miniob2/miniob/deps/common/seda/seda_config.h \
+ /root/miniob2/miniob/deps/common/seda/thread_pool.h \
+ /root/miniob2/miniob/deps/common/seda/seda_defs.h \
+ /root/miniob2/miniob/deps/common/seda/stage_factory.h \
+ /root/miniob2/miniob/deps/common/seda/class_factory.h \
+ /root/miniob2/miniob/deps/common/seda/metrics_stage.h \
+ /root/miniob2/miniob/deps/common/seda/timer_stage.h \
+ /root/miniob2/miniob/deps/common/seda/callback.h

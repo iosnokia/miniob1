@@ -1,17 +1,16 @@
 src/observer/CMakeFiles/observer_static.dir/sql/stmt/drop_table_stmt.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/stmt/drop_table_stmt.cpp \
+ /root/miniob2/miniob/src/observer/sql/stmt/drop_table_stmt.cpp \
  /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/stmt/drop_table_stmt.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/stmt/stmt.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/rc.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/parse_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/pch.h \
- /usr/include/c++/11/cstddef \
+ /root/miniob2/miniob/src/observer/sql/stmt/drop_table_stmt.h \
+ /root/miniob2/miniob/src/observer/sql/stmt/stmt.h \
+ /root/miniob2/miniob/src/observer/common/rc.h \
+ /root/miniob2/miniob/src/observer/sql/parser/parse_defs.h \
+ /root/miniob2/miniob/src/observer/pch.h /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/c++/11/memory /usr/include/c++/11/utility \
  /usr/include/c++/11/vector /usr/include/c++/11/string \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/value.h \
+ /root/miniob2/miniob/src/observer/sql/parser/value.h \
  /usr/include/c++/11/span /usr/include/c++/11/array \
  /usr/include/c++/11/bits/stl_iterator.h \
  /usr/include/c++/11/bits/ranges_base.h /usr/include/c++/11/complex \
@@ -49,7 +48,7 @@ src/observer/CMakeFiles/observer_static.dir/sql/stmt/drop_table_stmt.cpp.o: \
  /usr/include/c++/11/bits/cxxabi_forced.h \
  /usr/include/c++/11/bits/alloc_traits.h \
  /usr/include/c++/11/bits/sstream.tcc \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/date.h \
+ /root/miniob2/miniob/src/observer/sql/parser/date.h \
  /usr/include/c++/11/iomanip /usr/include/c++/11/iosfwd \
  /usr/include/c++/11/bits/ios_base.h /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/localefwd.h \
@@ -66,10 +65,10 @@ src/observer/CMakeFiles/observer_static.dir/sql/stmt/drop_table_stmt.cpp.o: \
  /usr/include/c++/11/bits/allocator.h \
  /usr/include/c++/11/bits/unique_ptr.h \
  /usr/include/c++/11/bits/quoted_string.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/page.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/page.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/types.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/event/sql_debug.h \
+ /root/miniob2/miniob/src/observer/common/types.h \
+ /root/miniob2/miniob/src/observer/event/sql_debug.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/concept_check.h \

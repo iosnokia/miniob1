@@ -1,7 +1,6 @@
 deps/common/CMakeFiles/common.dir/seda/stage.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/stage.cpp \
- /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/stage.h \
+ /root/miniob2/miniob/deps/common/seda/stage.cpp \
+ /usr/include/stdc-predef.h /root/miniob2/miniob/deps/common/seda/stage.h \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -89,9 +88,9 @@ deps/common/CMakeFiles/common.dir/seda/stage.cpp.o: \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/list.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/istream \
@@ -210,7 +209,7 @@ deps/common/CMakeFiles/common.dir/seda/stage.cpp.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/assert.h \
  /usr/include/string.h /usr/include/strings.h /usr/include/c++/11/map \
  /usr/include/c++/11/bits/stl_tree.h \
@@ -228,8 +227,8 @@ deps/common/CMakeFiles/common.dir/seda/stage.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/stage_event.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/mutex.h \
+ /root/miniob2/miniob/deps/common/seda/stage_event.h \
+ /root/miniob2/miniob/deps/common/lang/mutex.h \
  /usr/include/c++/11/condition_variable /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/limits \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
@@ -242,7 +241,7 @@ deps/common/CMakeFiles/common.dir/seda/stage.cpp.o: \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
  /usr/include/c++/11/mutex /usr/include/c++/11/shared_mutex \
  /usr/include/c++/11/thread \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/string.h \
+ /root/miniob2/miniob/deps/common/lang/string.h \
  /usr/include/c++/11/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/c++/11/stdlib.h /usr/include/signal.h \
@@ -267,8 +266,8 @@ deps/common/CMakeFiles/common.dir/seda/stage.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/init.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/conf/ini.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/process_param.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/thread_pool.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/kill_thread.h
+ /root/miniob2/miniob/deps/common/seda/init.h \
+ /root/miniob2/miniob/deps/common/conf/ini.h \
+ /root/miniob2/miniob/deps/common/os/process_param.h \
+ /root/miniob2/miniob/deps/common/seda/thread_pool.h \
+ /root/miniob2/miniob/deps/common/seda/kill_thread.h

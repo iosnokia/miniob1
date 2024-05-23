@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/miniob2/Miniob-Solution-2023-main
+CMAKE_SOURCE_DIR = /root/miniob2/miniob
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/miniob2/Miniob-Solution-2023-main/build_debug
+CMAKE_BINARY_DIR = /root/miniob2/miniob/build_debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(CMAKE_COMMAND) -E cmake_progress_start /root/miniob2/Miniob-Solution-2023-main/build_debug/CMakeFiles /root/miniob2/Miniob-Solution-2023-main/build_debug/src/observer//CMakeFiles/progress.marks
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/observer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/miniob2/Miniob-Solution-2023-main/build_debug/CMakeFiles 0
+	cd /root/miniob2/miniob/build_debug && $(CMAKE_COMMAND) -E cmake_progress_start /root/miniob2/miniob/build_debug/CMakeFiles /root/miniob2/miniob/build_debug/src/observer//CMakeFiles/progress.marks
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/observer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/miniob2/miniob/build_debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/observer/clean
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/observer/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/observer/preinstall
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/observer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/observer/preinstall
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/observer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/miniob2/miniob/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/observer/CMakeFiles/observer.dir/rule:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/observer/CMakeFiles/observer.dir/rule
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/observer/CMakeFiles/observer.dir/rule
 .PHONY : src/observer/CMakeFiles/observer.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ observer: src/observer/CMakeFiles/observer.dir/rule
 
 # fast build rule for target.
 observer/fast:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer.dir/build.make src/observer/CMakeFiles/observer.dir/build
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer.dir/build.make src/observer/CMakeFiles/observer.dir/build
 .PHONY : observer/fast
 
 # Convenience name for target.
 src/observer/CMakeFiles/observer_static.dir/rule:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/observer/CMakeFiles/observer_static.dir/rule
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/observer/CMakeFiles/observer_static.dir/rule
 .PHONY : src/observer/CMakeFiles/observer_static.dir/rule
 
 # Convenience name for target.
@@ -196,22 +196,22 @@ observer_static: src/observer/CMakeFiles/observer_static.dir/rule
 
 # fast build rule for target.
 observer_static/fast:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/build
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/build
 .PHONY : observer_static/fast
 
 # target to build an object file
 cmake_pch.hxx.gch:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/cmake_pch.hxx.gch
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/cmake_pch.hxx.gch
 .PHONY : cmake_pch.hxx.gch
 
 # target to preprocess a source file
 cmake_pch.hxx.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/cmake_pch.hxx.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/cmake_pch.hxx.i
 .PHONY : cmake_pch.hxx.i
 
 # target to generate assembly for a file
 cmake_pch.hxx.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/cmake_pch.hxx.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/cmake_pch.hxx.s
 .PHONY : cmake_pch.hxx.s
 
 common/global_context.o: common/global_context.cpp.o
@@ -219,7 +219,7 @@ common/global_context.o: common/global_context.cpp.o
 
 # target to build an object file
 common/global_context.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/global_context.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/global_context.cpp.o
 .PHONY : common/global_context.cpp.o
 
 common/global_context.i: common/global_context.cpp.i
@@ -227,7 +227,7 @@ common/global_context.i: common/global_context.cpp.i
 
 # target to preprocess a source file
 common/global_context.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/global_context.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/global_context.cpp.i
 .PHONY : common/global_context.cpp.i
 
 common/global_context.s: common/global_context.cpp.s
@@ -235,7 +235,7 @@ common/global_context.s: common/global_context.cpp.s
 
 # target to generate assembly for a file
 common/global_context.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/global_context.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/global_context.cpp.s
 .PHONY : common/global_context.cpp.s
 
 common/init.o: common/init.cpp.o
@@ -243,7 +243,7 @@ common/init.o: common/init.cpp.o
 
 # target to build an object file
 common/init.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/init.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/init.cpp.o
 .PHONY : common/init.cpp.o
 
 common/init.i: common/init.cpp.i
@@ -251,7 +251,7 @@ common/init.i: common/init.cpp.i
 
 # target to preprocess a source file
 common/init.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/init.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/init.cpp.i
 .PHONY : common/init.cpp.i
 
 common/init.s: common/init.cpp.s
@@ -259,7 +259,7 @@ common/init.s: common/init.cpp.s
 
 # target to generate assembly for a file
 common/init.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/init.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/init.cpp.s
 .PHONY : common/init.cpp.s
 
 common/rc.o: common/rc.cpp.o
@@ -267,7 +267,7 @@ common/rc.o: common/rc.cpp.o
 
 # target to build an object file
 common/rc.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/rc.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/rc.cpp.o
 .PHONY : common/rc.cpp.o
 
 common/rc.i: common/rc.cpp.i
@@ -275,7 +275,7 @@ common/rc.i: common/rc.cpp.i
 
 # target to preprocess a source file
 common/rc.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/rc.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/rc.cpp.i
 .PHONY : common/rc.cpp.i
 
 common/rc.s: common/rc.cpp.s
@@ -283,7 +283,7 @@ common/rc.s: common/rc.cpp.s
 
 # target to generate assembly for a file
 common/rc.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/rc.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/common/rc.cpp.s
 .PHONY : common/rc.cpp.s
 
 event/session_event.o: event/session_event.cpp.o
@@ -291,7 +291,7 @@ event/session_event.o: event/session_event.cpp.o
 
 # target to build an object file
 event/session_event.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/session_event.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/session_event.cpp.o
 .PHONY : event/session_event.cpp.o
 
 event/session_event.i: event/session_event.cpp.i
@@ -299,7 +299,7 @@ event/session_event.i: event/session_event.cpp.i
 
 # target to preprocess a source file
 event/session_event.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/session_event.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/session_event.cpp.i
 .PHONY : event/session_event.cpp.i
 
 event/session_event.s: event/session_event.cpp.s
@@ -307,7 +307,7 @@ event/session_event.s: event/session_event.cpp.s
 
 # target to generate assembly for a file
 event/session_event.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/session_event.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/session_event.cpp.s
 .PHONY : event/session_event.cpp.s
 
 event/sql_debug.o: event/sql_debug.cpp.o
@@ -315,7 +315,7 @@ event/sql_debug.o: event/sql_debug.cpp.o
 
 # target to build an object file
 event/sql_debug.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/sql_debug.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/sql_debug.cpp.o
 .PHONY : event/sql_debug.cpp.o
 
 event/sql_debug.i: event/sql_debug.cpp.i
@@ -323,7 +323,7 @@ event/sql_debug.i: event/sql_debug.cpp.i
 
 # target to preprocess a source file
 event/sql_debug.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/sql_debug.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/sql_debug.cpp.i
 .PHONY : event/sql_debug.cpp.i
 
 event/sql_debug.s: event/sql_debug.cpp.s
@@ -331,7 +331,7 @@ event/sql_debug.s: event/sql_debug.cpp.s
 
 # target to generate assembly for a file
 event/sql_debug.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/sql_debug.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/sql_debug.cpp.s
 .PHONY : event/sql_debug.cpp.s
 
 event/sql_event.o: event/sql_event.cpp.o
@@ -339,7 +339,7 @@ event/sql_event.o: event/sql_event.cpp.o
 
 # target to build an object file
 event/sql_event.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/sql_event.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/sql_event.cpp.o
 .PHONY : event/sql_event.cpp.o
 
 event/sql_event.i: event/sql_event.cpp.i
@@ -347,7 +347,7 @@ event/sql_event.i: event/sql_event.cpp.i
 
 # target to preprocess a source file
 event/sql_event.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/sql_event.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/sql_event.cpp.i
 .PHONY : event/sql_event.cpp.i
 
 event/sql_event.s: event/sql_event.cpp.s
@@ -355,7 +355,7 @@ event/sql_event.s: event/sql_event.cpp.s
 
 # target to generate assembly for a file
 event/sql_event.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/sql_event.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/event/sql_event.cpp.s
 .PHONY : event/sql_event.cpp.s
 
 main.o: main.cpp.o
@@ -363,8 +363,8 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer.dir/build.make src/observer/CMakeFiles/observer.dir/main.cpp.o
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/main.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer.dir/build.make src/observer/CMakeFiles/observer.dir/main.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -372,8 +372,8 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer.dir/build.make src/observer/CMakeFiles/observer.dir/main.cpp.i
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/main.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer.dir/build.make src/observer/CMakeFiles/observer.dir/main.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -381,8 +381,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer.dir/build.make src/observer/CMakeFiles/observer.dir/main.cpp.s
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/main.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer.dir/build.make src/observer/CMakeFiles/observer.dir/main.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 net/buffered_writer.o: net/buffered_writer.cpp.o
@@ -390,7 +390,7 @@ net/buffered_writer.o: net/buffered_writer.cpp.o
 
 # target to build an object file
 net/buffered_writer.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/buffered_writer.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/buffered_writer.cpp.o
 .PHONY : net/buffered_writer.cpp.o
 
 net/buffered_writer.i: net/buffered_writer.cpp.i
@@ -398,7 +398,7 @@ net/buffered_writer.i: net/buffered_writer.cpp.i
 
 # target to preprocess a source file
 net/buffered_writer.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/buffered_writer.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/buffered_writer.cpp.i
 .PHONY : net/buffered_writer.cpp.i
 
 net/buffered_writer.s: net/buffered_writer.cpp.s
@@ -406,7 +406,7 @@ net/buffered_writer.s: net/buffered_writer.cpp.s
 
 # target to generate assembly for a file
 net/buffered_writer.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/buffered_writer.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/buffered_writer.cpp.s
 .PHONY : net/buffered_writer.cpp.s
 
 net/cli_communicator.o: net/cli_communicator.cpp.o
@@ -414,7 +414,7 @@ net/cli_communicator.o: net/cli_communicator.cpp.o
 
 # target to build an object file
 net/cli_communicator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/cli_communicator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/cli_communicator.cpp.o
 .PHONY : net/cli_communicator.cpp.o
 
 net/cli_communicator.i: net/cli_communicator.cpp.i
@@ -422,7 +422,7 @@ net/cli_communicator.i: net/cli_communicator.cpp.i
 
 # target to preprocess a source file
 net/cli_communicator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/cli_communicator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/cli_communicator.cpp.i
 .PHONY : net/cli_communicator.cpp.i
 
 net/cli_communicator.s: net/cli_communicator.cpp.s
@@ -430,7 +430,7 @@ net/cli_communicator.s: net/cli_communicator.cpp.s
 
 # target to generate assembly for a file
 net/cli_communicator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/cli_communicator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/cli_communicator.cpp.s
 .PHONY : net/cli_communicator.cpp.s
 
 net/communicator.o: net/communicator.cpp.o
@@ -438,7 +438,7 @@ net/communicator.o: net/communicator.cpp.o
 
 # target to build an object file
 net/communicator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/communicator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/communicator.cpp.o
 .PHONY : net/communicator.cpp.o
 
 net/communicator.i: net/communicator.cpp.i
@@ -446,7 +446,7 @@ net/communicator.i: net/communicator.cpp.i
 
 # target to preprocess a source file
 net/communicator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/communicator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/communicator.cpp.i
 .PHONY : net/communicator.cpp.i
 
 net/communicator.s: net/communicator.cpp.s
@@ -454,7 +454,7 @@ net/communicator.s: net/communicator.cpp.s
 
 # target to generate assembly for a file
 net/communicator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/communicator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/communicator.cpp.s
 .PHONY : net/communicator.cpp.s
 
 net/mysql_communicator.o: net/mysql_communicator.cpp.o
@@ -462,7 +462,7 @@ net/mysql_communicator.o: net/mysql_communicator.cpp.o
 
 # target to build an object file
 net/mysql_communicator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/mysql_communicator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/mysql_communicator.cpp.o
 .PHONY : net/mysql_communicator.cpp.o
 
 net/mysql_communicator.i: net/mysql_communicator.cpp.i
@@ -470,7 +470,7 @@ net/mysql_communicator.i: net/mysql_communicator.cpp.i
 
 # target to preprocess a source file
 net/mysql_communicator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/mysql_communicator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/mysql_communicator.cpp.i
 .PHONY : net/mysql_communicator.cpp.i
 
 net/mysql_communicator.s: net/mysql_communicator.cpp.s
@@ -478,7 +478,7 @@ net/mysql_communicator.s: net/mysql_communicator.cpp.s
 
 # target to generate assembly for a file
 net/mysql_communicator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/mysql_communicator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/mysql_communicator.cpp.s
 .PHONY : net/mysql_communicator.cpp.s
 
 net/plain_communicator.o: net/plain_communicator.cpp.o
@@ -486,7 +486,7 @@ net/plain_communicator.o: net/plain_communicator.cpp.o
 
 # target to build an object file
 net/plain_communicator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/plain_communicator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/plain_communicator.cpp.o
 .PHONY : net/plain_communicator.cpp.o
 
 net/plain_communicator.i: net/plain_communicator.cpp.i
@@ -494,7 +494,7 @@ net/plain_communicator.i: net/plain_communicator.cpp.i
 
 # target to preprocess a source file
 net/plain_communicator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/plain_communicator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/plain_communicator.cpp.i
 .PHONY : net/plain_communicator.cpp.i
 
 net/plain_communicator.s: net/plain_communicator.cpp.s
@@ -502,7 +502,7 @@ net/plain_communicator.s: net/plain_communicator.cpp.s
 
 # target to generate assembly for a file
 net/plain_communicator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/plain_communicator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/plain_communicator.cpp.s
 .PHONY : net/plain_communicator.cpp.s
 
 net/ring_buffer.o: net/ring_buffer.cpp.o
@@ -510,7 +510,7 @@ net/ring_buffer.o: net/ring_buffer.cpp.o
 
 # target to build an object file
 net/ring_buffer.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/ring_buffer.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/ring_buffer.cpp.o
 .PHONY : net/ring_buffer.cpp.o
 
 net/ring_buffer.i: net/ring_buffer.cpp.i
@@ -518,7 +518,7 @@ net/ring_buffer.i: net/ring_buffer.cpp.i
 
 # target to preprocess a source file
 net/ring_buffer.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/ring_buffer.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/ring_buffer.cpp.i
 .PHONY : net/ring_buffer.cpp.i
 
 net/ring_buffer.s: net/ring_buffer.cpp.s
@@ -526,7 +526,7 @@ net/ring_buffer.s: net/ring_buffer.cpp.s
 
 # target to generate assembly for a file
 net/ring_buffer.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/ring_buffer.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/ring_buffer.cpp.s
 .PHONY : net/ring_buffer.cpp.s
 
 net/server.o: net/server.cpp.o
@@ -534,7 +534,7 @@ net/server.o: net/server.cpp.o
 
 # target to build an object file
 net/server.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/server.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/server.cpp.o
 .PHONY : net/server.cpp.o
 
 net/server.i: net/server.cpp.i
@@ -542,7 +542,7 @@ net/server.i: net/server.cpp.i
 
 # target to preprocess a source file
 net/server.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/server.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/server.cpp.i
 .PHONY : net/server.cpp.i
 
 net/server.s: net/server.cpp.s
@@ -550,7 +550,7 @@ net/server.s: net/server.cpp.s
 
 # target to generate assembly for a file
 net/server.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/server.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/net/server.cpp.s
 .PHONY : net/server.cpp.s
 
 session/session.o: session/session.cpp.o
@@ -558,7 +558,7 @@ session/session.o: session/session.cpp.o
 
 # target to build an object file
 session/session.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/session.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/session.cpp.o
 .PHONY : session/session.cpp.o
 
 session/session.i: session/session.cpp.i
@@ -566,7 +566,7 @@ session/session.i: session/session.cpp.i
 
 # target to preprocess a source file
 session/session.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/session.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/session.cpp.i
 .PHONY : session/session.cpp.i
 
 session/session.s: session/session.cpp.s
@@ -574,7 +574,7 @@ session/session.s: session/session.cpp.s
 
 # target to generate assembly for a file
 session/session.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/session.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/session.cpp.s
 .PHONY : session/session.cpp.s
 
 session/session_stage.o: session/session_stage.cpp.o
@@ -582,7 +582,7 @@ session/session_stage.o: session/session_stage.cpp.o
 
 # target to build an object file
 session/session_stage.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/session_stage.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/session_stage.cpp.o
 .PHONY : session/session_stage.cpp.o
 
 session/session_stage.i: session/session_stage.cpp.i
@@ -590,7 +590,7 @@ session/session_stage.i: session/session_stage.cpp.i
 
 # target to preprocess a source file
 session/session_stage.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/session_stage.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/session_stage.cpp.i
 .PHONY : session/session_stage.cpp.i
 
 session/session_stage.s: session/session_stage.cpp.s
@@ -598,7 +598,7 @@ session/session_stage.s: session/session_stage.cpp.s
 
 # target to generate assembly for a file
 session/session_stage.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/session_stage.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/session_stage.cpp.s
 .PHONY : session/session_stage.cpp.s
 
 session/thread_data.o: session/thread_data.cpp.o
@@ -606,7 +606,7 @@ session/thread_data.o: session/thread_data.cpp.o
 
 # target to build an object file
 session/thread_data.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/thread_data.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/thread_data.cpp.o
 .PHONY : session/thread_data.cpp.o
 
 session/thread_data.i: session/thread_data.cpp.i
@@ -614,7 +614,7 @@ session/thread_data.i: session/thread_data.cpp.i
 
 # target to preprocess a source file
 session/thread_data.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/thread_data.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/thread_data.cpp.i
 .PHONY : session/thread_data.cpp.i
 
 session/thread_data.s: session/thread_data.cpp.s
@@ -622,7 +622,7 @@ session/thread_data.s: session/thread_data.cpp.s
 
 # target to generate assembly for a file
 session/thread_data.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/thread_data.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/session/thread_data.cpp.s
 .PHONY : session/thread_data.cpp.s
 
 sql/executor/command_executor.o: sql/executor/command_executor.cpp.o
@@ -630,7 +630,7 @@ sql/executor/command_executor.o: sql/executor/command_executor.cpp.o
 
 # target to build an object file
 sql/executor/command_executor.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/command_executor.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/command_executor.cpp.o
 .PHONY : sql/executor/command_executor.cpp.o
 
 sql/executor/command_executor.i: sql/executor/command_executor.cpp.i
@@ -638,7 +638,7 @@ sql/executor/command_executor.i: sql/executor/command_executor.cpp.i
 
 # target to preprocess a source file
 sql/executor/command_executor.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/command_executor.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/command_executor.cpp.i
 .PHONY : sql/executor/command_executor.cpp.i
 
 sql/executor/command_executor.s: sql/executor/command_executor.cpp.s
@@ -646,7 +646,7 @@ sql/executor/command_executor.s: sql/executor/command_executor.cpp.s
 
 # target to generate assembly for a file
 sql/executor/command_executor.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/command_executor.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/command_executor.cpp.s
 .PHONY : sql/executor/command_executor.cpp.s
 
 sql/executor/create_index_executor.o: sql/executor/create_index_executor.cpp.o
@@ -654,7 +654,7 @@ sql/executor/create_index_executor.o: sql/executor/create_index_executor.cpp.o
 
 # target to build an object file
 sql/executor/create_index_executor.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/create_index_executor.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/create_index_executor.cpp.o
 .PHONY : sql/executor/create_index_executor.cpp.o
 
 sql/executor/create_index_executor.i: sql/executor/create_index_executor.cpp.i
@@ -662,7 +662,7 @@ sql/executor/create_index_executor.i: sql/executor/create_index_executor.cpp.i
 
 # target to preprocess a source file
 sql/executor/create_index_executor.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/create_index_executor.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/create_index_executor.cpp.i
 .PHONY : sql/executor/create_index_executor.cpp.i
 
 sql/executor/create_index_executor.s: sql/executor/create_index_executor.cpp.s
@@ -670,7 +670,7 @@ sql/executor/create_index_executor.s: sql/executor/create_index_executor.cpp.s
 
 # target to generate assembly for a file
 sql/executor/create_index_executor.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/create_index_executor.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/create_index_executor.cpp.s
 .PHONY : sql/executor/create_index_executor.cpp.s
 
 sql/executor/create_table_executor.o: sql/executor/create_table_executor.cpp.o
@@ -678,7 +678,7 @@ sql/executor/create_table_executor.o: sql/executor/create_table_executor.cpp.o
 
 # target to build an object file
 sql/executor/create_table_executor.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/create_table_executor.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/create_table_executor.cpp.o
 .PHONY : sql/executor/create_table_executor.cpp.o
 
 sql/executor/create_table_executor.i: sql/executor/create_table_executor.cpp.i
@@ -686,7 +686,7 @@ sql/executor/create_table_executor.i: sql/executor/create_table_executor.cpp.i
 
 # target to preprocess a source file
 sql/executor/create_table_executor.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/create_table_executor.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/create_table_executor.cpp.i
 .PHONY : sql/executor/create_table_executor.cpp.i
 
 sql/executor/create_table_executor.s: sql/executor/create_table_executor.cpp.s
@@ -694,7 +694,7 @@ sql/executor/create_table_executor.s: sql/executor/create_table_executor.cpp.s
 
 # target to generate assembly for a file
 sql/executor/create_table_executor.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/create_table_executor.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/create_table_executor.cpp.s
 .PHONY : sql/executor/create_table_executor.cpp.s
 
 sql/executor/desc_table_executor.o: sql/executor/desc_table_executor.cpp.o
@@ -702,7 +702,7 @@ sql/executor/desc_table_executor.o: sql/executor/desc_table_executor.cpp.o
 
 # target to build an object file
 sql/executor/desc_table_executor.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/desc_table_executor.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/desc_table_executor.cpp.o
 .PHONY : sql/executor/desc_table_executor.cpp.o
 
 sql/executor/desc_table_executor.i: sql/executor/desc_table_executor.cpp.i
@@ -710,7 +710,7 @@ sql/executor/desc_table_executor.i: sql/executor/desc_table_executor.cpp.i
 
 # target to preprocess a source file
 sql/executor/desc_table_executor.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/desc_table_executor.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/desc_table_executor.cpp.i
 .PHONY : sql/executor/desc_table_executor.cpp.i
 
 sql/executor/desc_table_executor.s: sql/executor/desc_table_executor.cpp.s
@@ -718,7 +718,7 @@ sql/executor/desc_table_executor.s: sql/executor/desc_table_executor.cpp.s
 
 # target to generate assembly for a file
 sql/executor/desc_table_executor.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/desc_table_executor.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/desc_table_executor.cpp.s
 .PHONY : sql/executor/desc_table_executor.cpp.s
 
 sql/executor/drop_table_executor.o: sql/executor/drop_table_executor.cpp.o
@@ -726,7 +726,7 @@ sql/executor/drop_table_executor.o: sql/executor/drop_table_executor.cpp.o
 
 # target to build an object file
 sql/executor/drop_table_executor.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/drop_table_executor.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/drop_table_executor.cpp.o
 .PHONY : sql/executor/drop_table_executor.cpp.o
 
 sql/executor/drop_table_executor.i: sql/executor/drop_table_executor.cpp.i
@@ -734,7 +734,7 @@ sql/executor/drop_table_executor.i: sql/executor/drop_table_executor.cpp.i
 
 # target to preprocess a source file
 sql/executor/drop_table_executor.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/drop_table_executor.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/drop_table_executor.cpp.i
 .PHONY : sql/executor/drop_table_executor.cpp.i
 
 sql/executor/drop_table_executor.s: sql/executor/drop_table_executor.cpp.s
@@ -742,7 +742,7 @@ sql/executor/drop_table_executor.s: sql/executor/drop_table_executor.cpp.s
 
 # target to generate assembly for a file
 sql/executor/drop_table_executor.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/drop_table_executor.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/drop_table_executor.cpp.s
 .PHONY : sql/executor/drop_table_executor.cpp.s
 
 sql/executor/execute_stage.o: sql/executor/execute_stage.cpp.o
@@ -750,7 +750,7 @@ sql/executor/execute_stage.o: sql/executor/execute_stage.cpp.o
 
 # target to build an object file
 sql/executor/execute_stage.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/execute_stage.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/execute_stage.cpp.o
 .PHONY : sql/executor/execute_stage.cpp.o
 
 sql/executor/execute_stage.i: sql/executor/execute_stage.cpp.i
@@ -758,7 +758,7 @@ sql/executor/execute_stage.i: sql/executor/execute_stage.cpp.i
 
 # target to preprocess a source file
 sql/executor/execute_stage.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/execute_stage.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/execute_stage.cpp.i
 .PHONY : sql/executor/execute_stage.cpp.i
 
 sql/executor/execute_stage.s: sql/executor/execute_stage.cpp.s
@@ -766,7 +766,7 @@ sql/executor/execute_stage.s: sql/executor/execute_stage.cpp.s
 
 # target to generate assembly for a file
 sql/executor/execute_stage.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/execute_stage.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/execute_stage.cpp.s
 .PHONY : sql/executor/execute_stage.cpp.s
 
 sql/executor/load_data_executor.o: sql/executor/load_data_executor.cpp.o
@@ -774,7 +774,7 @@ sql/executor/load_data_executor.o: sql/executor/load_data_executor.cpp.o
 
 # target to build an object file
 sql/executor/load_data_executor.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/load_data_executor.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/load_data_executor.cpp.o
 .PHONY : sql/executor/load_data_executor.cpp.o
 
 sql/executor/load_data_executor.i: sql/executor/load_data_executor.cpp.i
@@ -782,7 +782,7 @@ sql/executor/load_data_executor.i: sql/executor/load_data_executor.cpp.i
 
 # target to preprocess a source file
 sql/executor/load_data_executor.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/load_data_executor.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/load_data_executor.cpp.i
 .PHONY : sql/executor/load_data_executor.cpp.i
 
 sql/executor/load_data_executor.s: sql/executor/load_data_executor.cpp.s
@@ -790,7 +790,7 @@ sql/executor/load_data_executor.s: sql/executor/load_data_executor.cpp.s
 
 # target to generate assembly for a file
 sql/executor/load_data_executor.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/load_data_executor.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/load_data_executor.cpp.s
 .PHONY : sql/executor/load_data_executor.cpp.s
 
 sql/executor/sql_result.o: sql/executor/sql_result.cpp.o
@@ -798,7 +798,7 @@ sql/executor/sql_result.o: sql/executor/sql_result.cpp.o
 
 # target to build an object file
 sql/executor/sql_result.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/sql_result.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/sql_result.cpp.o
 .PHONY : sql/executor/sql_result.cpp.o
 
 sql/executor/sql_result.i: sql/executor/sql_result.cpp.i
@@ -806,7 +806,7 @@ sql/executor/sql_result.i: sql/executor/sql_result.cpp.i
 
 # target to preprocess a source file
 sql/executor/sql_result.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/sql_result.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/sql_result.cpp.i
 .PHONY : sql/executor/sql_result.cpp.i
 
 sql/executor/sql_result.s: sql/executor/sql_result.cpp.s
@@ -814,7 +814,7 @@ sql/executor/sql_result.s: sql/executor/sql_result.cpp.s
 
 # target to generate assembly for a file
 sql/executor/sql_result.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/sql_result.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/executor/sql_result.cpp.s
 .PHONY : sql/executor/sql_result.cpp.s
 
 sql/expr/expression.o: sql/expr/expression.cpp.o
@@ -822,7 +822,7 @@ sql/expr/expression.o: sql/expr/expression.cpp.o
 
 # target to build an object file
 sql/expr/expression.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/expr/expression.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/expr/expression.cpp.o
 .PHONY : sql/expr/expression.cpp.o
 
 sql/expr/expression.i: sql/expr/expression.cpp.i
@@ -830,7 +830,7 @@ sql/expr/expression.i: sql/expr/expression.cpp.i
 
 # target to preprocess a source file
 sql/expr/expression.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/expr/expression.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/expr/expression.cpp.i
 .PHONY : sql/expr/expression.cpp.i
 
 sql/expr/expression.s: sql/expr/expression.cpp.s
@@ -838,7 +838,7 @@ sql/expr/expression.s: sql/expr/expression.cpp.s
 
 # target to generate assembly for a file
 sql/expr/expression.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/expr/expression.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/expr/expression.cpp.s
 .PHONY : sql/expr/expression.cpp.s
 
 sql/expr/tuple_cell.o: sql/expr/tuple_cell.cpp.o
@@ -846,7 +846,7 @@ sql/expr/tuple_cell.o: sql/expr/tuple_cell.cpp.o
 
 # target to build an object file
 sql/expr/tuple_cell.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/expr/tuple_cell.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/expr/tuple_cell.cpp.o
 .PHONY : sql/expr/tuple_cell.cpp.o
 
 sql/expr/tuple_cell.i: sql/expr/tuple_cell.cpp.i
@@ -854,7 +854,7 @@ sql/expr/tuple_cell.i: sql/expr/tuple_cell.cpp.i
 
 # target to preprocess a source file
 sql/expr/tuple_cell.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/expr/tuple_cell.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/expr/tuple_cell.cpp.i
 .PHONY : sql/expr/tuple_cell.cpp.i
 
 sql/expr/tuple_cell.s: sql/expr/tuple_cell.cpp.s
@@ -862,7 +862,7 @@ sql/expr/tuple_cell.s: sql/expr/tuple_cell.cpp.s
 
 # target to generate assembly for a file
 sql/expr/tuple_cell.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/expr/tuple_cell.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/expr/tuple_cell.cpp.s
 .PHONY : sql/expr/tuple_cell.cpp.s
 
 sql/operator/aggregate_logical_operator.o: sql/operator/aggregate_logical_operator.cpp.o
@@ -870,7 +870,7 @@ sql/operator/aggregate_logical_operator.o: sql/operator/aggregate_logical_operat
 
 # target to build an object file
 sql/operator/aggregate_logical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/aggregate_logical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/aggregate_logical_operator.cpp.o
 .PHONY : sql/operator/aggregate_logical_operator.cpp.o
 
 sql/operator/aggregate_logical_operator.i: sql/operator/aggregate_logical_operator.cpp.i
@@ -878,7 +878,7 @@ sql/operator/aggregate_logical_operator.i: sql/operator/aggregate_logical_operat
 
 # target to preprocess a source file
 sql/operator/aggregate_logical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/aggregate_logical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/aggregate_logical_operator.cpp.i
 .PHONY : sql/operator/aggregate_logical_operator.cpp.i
 
 sql/operator/aggregate_logical_operator.s: sql/operator/aggregate_logical_operator.cpp.s
@@ -886,7 +886,7 @@ sql/operator/aggregate_logical_operator.s: sql/operator/aggregate_logical_operat
 
 # target to generate assembly for a file
 sql/operator/aggregate_logical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/aggregate_logical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/aggregate_logical_operator.cpp.s
 .PHONY : sql/operator/aggregate_logical_operator.cpp.s
 
 sql/operator/aggregate_physical_operator.o: sql/operator/aggregate_physical_operator.cpp.o
@@ -894,7 +894,7 @@ sql/operator/aggregate_physical_operator.o: sql/operator/aggregate_physical_oper
 
 # target to build an object file
 sql/operator/aggregate_physical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/aggregate_physical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/aggregate_physical_operator.cpp.o
 .PHONY : sql/operator/aggregate_physical_operator.cpp.o
 
 sql/operator/aggregate_physical_operator.i: sql/operator/aggregate_physical_operator.cpp.i
@@ -902,7 +902,7 @@ sql/operator/aggregate_physical_operator.i: sql/operator/aggregate_physical_oper
 
 # target to preprocess a source file
 sql/operator/aggregate_physical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/aggregate_physical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/aggregate_physical_operator.cpp.i
 .PHONY : sql/operator/aggregate_physical_operator.cpp.i
 
 sql/operator/aggregate_physical_operator.s: sql/operator/aggregate_physical_operator.cpp.s
@@ -910,7 +910,7 @@ sql/operator/aggregate_physical_operator.s: sql/operator/aggregate_physical_oper
 
 # target to generate assembly for a file
 sql/operator/aggregate_physical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/aggregate_physical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/aggregate_physical_operator.cpp.s
 .PHONY : sql/operator/aggregate_physical_operator.cpp.s
 
 sql/operator/delete_logical_operator.o: sql/operator/delete_logical_operator.cpp.o
@@ -918,7 +918,7 @@ sql/operator/delete_logical_operator.o: sql/operator/delete_logical_operator.cpp
 
 # target to build an object file
 sql/operator/delete_logical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/delete_logical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/delete_logical_operator.cpp.o
 .PHONY : sql/operator/delete_logical_operator.cpp.o
 
 sql/operator/delete_logical_operator.i: sql/operator/delete_logical_operator.cpp.i
@@ -926,7 +926,7 @@ sql/operator/delete_logical_operator.i: sql/operator/delete_logical_operator.cpp
 
 # target to preprocess a source file
 sql/operator/delete_logical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/delete_logical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/delete_logical_operator.cpp.i
 .PHONY : sql/operator/delete_logical_operator.cpp.i
 
 sql/operator/delete_logical_operator.s: sql/operator/delete_logical_operator.cpp.s
@@ -934,7 +934,7 @@ sql/operator/delete_logical_operator.s: sql/operator/delete_logical_operator.cpp
 
 # target to generate assembly for a file
 sql/operator/delete_logical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/delete_logical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/delete_logical_operator.cpp.s
 .PHONY : sql/operator/delete_logical_operator.cpp.s
 
 sql/operator/delete_physical_operator.o: sql/operator/delete_physical_operator.cpp.o
@@ -942,7 +942,7 @@ sql/operator/delete_physical_operator.o: sql/operator/delete_physical_operator.c
 
 # target to build an object file
 sql/operator/delete_physical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/delete_physical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/delete_physical_operator.cpp.o
 .PHONY : sql/operator/delete_physical_operator.cpp.o
 
 sql/operator/delete_physical_operator.i: sql/operator/delete_physical_operator.cpp.i
@@ -950,7 +950,7 @@ sql/operator/delete_physical_operator.i: sql/operator/delete_physical_operator.c
 
 # target to preprocess a source file
 sql/operator/delete_physical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/delete_physical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/delete_physical_operator.cpp.i
 .PHONY : sql/operator/delete_physical_operator.cpp.i
 
 sql/operator/delete_physical_operator.s: sql/operator/delete_physical_operator.cpp.s
@@ -958,7 +958,7 @@ sql/operator/delete_physical_operator.s: sql/operator/delete_physical_operator.c
 
 # target to generate assembly for a file
 sql/operator/delete_physical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/delete_physical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/delete_physical_operator.cpp.s
 .PHONY : sql/operator/delete_physical_operator.cpp.s
 
 sql/operator/explain_physical_operator.o: sql/operator/explain_physical_operator.cpp.o
@@ -966,7 +966,7 @@ sql/operator/explain_physical_operator.o: sql/operator/explain_physical_operator
 
 # target to build an object file
 sql/operator/explain_physical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/explain_physical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/explain_physical_operator.cpp.o
 .PHONY : sql/operator/explain_physical_operator.cpp.o
 
 sql/operator/explain_physical_operator.i: sql/operator/explain_physical_operator.cpp.i
@@ -974,7 +974,7 @@ sql/operator/explain_physical_operator.i: sql/operator/explain_physical_operator
 
 # target to preprocess a source file
 sql/operator/explain_physical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/explain_physical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/explain_physical_operator.cpp.i
 .PHONY : sql/operator/explain_physical_operator.cpp.i
 
 sql/operator/explain_physical_operator.s: sql/operator/explain_physical_operator.cpp.s
@@ -982,7 +982,7 @@ sql/operator/explain_physical_operator.s: sql/operator/explain_physical_operator
 
 # target to generate assembly for a file
 sql/operator/explain_physical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/explain_physical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/explain_physical_operator.cpp.s
 .PHONY : sql/operator/explain_physical_operator.cpp.s
 
 sql/operator/index_scan_physical_operator.o: sql/operator/index_scan_physical_operator.cpp.o
@@ -990,7 +990,7 @@ sql/operator/index_scan_physical_operator.o: sql/operator/index_scan_physical_op
 
 # target to build an object file
 sql/operator/index_scan_physical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/index_scan_physical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/index_scan_physical_operator.cpp.o
 .PHONY : sql/operator/index_scan_physical_operator.cpp.o
 
 sql/operator/index_scan_physical_operator.i: sql/operator/index_scan_physical_operator.cpp.i
@@ -998,7 +998,7 @@ sql/operator/index_scan_physical_operator.i: sql/operator/index_scan_physical_op
 
 # target to preprocess a source file
 sql/operator/index_scan_physical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/index_scan_physical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/index_scan_physical_operator.cpp.i
 .PHONY : sql/operator/index_scan_physical_operator.cpp.i
 
 sql/operator/index_scan_physical_operator.s: sql/operator/index_scan_physical_operator.cpp.s
@@ -1006,7 +1006,7 @@ sql/operator/index_scan_physical_operator.s: sql/operator/index_scan_physical_op
 
 # target to generate assembly for a file
 sql/operator/index_scan_physical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/index_scan_physical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/index_scan_physical_operator.cpp.s
 .PHONY : sql/operator/index_scan_physical_operator.cpp.s
 
 sql/operator/insert_logical_operator.o: sql/operator/insert_logical_operator.cpp.o
@@ -1014,7 +1014,7 @@ sql/operator/insert_logical_operator.o: sql/operator/insert_logical_operator.cpp
 
 # target to build an object file
 sql/operator/insert_logical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/insert_logical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/insert_logical_operator.cpp.o
 .PHONY : sql/operator/insert_logical_operator.cpp.o
 
 sql/operator/insert_logical_operator.i: sql/operator/insert_logical_operator.cpp.i
@@ -1022,7 +1022,7 @@ sql/operator/insert_logical_operator.i: sql/operator/insert_logical_operator.cpp
 
 # target to preprocess a source file
 sql/operator/insert_logical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/insert_logical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/insert_logical_operator.cpp.i
 .PHONY : sql/operator/insert_logical_operator.cpp.i
 
 sql/operator/insert_logical_operator.s: sql/operator/insert_logical_operator.cpp.s
@@ -1030,7 +1030,7 @@ sql/operator/insert_logical_operator.s: sql/operator/insert_logical_operator.cpp
 
 # target to generate assembly for a file
 sql/operator/insert_logical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/insert_logical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/insert_logical_operator.cpp.s
 .PHONY : sql/operator/insert_logical_operator.cpp.s
 
 sql/operator/insert_physical_operator.o: sql/operator/insert_physical_operator.cpp.o
@@ -1038,7 +1038,7 @@ sql/operator/insert_physical_operator.o: sql/operator/insert_physical_operator.c
 
 # target to build an object file
 sql/operator/insert_physical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/insert_physical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/insert_physical_operator.cpp.o
 .PHONY : sql/operator/insert_physical_operator.cpp.o
 
 sql/operator/insert_physical_operator.i: sql/operator/insert_physical_operator.cpp.i
@@ -1046,7 +1046,7 @@ sql/operator/insert_physical_operator.i: sql/operator/insert_physical_operator.c
 
 # target to preprocess a source file
 sql/operator/insert_physical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/insert_physical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/insert_physical_operator.cpp.i
 .PHONY : sql/operator/insert_physical_operator.cpp.i
 
 sql/operator/insert_physical_operator.s: sql/operator/insert_physical_operator.cpp.s
@@ -1054,7 +1054,7 @@ sql/operator/insert_physical_operator.s: sql/operator/insert_physical_operator.c
 
 # target to generate assembly for a file
 sql/operator/insert_physical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/insert_physical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/insert_physical_operator.cpp.s
 .PHONY : sql/operator/insert_physical_operator.cpp.s
 
 sql/operator/join_physical_operator.o: sql/operator/join_physical_operator.cpp.o
@@ -1062,7 +1062,7 @@ sql/operator/join_physical_operator.o: sql/operator/join_physical_operator.cpp.o
 
 # target to build an object file
 sql/operator/join_physical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/join_physical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/join_physical_operator.cpp.o
 .PHONY : sql/operator/join_physical_operator.cpp.o
 
 sql/operator/join_physical_operator.i: sql/operator/join_physical_operator.cpp.i
@@ -1070,7 +1070,7 @@ sql/operator/join_physical_operator.i: sql/operator/join_physical_operator.cpp.i
 
 # target to preprocess a source file
 sql/operator/join_physical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/join_physical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/join_physical_operator.cpp.i
 .PHONY : sql/operator/join_physical_operator.cpp.i
 
 sql/operator/join_physical_operator.s: sql/operator/join_physical_operator.cpp.s
@@ -1078,7 +1078,7 @@ sql/operator/join_physical_operator.s: sql/operator/join_physical_operator.cpp.s
 
 # target to generate assembly for a file
 sql/operator/join_physical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/join_physical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/join_physical_operator.cpp.s
 .PHONY : sql/operator/join_physical_operator.cpp.s
 
 sql/operator/logical_operator.o: sql/operator/logical_operator.cpp.o
@@ -1086,7 +1086,7 @@ sql/operator/logical_operator.o: sql/operator/logical_operator.cpp.o
 
 # target to build an object file
 sql/operator/logical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/logical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/logical_operator.cpp.o
 .PHONY : sql/operator/logical_operator.cpp.o
 
 sql/operator/logical_operator.i: sql/operator/logical_operator.cpp.i
@@ -1094,7 +1094,7 @@ sql/operator/logical_operator.i: sql/operator/logical_operator.cpp.i
 
 # target to preprocess a source file
 sql/operator/logical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/logical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/logical_operator.cpp.i
 .PHONY : sql/operator/logical_operator.cpp.i
 
 sql/operator/logical_operator.s: sql/operator/logical_operator.cpp.s
@@ -1102,7 +1102,7 @@ sql/operator/logical_operator.s: sql/operator/logical_operator.cpp.s
 
 # target to generate assembly for a file
 sql/operator/logical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/logical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/logical_operator.cpp.s
 .PHONY : sql/operator/logical_operator.cpp.s
 
 sql/operator/physical_operator.o: sql/operator/physical_operator.cpp.o
@@ -1110,7 +1110,7 @@ sql/operator/physical_operator.o: sql/operator/physical_operator.cpp.o
 
 # target to build an object file
 sql/operator/physical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/physical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/physical_operator.cpp.o
 .PHONY : sql/operator/physical_operator.cpp.o
 
 sql/operator/physical_operator.i: sql/operator/physical_operator.cpp.i
@@ -1118,7 +1118,7 @@ sql/operator/physical_operator.i: sql/operator/physical_operator.cpp.i
 
 # target to preprocess a source file
 sql/operator/physical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/physical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/physical_operator.cpp.i
 .PHONY : sql/operator/physical_operator.cpp.i
 
 sql/operator/physical_operator.s: sql/operator/physical_operator.cpp.s
@@ -1126,7 +1126,7 @@ sql/operator/physical_operator.s: sql/operator/physical_operator.cpp.s
 
 # target to generate assembly for a file
 sql/operator/physical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/physical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/physical_operator.cpp.s
 .PHONY : sql/operator/physical_operator.cpp.s
 
 sql/operator/predicate_logical_operator.o: sql/operator/predicate_logical_operator.cpp.o
@@ -1134,7 +1134,7 @@ sql/operator/predicate_logical_operator.o: sql/operator/predicate_logical_operat
 
 # target to build an object file
 sql/operator/predicate_logical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/predicate_logical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/predicate_logical_operator.cpp.o
 .PHONY : sql/operator/predicate_logical_operator.cpp.o
 
 sql/operator/predicate_logical_operator.i: sql/operator/predicate_logical_operator.cpp.i
@@ -1142,7 +1142,7 @@ sql/operator/predicate_logical_operator.i: sql/operator/predicate_logical_operat
 
 # target to preprocess a source file
 sql/operator/predicate_logical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/predicate_logical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/predicate_logical_operator.cpp.i
 .PHONY : sql/operator/predicate_logical_operator.cpp.i
 
 sql/operator/predicate_logical_operator.s: sql/operator/predicate_logical_operator.cpp.s
@@ -1150,7 +1150,7 @@ sql/operator/predicate_logical_operator.s: sql/operator/predicate_logical_operat
 
 # target to generate assembly for a file
 sql/operator/predicate_logical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/predicate_logical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/predicate_logical_operator.cpp.s
 .PHONY : sql/operator/predicate_logical_operator.cpp.s
 
 sql/operator/predicate_physical_operator.o: sql/operator/predicate_physical_operator.cpp.o
@@ -1158,7 +1158,7 @@ sql/operator/predicate_physical_operator.o: sql/operator/predicate_physical_oper
 
 # target to build an object file
 sql/operator/predicate_physical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/predicate_physical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/predicate_physical_operator.cpp.o
 .PHONY : sql/operator/predicate_physical_operator.cpp.o
 
 sql/operator/predicate_physical_operator.i: sql/operator/predicate_physical_operator.cpp.i
@@ -1166,7 +1166,7 @@ sql/operator/predicate_physical_operator.i: sql/operator/predicate_physical_oper
 
 # target to preprocess a source file
 sql/operator/predicate_physical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/predicate_physical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/predicate_physical_operator.cpp.i
 .PHONY : sql/operator/predicate_physical_operator.cpp.i
 
 sql/operator/predicate_physical_operator.s: sql/operator/predicate_physical_operator.cpp.s
@@ -1174,7 +1174,7 @@ sql/operator/predicate_physical_operator.s: sql/operator/predicate_physical_oper
 
 # target to generate assembly for a file
 sql/operator/predicate_physical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/predicate_physical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/predicate_physical_operator.cpp.s
 .PHONY : sql/operator/predicate_physical_operator.cpp.s
 
 sql/operator/project_logical_operator.o: sql/operator/project_logical_operator.cpp.o
@@ -1182,7 +1182,7 @@ sql/operator/project_logical_operator.o: sql/operator/project_logical_operator.c
 
 # target to build an object file
 sql/operator/project_logical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/project_logical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/project_logical_operator.cpp.o
 .PHONY : sql/operator/project_logical_operator.cpp.o
 
 sql/operator/project_logical_operator.i: sql/operator/project_logical_operator.cpp.i
@@ -1190,7 +1190,7 @@ sql/operator/project_logical_operator.i: sql/operator/project_logical_operator.c
 
 # target to preprocess a source file
 sql/operator/project_logical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/project_logical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/project_logical_operator.cpp.i
 .PHONY : sql/operator/project_logical_operator.cpp.i
 
 sql/operator/project_logical_operator.s: sql/operator/project_logical_operator.cpp.s
@@ -1198,7 +1198,7 @@ sql/operator/project_logical_operator.s: sql/operator/project_logical_operator.c
 
 # target to generate assembly for a file
 sql/operator/project_logical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/project_logical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/project_logical_operator.cpp.s
 .PHONY : sql/operator/project_logical_operator.cpp.s
 
 sql/operator/project_physical_operator.o: sql/operator/project_physical_operator.cpp.o
@@ -1206,7 +1206,7 @@ sql/operator/project_physical_operator.o: sql/operator/project_physical_operator
 
 # target to build an object file
 sql/operator/project_physical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/project_physical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/project_physical_operator.cpp.o
 .PHONY : sql/operator/project_physical_operator.cpp.o
 
 sql/operator/project_physical_operator.i: sql/operator/project_physical_operator.cpp.i
@@ -1214,7 +1214,7 @@ sql/operator/project_physical_operator.i: sql/operator/project_physical_operator
 
 # target to preprocess a source file
 sql/operator/project_physical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/project_physical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/project_physical_operator.cpp.i
 .PHONY : sql/operator/project_physical_operator.cpp.i
 
 sql/operator/project_physical_operator.s: sql/operator/project_physical_operator.cpp.s
@@ -1222,7 +1222,7 @@ sql/operator/project_physical_operator.s: sql/operator/project_physical_operator
 
 # target to generate assembly for a file
 sql/operator/project_physical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/project_physical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/project_physical_operator.cpp.s
 .PHONY : sql/operator/project_physical_operator.cpp.s
 
 sql/operator/query_context.o: sql/operator/query_context.cpp.o
@@ -1230,7 +1230,7 @@ sql/operator/query_context.o: sql/operator/query_context.cpp.o
 
 # target to build an object file
 sql/operator/query_context.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/query_context.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/query_context.cpp.o
 .PHONY : sql/operator/query_context.cpp.o
 
 sql/operator/query_context.i: sql/operator/query_context.cpp.i
@@ -1238,7 +1238,7 @@ sql/operator/query_context.i: sql/operator/query_context.cpp.i
 
 # target to preprocess a source file
 sql/operator/query_context.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/query_context.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/query_context.cpp.i
 .PHONY : sql/operator/query_context.cpp.i
 
 sql/operator/query_context.s: sql/operator/query_context.cpp.s
@@ -1246,7 +1246,7 @@ sql/operator/query_context.s: sql/operator/query_context.cpp.s
 
 # target to generate assembly for a file
 sql/operator/query_context.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/query_context.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/query_context.cpp.s
 .PHONY : sql/operator/query_context.cpp.s
 
 sql/operator/sort_logical_operator.o: sql/operator/sort_logical_operator.cpp.o
@@ -1254,7 +1254,7 @@ sql/operator/sort_logical_operator.o: sql/operator/sort_logical_operator.cpp.o
 
 # target to build an object file
 sql/operator/sort_logical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/sort_logical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/sort_logical_operator.cpp.o
 .PHONY : sql/operator/sort_logical_operator.cpp.o
 
 sql/operator/sort_logical_operator.i: sql/operator/sort_logical_operator.cpp.i
@@ -1262,7 +1262,7 @@ sql/operator/sort_logical_operator.i: sql/operator/sort_logical_operator.cpp.i
 
 # target to preprocess a source file
 sql/operator/sort_logical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/sort_logical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/sort_logical_operator.cpp.i
 .PHONY : sql/operator/sort_logical_operator.cpp.i
 
 sql/operator/sort_logical_operator.s: sql/operator/sort_logical_operator.cpp.s
@@ -1270,7 +1270,7 @@ sql/operator/sort_logical_operator.s: sql/operator/sort_logical_operator.cpp.s
 
 # target to generate assembly for a file
 sql/operator/sort_logical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/sort_logical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/sort_logical_operator.cpp.s
 .PHONY : sql/operator/sort_logical_operator.cpp.s
 
 sql/operator/sort_physical_operator.o: sql/operator/sort_physical_operator.cpp.o
@@ -1278,7 +1278,7 @@ sql/operator/sort_physical_operator.o: sql/operator/sort_physical_operator.cpp.o
 
 # target to build an object file
 sql/operator/sort_physical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/sort_physical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/sort_physical_operator.cpp.o
 .PHONY : sql/operator/sort_physical_operator.cpp.o
 
 sql/operator/sort_physical_operator.i: sql/operator/sort_physical_operator.cpp.i
@@ -1286,7 +1286,7 @@ sql/operator/sort_physical_operator.i: sql/operator/sort_physical_operator.cpp.i
 
 # target to preprocess a source file
 sql/operator/sort_physical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/sort_physical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/sort_physical_operator.cpp.i
 .PHONY : sql/operator/sort_physical_operator.cpp.i
 
 sql/operator/sort_physical_operator.s: sql/operator/sort_physical_operator.cpp.s
@@ -1294,7 +1294,7 @@ sql/operator/sort_physical_operator.s: sql/operator/sort_physical_operator.cpp.s
 
 # target to generate assembly for a file
 sql/operator/sort_physical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/sort_physical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/sort_physical_operator.cpp.s
 .PHONY : sql/operator/sort_physical_operator.cpp.s
 
 sql/operator/table_get_logical_operator.o: sql/operator/table_get_logical_operator.cpp.o
@@ -1302,7 +1302,7 @@ sql/operator/table_get_logical_operator.o: sql/operator/table_get_logical_operat
 
 # target to build an object file
 sql/operator/table_get_logical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/table_get_logical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/table_get_logical_operator.cpp.o
 .PHONY : sql/operator/table_get_logical_operator.cpp.o
 
 sql/operator/table_get_logical_operator.i: sql/operator/table_get_logical_operator.cpp.i
@@ -1310,7 +1310,7 @@ sql/operator/table_get_logical_operator.i: sql/operator/table_get_logical_operat
 
 # target to preprocess a source file
 sql/operator/table_get_logical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/table_get_logical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/table_get_logical_operator.cpp.i
 .PHONY : sql/operator/table_get_logical_operator.cpp.i
 
 sql/operator/table_get_logical_operator.s: sql/operator/table_get_logical_operator.cpp.s
@@ -1318,7 +1318,7 @@ sql/operator/table_get_logical_operator.s: sql/operator/table_get_logical_operat
 
 # target to generate assembly for a file
 sql/operator/table_get_logical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/table_get_logical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/table_get_logical_operator.cpp.s
 .PHONY : sql/operator/table_get_logical_operator.cpp.s
 
 sql/operator/table_scan_physical_operator.o: sql/operator/table_scan_physical_operator.cpp.o
@@ -1326,7 +1326,7 @@ sql/operator/table_scan_physical_operator.o: sql/operator/table_scan_physical_op
 
 # target to build an object file
 sql/operator/table_scan_physical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/table_scan_physical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/table_scan_physical_operator.cpp.o
 .PHONY : sql/operator/table_scan_physical_operator.cpp.o
 
 sql/operator/table_scan_physical_operator.i: sql/operator/table_scan_physical_operator.cpp.i
@@ -1334,7 +1334,7 @@ sql/operator/table_scan_physical_operator.i: sql/operator/table_scan_physical_op
 
 # target to preprocess a source file
 sql/operator/table_scan_physical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/table_scan_physical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/table_scan_physical_operator.cpp.i
 .PHONY : sql/operator/table_scan_physical_operator.cpp.i
 
 sql/operator/table_scan_physical_operator.s: sql/operator/table_scan_physical_operator.cpp.s
@@ -1342,7 +1342,7 @@ sql/operator/table_scan_physical_operator.s: sql/operator/table_scan_physical_op
 
 # target to generate assembly for a file
 sql/operator/table_scan_physical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/table_scan_physical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/table_scan_physical_operator.cpp.s
 .PHONY : sql/operator/table_scan_physical_operator.cpp.s
 
 sql/operator/update_logical_operator.o: sql/operator/update_logical_operator.cpp.o
@@ -1350,7 +1350,7 @@ sql/operator/update_logical_operator.o: sql/operator/update_logical_operator.cpp
 
 # target to build an object file
 sql/operator/update_logical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/update_logical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/update_logical_operator.cpp.o
 .PHONY : sql/operator/update_logical_operator.cpp.o
 
 sql/operator/update_logical_operator.i: sql/operator/update_logical_operator.cpp.i
@@ -1358,7 +1358,7 @@ sql/operator/update_logical_operator.i: sql/operator/update_logical_operator.cpp
 
 # target to preprocess a source file
 sql/operator/update_logical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/update_logical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/update_logical_operator.cpp.i
 .PHONY : sql/operator/update_logical_operator.cpp.i
 
 sql/operator/update_logical_operator.s: sql/operator/update_logical_operator.cpp.s
@@ -1366,7 +1366,7 @@ sql/operator/update_logical_operator.s: sql/operator/update_logical_operator.cpp
 
 # target to generate assembly for a file
 sql/operator/update_logical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/update_logical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/update_logical_operator.cpp.s
 .PHONY : sql/operator/update_logical_operator.cpp.s
 
 sql/operator/update_physical_operator.o: sql/operator/update_physical_operator.cpp.o
@@ -1374,7 +1374,7 @@ sql/operator/update_physical_operator.o: sql/operator/update_physical_operator.c
 
 # target to build an object file
 sql/operator/update_physical_operator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/update_physical_operator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/update_physical_operator.cpp.o
 .PHONY : sql/operator/update_physical_operator.cpp.o
 
 sql/operator/update_physical_operator.i: sql/operator/update_physical_operator.cpp.i
@@ -1382,7 +1382,7 @@ sql/operator/update_physical_operator.i: sql/operator/update_physical_operator.c
 
 # target to preprocess a source file
 sql/operator/update_physical_operator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/update_physical_operator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/update_physical_operator.cpp.i
 .PHONY : sql/operator/update_physical_operator.cpp.i
 
 sql/operator/update_physical_operator.s: sql/operator/update_physical_operator.cpp.s
@@ -1390,7 +1390,7 @@ sql/operator/update_physical_operator.s: sql/operator/update_physical_operator.c
 
 # target to generate assembly for a file
 sql/operator/update_physical_operator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/update_physical_operator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/operator/update_physical_operator.cpp.s
 .PHONY : sql/operator/update_physical_operator.cpp.s
 
 sql/optimizer/comparison_simplification_rule.o: sql/optimizer/comparison_simplification_rule.cpp.o
@@ -1398,7 +1398,7 @@ sql/optimizer/comparison_simplification_rule.o: sql/optimizer/comparison_simplif
 
 # target to build an object file
 sql/optimizer/comparison_simplification_rule.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/comparison_simplification_rule.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/comparison_simplification_rule.cpp.o
 .PHONY : sql/optimizer/comparison_simplification_rule.cpp.o
 
 sql/optimizer/comparison_simplification_rule.i: sql/optimizer/comparison_simplification_rule.cpp.i
@@ -1406,7 +1406,7 @@ sql/optimizer/comparison_simplification_rule.i: sql/optimizer/comparison_simplif
 
 # target to preprocess a source file
 sql/optimizer/comparison_simplification_rule.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/comparison_simplification_rule.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/comparison_simplification_rule.cpp.i
 .PHONY : sql/optimizer/comparison_simplification_rule.cpp.i
 
 sql/optimizer/comparison_simplification_rule.s: sql/optimizer/comparison_simplification_rule.cpp.s
@@ -1414,7 +1414,7 @@ sql/optimizer/comparison_simplification_rule.s: sql/optimizer/comparison_simplif
 
 # target to generate assembly for a file
 sql/optimizer/comparison_simplification_rule.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/comparison_simplification_rule.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/comparison_simplification_rule.cpp.s
 .PHONY : sql/optimizer/comparison_simplification_rule.cpp.s
 
 sql/optimizer/conjunction_simplification_rule.o: sql/optimizer/conjunction_simplification_rule.cpp.o
@@ -1422,7 +1422,7 @@ sql/optimizer/conjunction_simplification_rule.o: sql/optimizer/conjunction_simpl
 
 # target to build an object file
 sql/optimizer/conjunction_simplification_rule.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/conjunction_simplification_rule.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/conjunction_simplification_rule.cpp.o
 .PHONY : sql/optimizer/conjunction_simplification_rule.cpp.o
 
 sql/optimizer/conjunction_simplification_rule.i: sql/optimizer/conjunction_simplification_rule.cpp.i
@@ -1430,7 +1430,7 @@ sql/optimizer/conjunction_simplification_rule.i: sql/optimizer/conjunction_simpl
 
 # target to preprocess a source file
 sql/optimizer/conjunction_simplification_rule.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/conjunction_simplification_rule.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/conjunction_simplification_rule.cpp.i
 .PHONY : sql/optimizer/conjunction_simplification_rule.cpp.i
 
 sql/optimizer/conjunction_simplification_rule.s: sql/optimizer/conjunction_simplification_rule.cpp.s
@@ -1438,7 +1438,7 @@ sql/optimizer/conjunction_simplification_rule.s: sql/optimizer/conjunction_simpl
 
 # target to generate assembly for a file
 sql/optimizer/conjunction_simplification_rule.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/conjunction_simplification_rule.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/conjunction_simplification_rule.cpp.s
 .PHONY : sql/optimizer/conjunction_simplification_rule.cpp.s
 
 sql/optimizer/expression_rewriter.o: sql/optimizer/expression_rewriter.cpp.o
@@ -1446,7 +1446,7 @@ sql/optimizer/expression_rewriter.o: sql/optimizer/expression_rewriter.cpp.o
 
 # target to build an object file
 sql/optimizer/expression_rewriter.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/expression_rewriter.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/expression_rewriter.cpp.o
 .PHONY : sql/optimizer/expression_rewriter.cpp.o
 
 sql/optimizer/expression_rewriter.i: sql/optimizer/expression_rewriter.cpp.i
@@ -1454,7 +1454,7 @@ sql/optimizer/expression_rewriter.i: sql/optimizer/expression_rewriter.cpp.i
 
 # target to preprocess a source file
 sql/optimizer/expression_rewriter.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/expression_rewriter.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/expression_rewriter.cpp.i
 .PHONY : sql/optimizer/expression_rewriter.cpp.i
 
 sql/optimizer/expression_rewriter.s: sql/optimizer/expression_rewriter.cpp.s
@@ -1462,7 +1462,7 @@ sql/optimizer/expression_rewriter.s: sql/optimizer/expression_rewriter.cpp.s
 
 # target to generate assembly for a file
 sql/optimizer/expression_rewriter.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/expression_rewriter.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/expression_rewriter.cpp.s
 .PHONY : sql/optimizer/expression_rewriter.cpp.s
 
 sql/optimizer/logical_plan_generator.o: sql/optimizer/logical_plan_generator.cpp.o
@@ -1470,7 +1470,7 @@ sql/optimizer/logical_plan_generator.o: sql/optimizer/logical_plan_generator.cpp
 
 # target to build an object file
 sql/optimizer/logical_plan_generator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/logical_plan_generator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/logical_plan_generator.cpp.o
 .PHONY : sql/optimizer/logical_plan_generator.cpp.o
 
 sql/optimizer/logical_plan_generator.i: sql/optimizer/logical_plan_generator.cpp.i
@@ -1478,7 +1478,7 @@ sql/optimizer/logical_plan_generator.i: sql/optimizer/logical_plan_generator.cpp
 
 # target to preprocess a source file
 sql/optimizer/logical_plan_generator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/logical_plan_generator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/logical_plan_generator.cpp.i
 .PHONY : sql/optimizer/logical_plan_generator.cpp.i
 
 sql/optimizer/logical_plan_generator.s: sql/optimizer/logical_plan_generator.cpp.s
@@ -1486,7 +1486,7 @@ sql/optimizer/logical_plan_generator.s: sql/optimizer/logical_plan_generator.cpp
 
 # target to generate assembly for a file
 sql/optimizer/logical_plan_generator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/logical_plan_generator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/logical_plan_generator.cpp.s
 .PHONY : sql/optimizer/logical_plan_generator.cpp.s
 
 sql/optimizer/optimize_stage.o: sql/optimizer/optimize_stage.cpp.o
@@ -1494,7 +1494,7 @@ sql/optimizer/optimize_stage.o: sql/optimizer/optimize_stage.cpp.o
 
 # target to build an object file
 sql/optimizer/optimize_stage.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/optimize_stage.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/optimize_stage.cpp.o
 .PHONY : sql/optimizer/optimize_stage.cpp.o
 
 sql/optimizer/optimize_stage.i: sql/optimizer/optimize_stage.cpp.i
@@ -1502,7 +1502,7 @@ sql/optimizer/optimize_stage.i: sql/optimizer/optimize_stage.cpp.i
 
 # target to preprocess a source file
 sql/optimizer/optimize_stage.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/optimize_stage.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/optimize_stage.cpp.i
 .PHONY : sql/optimizer/optimize_stage.cpp.i
 
 sql/optimizer/optimize_stage.s: sql/optimizer/optimize_stage.cpp.s
@@ -1510,7 +1510,7 @@ sql/optimizer/optimize_stage.s: sql/optimizer/optimize_stage.cpp.s
 
 # target to generate assembly for a file
 sql/optimizer/optimize_stage.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/optimize_stage.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/optimize_stage.cpp.s
 .PHONY : sql/optimizer/optimize_stage.cpp.s
 
 sql/optimizer/physical_plan_generator.o: sql/optimizer/physical_plan_generator.cpp.o
@@ -1518,7 +1518,7 @@ sql/optimizer/physical_plan_generator.o: sql/optimizer/physical_plan_generator.c
 
 # target to build an object file
 sql/optimizer/physical_plan_generator.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/physical_plan_generator.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/physical_plan_generator.cpp.o
 .PHONY : sql/optimizer/physical_plan_generator.cpp.o
 
 sql/optimizer/physical_plan_generator.i: sql/optimizer/physical_plan_generator.cpp.i
@@ -1526,7 +1526,7 @@ sql/optimizer/physical_plan_generator.i: sql/optimizer/physical_plan_generator.c
 
 # target to preprocess a source file
 sql/optimizer/physical_plan_generator.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/physical_plan_generator.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/physical_plan_generator.cpp.i
 .PHONY : sql/optimizer/physical_plan_generator.cpp.i
 
 sql/optimizer/physical_plan_generator.s: sql/optimizer/physical_plan_generator.cpp.s
@@ -1534,7 +1534,7 @@ sql/optimizer/physical_plan_generator.s: sql/optimizer/physical_plan_generator.c
 
 # target to generate assembly for a file
 sql/optimizer/physical_plan_generator.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/physical_plan_generator.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/physical_plan_generator.cpp.s
 .PHONY : sql/optimizer/physical_plan_generator.cpp.s
 
 sql/optimizer/predicate_pushdown_rewriter.o: sql/optimizer/predicate_pushdown_rewriter.cpp.o
@@ -1542,7 +1542,7 @@ sql/optimizer/predicate_pushdown_rewriter.o: sql/optimizer/predicate_pushdown_re
 
 # target to build an object file
 sql/optimizer/predicate_pushdown_rewriter.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/predicate_pushdown_rewriter.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/predicate_pushdown_rewriter.cpp.o
 .PHONY : sql/optimizer/predicate_pushdown_rewriter.cpp.o
 
 sql/optimizer/predicate_pushdown_rewriter.i: sql/optimizer/predicate_pushdown_rewriter.cpp.i
@@ -1550,7 +1550,7 @@ sql/optimizer/predicate_pushdown_rewriter.i: sql/optimizer/predicate_pushdown_re
 
 # target to preprocess a source file
 sql/optimizer/predicate_pushdown_rewriter.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/predicate_pushdown_rewriter.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/predicate_pushdown_rewriter.cpp.i
 .PHONY : sql/optimizer/predicate_pushdown_rewriter.cpp.i
 
 sql/optimizer/predicate_pushdown_rewriter.s: sql/optimizer/predicate_pushdown_rewriter.cpp.s
@@ -1558,7 +1558,7 @@ sql/optimizer/predicate_pushdown_rewriter.s: sql/optimizer/predicate_pushdown_re
 
 # target to generate assembly for a file
 sql/optimizer/predicate_pushdown_rewriter.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/predicate_pushdown_rewriter.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/predicate_pushdown_rewriter.cpp.s
 .PHONY : sql/optimizer/predicate_pushdown_rewriter.cpp.s
 
 sql/optimizer/predicate_rewrite.o: sql/optimizer/predicate_rewrite.cpp.o
@@ -1566,7 +1566,7 @@ sql/optimizer/predicate_rewrite.o: sql/optimizer/predicate_rewrite.cpp.o
 
 # target to build an object file
 sql/optimizer/predicate_rewrite.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/predicate_rewrite.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/predicate_rewrite.cpp.o
 .PHONY : sql/optimizer/predicate_rewrite.cpp.o
 
 sql/optimizer/predicate_rewrite.i: sql/optimizer/predicate_rewrite.cpp.i
@@ -1574,7 +1574,7 @@ sql/optimizer/predicate_rewrite.i: sql/optimizer/predicate_rewrite.cpp.i
 
 # target to preprocess a source file
 sql/optimizer/predicate_rewrite.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/predicate_rewrite.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/predicate_rewrite.cpp.i
 .PHONY : sql/optimizer/predicate_rewrite.cpp.i
 
 sql/optimizer/predicate_rewrite.s: sql/optimizer/predicate_rewrite.cpp.s
@@ -1582,7 +1582,7 @@ sql/optimizer/predicate_rewrite.s: sql/optimizer/predicate_rewrite.cpp.s
 
 # target to generate assembly for a file
 sql/optimizer/predicate_rewrite.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/predicate_rewrite.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/predicate_rewrite.cpp.s
 .PHONY : sql/optimizer/predicate_rewrite.cpp.s
 
 sql/optimizer/rewriter.o: sql/optimizer/rewriter.cpp.o
@@ -1590,7 +1590,7 @@ sql/optimizer/rewriter.o: sql/optimizer/rewriter.cpp.o
 
 # target to build an object file
 sql/optimizer/rewriter.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/rewriter.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/rewriter.cpp.o
 .PHONY : sql/optimizer/rewriter.cpp.o
 
 sql/optimizer/rewriter.i: sql/optimizer/rewriter.cpp.i
@@ -1598,7 +1598,7 @@ sql/optimizer/rewriter.i: sql/optimizer/rewriter.cpp.i
 
 # target to preprocess a source file
 sql/optimizer/rewriter.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/rewriter.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/rewriter.cpp.i
 .PHONY : sql/optimizer/rewriter.cpp.i
 
 sql/optimizer/rewriter.s: sql/optimizer/rewriter.cpp.s
@@ -1606,7 +1606,7 @@ sql/optimizer/rewriter.s: sql/optimizer/rewriter.cpp.s
 
 # target to generate assembly for a file
 sql/optimizer/rewriter.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/rewriter.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/optimizer/rewriter.cpp.s
 .PHONY : sql/optimizer/rewriter.cpp.s
 
 sql/parser/date.o: sql/parser/date.cpp.o
@@ -1614,7 +1614,7 @@ sql/parser/date.o: sql/parser/date.cpp.o
 
 # target to build an object file
 sql/parser/date.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/date.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/date.cpp.o
 .PHONY : sql/parser/date.cpp.o
 
 sql/parser/date.i: sql/parser/date.cpp.i
@@ -1622,7 +1622,7 @@ sql/parser/date.i: sql/parser/date.cpp.i
 
 # target to preprocess a source file
 sql/parser/date.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/date.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/date.cpp.i
 .PHONY : sql/parser/date.cpp.i
 
 sql/parser/date.s: sql/parser/date.cpp.s
@@ -1630,7 +1630,7 @@ sql/parser/date.s: sql/parser/date.cpp.s
 
 # target to generate assembly for a file
 sql/parser/date.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/date.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/date.cpp.s
 .PHONY : sql/parser/date.cpp.s
 
 sql/parser/lex_sql.o: sql/parser/lex_sql.cpp.o
@@ -1638,7 +1638,7 @@ sql/parser/lex_sql.o: sql/parser/lex_sql.cpp.o
 
 # target to build an object file
 sql/parser/lex_sql.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/lex_sql.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/lex_sql.cpp.o
 .PHONY : sql/parser/lex_sql.cpp.o
 
 sql/parser/lex_sql.i: sql/parser/lex_sql.cpp.i
@@ -1646,7 +1646,7 @@ sql/parser/lex_sql.i: sql/parser/lex_sql.cpp.i
 
 # target to preprocess a source file
 sql/parser/lex_sql.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/lex_sql.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/lex_sql.cpp.i
 .PHONY : sql/parser/lex_sql.cpp.i
 
 sql/parser/lex_sql.s: sql/parser/lex_sql.cpp.s
@@ -1654,7 +1654,7 @@ sql/parser/lex_sql.s: sql/parser/lex_sql.cpp.s
 
 # target to generate assembly for a file
 sql/parser/lex_sql.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/lex_sql.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/lex_sql.cpp.s
 .PHONY : sql/parser/lex_sql.cpp.s
 
 sql/parser/parse.o: sql/parser/parse.cpp.o
@@ -1662,7 +1662,7 @@ sql/parser/parse.o: sql/parser/parse.cpp.o
 
 # target to build an object file
 sql/parser/parse.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/parse.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/parse.cpp.o
 .PHONY : sql/parser/parse.cpp.o
 
 sql/parser/parse.i: sql/parser/parse.cpp.i
@@ -1670,7 +1670,7 @@ sql/parser/parse.i: sql/parser/parse.cpp.i
 
 # target to preprocess a source file
 sql/parser/parse.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/parse.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/parse.cpp.i
 .PHONY : sql/parser/parse.cpp.i
 
 sql/parser/parse.s: sql/parser/parse.cpp.s
@@ -1678,7 +1678,7 @@ sql/parser/parse.s: sql/parser/parse.cpp.s
 
 # target to generate assembly for a file
 sql/parser/parse.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/parse.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/parse.cpp.s
 .PHONY : sql/parser/parse.cpp.s
 
 sql/parser/parse_stage.o: sql/parser/parse_stage.cpp.o
@@ -1686,7 +1686,7 @@ sql/parser/parse_stage.o: sql/parser/parse_stage.cpp.o
 
 # target to build an object file
 sql/parser/parse_stage.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/parse_stage.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/parse_stage.cpp.o
 .PHONY : sql/parser/parse_stage.cpp.o
 
 sql/parser/parse_stage.i: sql/parser/parse_stage.cpp.i
@@ -1694,7 +1694,7 @@ sql/parser/parse_stage.i: sql/parser/parse_stage.cpp.i
 
 # target to preprocess a source file
 sql/parser/parse_stage.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/parse_stage.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/parse_stage.cpp.i
 .PHONY : sql/parser/parse_stage.cpp.i
 
 sql/parser/parse_stage.s: sql/parser/parse_stage.cpp.s
@@ -1702,7 +1702,7 @@ sql/parser/parse_stage.s: sql/parser/parse_stage.cpp.s
 
 # target to generate assembly for a file
 sql/parser/parse_stage.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/parse_stage.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/parse_stage.cpp.s
 .PHONY : sql/parser/parse_stage.cpp.s
 
 sql/parser/resolve_stage.o: sql/parser/resolve_stage.cpp.o
@@ -1710,7 +1710,7 @@ sql/parser/resolve_stage.o: sql/parser/resolve_stage.cpp.o
 
 # target to build an object file
 sql/parser/resolve_stage.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/resolve_stage.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/resolve_stage.cpp.o
 .PHONY : sql/parser/resolve_stage.cpp.o
 
 sql/parser/resolve_stage.i: sql/parser/resolve_stage.cpp.i
@@ -1718,7 +1718,7 @@ sql/parser/resolve_stage.i: sql/parser/resolve_stage.cpp.i
 
 # target to preprocess a source file
 sql/parser/resolve_stage.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/resolve_stage.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/resolve_stage.cpp.i
 .PHONY : sql/parser/resolve_stage.cpp.i
 
 sql/parser/resolve_stage.s: sql/parser/resolve_stage.cpp.s
@@ -1726,7 +1726,7 @@ sql/parser/resolve_stage.s: sql/parser/resolve_stage.cpp.s
 
 # target to generate assembly for a file
 sql/parser/resolve_stage.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/resolve_stage.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/resolve_stage.cpp.s
 .PHONY : sql/parser/resolve_stage.cpp.s
 
 sql/parser/value.o: sql/parser/value.cpp.o
@@ -1734,7 +1734,7 @@ sql/parser/value.o: sql/parser/value.cpp.o
 
 # target to build an object file
 sql/parser/value.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/value.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/value.cpp.o
 .PHONY : sql/parser/value.cpp.o
 
 sql/parser/value.i: sql/parser/value.cpp.i
@@ -1742,7 +1742,7 @@ sql/parser/value.i: sql/parser/value.cpp.i
 
 # target to preprocess a source file
 sql/parser/value.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/value.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/value.cpp.i
 .PHONY : sql/parser/value.cpp.i
 
 sql/parser/value.s: sql/parser/value.cpp.s
@@ -1750,7 +1750,7 @@ sql/parser/value.s: sql/parser/value.cpp.s
 
 # target to generate assembly for a file
 sql/parser/value.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/value.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/value.cpp.s
 .PHONY : sql/parser/value.cpp.s
 
 sql/parser/yacc_sql.o: sql/parser/yacc_sql.cpp.o
@@ -1758,7 +1758,7 @@ sql/parser/yacc_sql.o: sql/parser/yacc_sql.cpp.o
 
 # target to build an object file
 sql/parser/yacc_sql.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/yacc_sql.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/yacc_sql.cpp.o
 .PHONY : sql/parser/yacc_sql.cpp.o
 
 sql/parser/yacc_sql.i: sql/parser/yacc_sql.cpp.i
@@ -1766,7 +1766,7 @@ sql/parser/yacc_sql.i: sql/parser/yacc_sql.cpp.i
 
 # target to preprocess a source file
 sql/parser/yacc_sql.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/yacc_sql.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/yacc_sql.cpp.i
 .PHONY : sql/parser/yacc_sql.cpp.i
 
 sql/parser/yacc_sql.s: sql/parser/yacc_sql.cpp.s
@@ -1774,7 +1774,7 @@ sql/parser/yacc_sql.s: sql/parser/yacc_sql.cpp.s
 
 # target to generate assembly for a file
 sql/parser/yacc_sql.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/yacc_sql.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/parser/yacc_sql.cpp.s
 .PHONY : sql/parser/yacc_sql.cpp.s
 
 sql/plan_cache/plan_cache_stage.o: sql/plan_cache/plan_cache_stage.cpp.o
@@ -1782,7 +1782,7 @@ sql/plan_cache/plan_cache_stage.o: sql/plan_cache/plan_cache_stage.cpp.o
 
 # target to build an object file
 sql/plan_cache/plan_cache_stage.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/plan_cache/plan_cache_stage.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/plan_cache/plan_cache_stage.cpp.o
 .PHONY : sql/plan_cache/plan_cache_stage.cpp.o
 
 sql/plan_cache/plan_cache_stage.i: sql/plan_cache/plan_cache_stage.cpp.i
@@ -1790,7 +1790,7 @@ sql/plan_cache/plan_cache_stage.i: sql/plan_cache/plan_cache_stage.cpp.i
 
 # target to preprocess a source file
 sql/plan_cache/plan_cache_stage.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/plan_cache/plan_cache_stage.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/plan_cache/plan_cache_stage.cpp.i
 .PHONY : sql/plan_cache/plan_cache_stage.cpp.i
 
 sql/plan_cache/plan_cache_stage.s: sql/plan_cache/plan_cache_stage.cpp.s
@@ -1798,7 +1798,7 @@ sql/plan_cache/plan_cache_stage.s: sql/plan_cache/plan_cache_stage.cpp.s
 
 # target to generate assembly for a file
 sql/plan_cache/plan_cache_stage.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/plan_cache/plan_cache_stage.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/plan_cache/plan_cache_stage.cpp.s
 .PHONY : sql/plan_cache/plan_cache_stage.cpp.s
 
 sql/query_cache/query_cache_stage.o: sql/query_cache/query_cache_stage.cpp.o
@@ -1806,7 +1806,7 @@ sql/query_cache/query_cache_stage.o: sql/query_cache/query_cache_stage.cpp.o
 
 # target to build an object file
 sql/query_cache/query_cache_stage.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/query_cache/query_cache_stage.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/query_cache/query_cache_stage.cpp.o
 .PHONY : sql/query_cache/query_cache_stage.cpp.o
 
 sql/query_cache/query_cache_stage.i: sql/query_cache/query_cache_stage.cpp.i
@@ -1814,7 +1814,7 @@ sql/query_cache/query_cache_stage.i: sql/query_cache/query_cache_stage.cpp.i
 
 # target to preprocess a source file
 sql/query_cache/query_cache_stage.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/query_cache/query_cache_stage.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/query_cache/query_cache_stage.cpp.i
 .PHONY : sql/query_cache/query_cache_stage.cpp.i
 
 sql/query_cache/query_cache_stage.s: sql/query_cache/query_cache_stage.cpp.s
@@ -1822,7 +1822,7 @@ sql/query_cache/query_cache_stage.s: sql/query_cache/query_cache_stage.cpp.s
 
 # target to generate assembly for a file
 sql/query_cache/query_cache_stage.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/query_cache/query_cache_stage.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/query_cache/query_cache_stage.cpp.s
 .PHONY : sql/query_cache/query_cache_stage.cpp.s
 
 sql/stmt/create_index_stmt.o: sql/stmt/create_index_stmt.cpp.o
@@ -1830,7 +1830,7 @@ sql/stmt/create_index_stmt.o: sql/stmt/create_index_stmt.cpp.o
 
 # target to build an object file
 sql/stmt/create_index_stmt.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/create_index_stmt.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/create_index_stmt.cpp.o
 .PHONY : sql/stmt/create_index_stmt.cpp.o
 
 sql/stmt/create_index_stmt.i: sql/stmt/create_index_stmt.cpp.i
@@ -1838,7 +1838,7 @@ sql/stmt/create_index_stmt.i: sql/stmt/create_index_stmt.cpp.i
 
 # target to preprocess a source file
 sql/stmt/create_index_stmt.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/create_index_stmt.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/create_index_stmt.cpp.i
 .PHONY : sql/stmt/create_index_stmt.cpp.i
 
 sql/stmt/create_index_stmt.s: sql/stmt/create_index_stmt.cpp.s
@@ -1846,7 +1846,7 @@ sql/stmt/create_index_stmt.s: sql/stmt/create_index_stmt.cpp.s
 
 # target to generate assembly for a file
 sql/stmt/create_index_stmt.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/create_index_stmt.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/create_index_stmt.cpp.s
 .PHONY : sql/stmt/create_index_stmt.cpp.s
 
 sql/stmt/create_table_stmt.o: sql/stmt/create_table_stmt.cpp.o
@@ -1854,7 +1854,7 @@ sql/stmt/create_table_stmt.o: sql/stmt/create_table_stmt.cpp.o
 
 # target to build an object file
 sql/stmt/create_table_stmt.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/create_table_stmt.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/create_table_stmt.cpp.o
 .PHONY : sql/stmt/create_table_stmt.cpp.o
 
 sql/stmt/create_table_stmt.i: sql/stmt/create_table_stmt.cpp.i
@@ -1862,7 +1862,7 @@ sql/stmt/create_table_stmt.i: sql/stmt/create_table_stmt.cpp.i
 
 # target to preprocess a source file
 sql/stmt/create_table_stmt.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/create_table_stmt.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/create_table_stmt.cpp.i
 .PHONY : sql/stmt/create_table_stmt.cpp.i
 
 sql/stmt/create_table_stmt.s: sql/stmt/create_table_stmt.cpp.s
@@ -1870,7 +1870,7 @@ sql/stmt/create_table_stmt.s: sql/stmt/create_table_stmt.cpp.s
 
 # target to generate assembly for a file
 sql/stmt/create_table_stmt.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/create_table_stmt.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/create_table_stmt.cpp.s
 .PHONY : sql/stmt/create_table_stmt.cpp.s
 
 sql/stmt/delete_stmt.o: sql/stmt/delete_stmt.cpp.o
@@ -1878,7 +1878,7 @@ sql/stmt/delete_stmt.o: sql/stmt/delete_stmt.cpp.o
 
 # target to build an object file
 sql/stmt/delete_stmt.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/delete_stmt.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/delete_stmt.cpp.o
 .PHONY : sql/stmt/delete_stmt.cpp.o
 
 sql/stmt/delete_stmt.i: sql/stmt/delete_stmt.cpp.i
@@ -1886,7 +1886,7 @@ sql/stmt/delete_stmt.i: sql/stmt/delete_stmt.cpp.i
 
 # target to preprocess a source file
 sql/stmt/delete_stmt.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/delete_stmt.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/delete_stmt.cpp.i
 .PHONY : sql/stmt/delete_stmt.cpp.i
 
 sql/stmt/delete_stmt.s: sql/stmt/delete_stmt.cpp.s
@@ -1894,7 +1894,7 @@ sql/stmt/delete_stmt.s: sql/stmt/delete_stmt.cpp.s
 
 # target to generate assembly for a file
 sql/stmt/delete_stmt.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/delete_stmt.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/delete_stmt.cpp.s
 .PHONY : sql/stmt/delete_stmt.cpp.s
 
 sql/stmt/desc_table_stmt.o: sql/stmt/desc_table_stmt.cpp.o
@@ -1902,7 +1902,7 @@ sql/stmt/desc_table_stmt.o: sql/stmt/desc_table_stmt.cpp.o
 
 # target to build an object file
 sql/stmt/desc_table_stmt.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/desc_table_stmt.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/desc_table_stmt.cpp.o
 .PHONY : sql/stmt/desc_table_stmt.cpp.o
 
 sql/stmt/desc_table_stmt.i: sql/stmt/desc_table_stmt.cpp.i
@@ -1910,7 +1910,7 @@ sql/stmt/desc_table_stmt.i: sql/stmt/desc_table_stmt.cpp.i
 
 # target to preprocess a source file
 sql/stmt/desc_table_stmt.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/desc_table_stmt.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/desc_table_stmt.cpp.i
 .PHONY : sql/stmt/desc_table_stmt.cpp.i
 
 sql/stmt/desc_table_stmt.s: sql/stmt/desc_table_stmt.cpp.s
@@ -1918,7 +1918,7 @@ sql/stmt/desc_table_stmt.s: sql/stmt/desc_table_stmt.cpp.s
 
 # target to generate assembly for a file
 sql/stmt/desc_table_stmt.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/desc_table_stmt.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/desc_table_stmt.cpp.s
 .PHONY : sql/stmt/desc_table_stmt.cpp.s
 
 sql/stmt/drop_table_stmt.o: sql/stmt/drop_table_stmt.cpp.o
@@ -1926,7 +1926,7 @@ sql/stmt/drop_table_stmt.o: sql/stmt/drop_table_stmt.cpp.o
 
 # target to build an object file
 sql/stmt/drop_table_stmt.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/drop_table_stmt.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/drop_table_stmt.cpp.o
 .PHONY : sql/stmt/drop_table_stmt.cpp.o
 
 sql/stmt/drop_table_stmt.i: sql/stmt/drop_table_stmt.cpp.i
@@ -1934,7 +1934,7 @@ sql/stmt/drop_table_stmt.i: sql/stmt/drop_table_stmt.cpp.i
 
 # target to preprocess a source file
 sql/stmt/drop_table_stmt.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/drop_table_stmt.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/drop_table_stmt.cpp.i
 .PHONY : sql/stmt/drop_table_stmt.cpp.i
 
 sql/stmt/drop_table_stmt.s: sql/stmt/drop_table_stmt.cpp.s
@@ -1942,7 +1942,7 @@ sql/stmt/drop_table_stmt.s: sql/stmt/drop_table_stmt.cpp.s
 
 # target to generate assembly for a file
 sql/stmt/drop_table_stmt.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/drop_table_stmt.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/drop_table_stmt.cpp.s
 .PHONY : sql/stmt/drop_table_stmt.cpp.s
 
 sql/stmt/explain_stmt.o: sql/stmt/explain_stmt.cpp.o
@@ -1950,7 +1950,7 @@ sql/stmt/explain_stmt.o: sql/stmt/explain_stmt.cpp.o
 
 # target to build an object file
 sql/stmt/explain_stmt.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/explain_stmt.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/explain_stmt.cpp.o
 .PHONY : sql/stmt/explain_stmt.cpp.o
 
 sql/stmt/explain_stmt.i: sql/stmt/explain_stmt.cpp.i
@@ -1958,7 +1958,7 @@ sql/stmt/explain_stmt.i: sql/stmt/explain_stmt.cpp.i
 
 # target to preprocess a source file
 sql/stmt/explain_stmt.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/explain_stmt.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/explain_stmt.cpp.i
 .PHONY : sql/stmt/explain_stmt.cpp.i
 
 sql/stmt/explain_stmt.s: sql/stmt/explain_stmt.cpp.s
@@ -1966,7 +1966,7 @@ sql/stmt/explain_stmt.s: sql/stmt/explain_stmt.cpp.s
 
 # target to generate assembly for a file
 sql/stmt/explain_stmt.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/explain_stmt.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/explain_stmt.cpp.s
 .PHONY : sql/stmt/explain_stmt.cpp.s
 
 sql/stmt/filter_stmt.o: sql/stmt/filter_stmt.cpp.o
@@ -1974,7 +1974,7 @@ sql/stmt/filter_stmt.o: sql/stmt/filter_stmt.cpp.o
 
 # target to build an object file
 sql/stmt/filter_stmt.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/filter_stmt.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/filter_stmt.cpp.o
 .PHONY : sql/stmt/filter_stmt.cpp.o
 
 sql/stmt/filter_stmt.i: sql/stmt/filter_stmt.cpp.i
@@ -1982,7 +1982,7 @@ sql/stmt/filter_stmt.i: sql/stmt/filter_stmt.cpp.i
 
 # target to preprocess a source file
 sql/stmt/filter_stmt.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/filter_stmt.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/filter_stmt.cpp.i
 .PHONY : sql/stmt/filter_stmt.cpp.i
 
 sql/stmt/filter_stmt.s: sql/stmt/filter_stmt.cpp.s
@@ -1990,7 +1990,7 @@ sql/stmt/filter_stmt.s: sql/stmt/filter_stmt.cpp.s
 
 # target to generate assembly for a file
 sql/stmt/filter_stmt.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/filter_stmt.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/filter_stmt.cpp.s
 .PHONY : sql/stmt/filter_stmt.cpp.s
 
 sql/stmt/insert_stmt.o: sql/stmt/insert_stmt.cpp.o
@@ -1998,7 +1998,7 @@ sql/stmt/insert_stmt.o: sql/stmt/insert_stmt.cpp.o
 
 # target to build an object file
 sql/stmt/insert_stmt.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/insert_stmt.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/insert_stmt.cpp.o
 .PHONY : sql/stmt/insert_stmt.cpp.o
 
 sql/stmt/insert_stmt.i: sql/stmt/insert_stmt.cpp.i
@@ -2006,7 +2006,7 @@ sql/stmt/insert_stmt.i: sql/stmt/insert_stmt.cpp.i
 
 # target to preprocess a source file
 sql/stmt/insert_stmt.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/insert_stmt.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/insert_stmt.cpp.i
 .PHONY : sql/stmt/insert_stmt.cpp.i
 
 sql/stmt/insert_stmt.s: sql/stmt/insert_stmt.cpp.s
@@ -2014,7 +2014,7 @@ sql/stmt/insert_stmt.s: sql/stmt/insert_stmt.cpp.s
 
 # target to generate assembly for a file
 sql/stmt/insert_stmt.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/insert_stmt.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/insert_stmt.cpp.s
 .PHONY : sql/stmt/insert_stmt.cpp.s
 
 sql/stmt/join_stmt.o: sql/stmt/join_stmt.cpp.o
@@ -2022,7 +2022,7 @@ sql/stmt/join_stmt.o: sql/stmt/join_stmt.cpp.o
 
 # target to build an object file
 sql/stmt/join_stmt.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/join_stmt.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/join_stmt.cpp.o
 .PHONY : sql/stmt/join_stmt.cpp.o
 
 sql/stmt/join_stmt.i: sql/stmt/join_stmt.cpp.i
@@ -2030,7 +2030,7 @@ sql/stmt/join_stmt.i: sql/stmt/join_stmt.cpp.i
 
 # target to preprocess a source file
 sql/stmt/join_stmt.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/join_stmt.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/join_stmt.cpp.i
 .PHONY : sql/stmt/join_stmt.cpp.i
 
 sql/stmt/join_stmt.s: sql/stmt/join_stmt.cpp.s
@@ -2038,7 +2038,7 @@ sql/stmt/join_stmt.s: sql/stmt/join_stmt.cpp.s
 
 # target to generate assembly for a file
 sql/stmt/join_stmt.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/join_stmt.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/join_stmt.cpp.s
 .PHONY : sql/stmt/join_stmt.cpp.s
 
 sql/stmt/load_data_stmt.o: sql/stmt/load_data_stmt.cpp.o
@@ -2046,7 +2046,7 @@ sql/stmt/load_data_stmt.o: sql/stmt/load_data_stmt.cpp.o
 
 # target to build an object file
 sql/stmt/load_data_stmt.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/load_data_stmt.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/load_data_stmt.cpp.o
 .PHONY : sql/stmt/load_data_stmt.cpp.o
 
 sql/stmt/load_data_stmt.i: sql/stmt/load_data_stmt.cpp.i
@@ -2054,7 +2054,7 @@ sql/stmt/load_data_stmt.i: sql/stmt/load_data_stmt.cpp.i
 
 # target to preprocess a source file
 sql/stmt/load_data_stmt.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/load_data_stmt.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/load_data_stmt.cpp.i
 .PHONY : sql/stmt/load_data_stmt.cpp.i
 
 sql/stmt/load_data_stmt.s: sql/stmt/load_data_stmt.cpp.s
@@ -2062,7 +2062,7 @@ sql/stmt/load_data_stmt.s: sql/stmt/load_data_stmt.cpp.s
 
 # target to generate assembly for a file
 sql/stmt/load_data_stmt.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/load_data_stmt.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/load_data_stmt.cpp.s
 .PHONY : sql/stmt/load_data_stmt.cpp.s
 
 sql/stmt/select_stmt.o: sql/stmt/select_stmt.cpp.o
@@ -2070,7 +2070,7 @@ sql/stmt/select_stmt.o: sql/stmt/select_stmt.cpp.o
 
 # target to build an object file
 sql/stmt/select_stmt.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/select_stmt.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/select_stmt.cpp.o
 .PHONY : sql/stmt/select_stmt.cpp.o
 
 sql/stmt/select_stmt.i: sql/stmt/select_stmt.cpp.i
@@ -2078,7 +2078,7 @@ sql/stmt/select_stmt.i: sql/stmt/select_stmt.cpp.i
 
 # target to preprocess a source file
 sql/stmt/select_stmt.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/select_stmt.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/select_stmt.cpp.i
 .PHONY : sql/stmt/select_stmt.cpp.i
 
 sql/stmt/select_stmt.s: sql/stmt/select_stmt.cpp.s
@@ -2086,7 +2086,7 @@ sql/stmt/select_stmt.s: sql/stmt/select_stmt.cpp.s
 
 # target to generate assembly for a file
 sql/stmt/select_stmt.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/select_stmt.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/select_stmt.cpp.s
 .PHONY : sql/stmt/select_stmt.cpp.s
 
 sql/stmt/stmt.o: sql/stmt/stmt.cpp.o
@@ -2094,7 +2094,7 @@ sql/stmt/stmt.o: sql/stmt/stmt.cpp.o
 
 # target to build an object file
 sql/stmt/stmt.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/stmt.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/stmt.cpp.o
 .PHONY : sql/stmt/stmt.cpp.o
 
 sql/stmt/stmt.i: sql/stmt/stmt.cpp.i
@@ -2102,7 +2102,7 @@ sql/stmt/stmt.i: sql/stmt/stmt.cpp.i
 
 # target to preprocess a source file
 sql/stmt/stmt.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/stmt.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/stmt.cpp.i
 .PHONY : sql/stmt/stmt.cpp.i
 
 sql/stmt/stmt.s: sql/stmt/stmt.cpp.s
@@ -2110,7 +2110,7 @@ sql/stmt/stmt.s: sql/stmt/stmt.cpp.s
 
 # target to generate assembly for a file
 sql/stmt/stmt.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/stmt.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/stmt.cpp.s
 .PHONY : sql/stmt/stmt.cpp.s
 
 sql/stmt/update_stmt.o: sql/stmt/update_stmt.cpp.o
@@ -2118,7 +2118,7 @@ sql/stmt/update_stmt.o: sql/stmt/update_stmt.cpp.o
 
 # target to build an object file
 sql/stmt/update_stmt.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/update_stmt.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/update_stmt.cpp.o
 .PHONY : sql/stmt/update_stmt.cpp.o
 
 sql/stmt/update_stmt.i: sql/stmt/update_stmt.cpp.i
@@ -2126,7 +2126,7 @@ sql/stmt/update_stmt.i: sql/stmt/update_stmt.cpp.i
 
 # target to preprocess a source file
 sql/stmt/update_stmt.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/update_stmt.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/update_stmt.cpp.i
 .PHONY : sql/stmt/update_stmt.cpp.i
 
 sql/stmt/update_stmt.s: sql/stmt/update_stmt.cpp.s
@@ -2134,7 +2134,7 @@ sql/stmt/update_stmt.s: sql/stmt/update_stmt.cpp.s
 
 # target to generate assembly for a file
 sql/stmt/update_stmt.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/update_stmt.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/sql/stmt/update_stmt.cpp.s
 .PHONY : sql/stmt/update_stmt.cpp.s
 
 storage/buffer/disk_buffer_pool.o: storage/buffer/disk_buffer_pool.cpp.o
@@ -2142,7 +2142,7 @@ storage/buffer/disk_buffer_pool.o: storage/buffer/disk_buffer_pool.cpp.o
 
 # target to build an object file
 storage/buffer/disk_buffer_pool.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/buffer/disk_buffer_pool.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/buffer/disk_buffer_pool.cpp.o
 .PHONY : storage/buffer/disk_buffer_pool.cpp.o
 
 storage/buffer/disk_buffer_pool.i: storage/buffer/disk_buffer_pool.cpp.i
@@ -2150,7 +2150,7 @@ storage/buffer/disk_buffer_pool.i: storage/buffer/disk_buffer_pool.cpp.i
 
 # target to preprocess a source file
 storage/buffer/disk_buffer_pool.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/buffer/disk_buffer_pool.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/buffer/disk_buffer_pool.cpp.i
 .PHONY : storage/buffer/disk_buffer_pool.cpp.i
 
 storage/buffer/disk_buffer_pool.s: storage/buffer/disk_buffer_pool.cpp.s
@@ -2158,7 +2158,7 @@ storage/buffer/disk_buffer_pool.s: storage/buffer/disk_buffer_pool.cpp.s
 
 # target to generate assembly for a file
 storage/buffer/disk_buffer_pool.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/buffer/disk_buffer_pool.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/buffer/disk_buffer_pool.cpp.s
 .PHONY : storage/buffer/disk_buffer_pool.cpp.s
 
 storage/buffer/frame.o: storage/buffer/frame.cpp.o
@@ -2166,7 +2166,7 @@ storage/buffer/frame.o: storage/buffer/frame.cpp.o
 
 # target to build an object file
 storage/buffer/frame.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/buffer/frame.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/buffer/frame.cpp.o
 .PHONY : storage/buffer/frame.cpp.o
 
 storage/buffer/frame.i: storage/buffer/frame.cpp.i
@@ -2174,7 +2174,7 @@ storage/buffer/frame.i: storage/buffer/frame.cpp.i
 
 # target to preprocess a source file
 storage/buffer/frame.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/buffer/frame.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/buffer/frame.cpp.i
 .PHONY : storage/buffer/frame.cpp.i
 
 storage/buffer/frame.s: storage/buffer/frame.cpp.s
@@ -2182,7 +2182,7 @@ storage/buffer/frame.s: storage/buffer/frame.cpp.s
 
 # target to generate assembly for a file
 storage/buffer/frame.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/buffer/frame.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/buffer/frame.cpp.s
 .PHONY : storage/buffer/frame.cpp.s
 
 storage/clog/clog.o: storage/clog/clog.cpp.o
@@ -2190,7 +2190,7 @@ storage/clog/clog.o: storage/clog/clog.cpp.o
 
 # target to build an object file
 storage/clog/clog.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/clog/clog.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/clog/clog.cpp.o
 .PHONY : storage/clog/clog.cpp.o
 
 storage/clog/clog.i: storage/clog/clog.cpp.i
@@ -2198,7 +2198,7 @@ storage/clog/clog.i: storage/clog/clog.cpp.i
 
 # target to preprocess a source file
 storage/clog/clog.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/clog/clog.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/clog/clog.cpp.i
 .PHONY : storage/clog/clog.cpp.i
 
 storage/clog/clog.s: storage/clog/clog.cpp.s
@@ -2206,7 +2206,7 @@ storage/clog/clog.s: storage/clog/clog.cpp.s
 
 # target to generate assembly for a file
 storage/clog/clog.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/clog/clog.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/clog/clog.cpp.s
 .PHONY : storage/clog/clog.cpp.s
 
 storage/common/condition_filter.o: storage/common/condition_filter.cpp.o
@@ -2214,7 +2214,7 @@ storage/common/condition_filter.o: storage/common/condition_filter.cpp.o
 
 # target to build an object file
 storage/common/condition_filter.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/common/condition_filter.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/common/condition_filter.cpp.o
 .PHONY : storage/common/condition_filter.cpp.o
 
 storage/common/condition_filter.i: storage/common/condition_filter.cpp.i
@@ -2222,7 +2222,7 @@ storage/common/condition_filter.i: storage/common/condition_filter.cpp.i
 
 # target to preprocess a source file
 storage/common/condition_filter.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/common/condition_filter.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/common/condition_filter.cpp.i
 .PHONY : storage/common/condition_filter.cpp.i
 
 storage/common/condition_filter.s: storage/common/condition_filter.cpp.s
@@ -2230,7 +2230,7 @@ storage/common/condition_filter.s: storage/common/condition_filter.cpp.s
 
 # target to generate assembly for a file
 storage/common/condition_filter.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/common/condition_filter.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/common/condition_filter.cpp.s
 .PHONY : storage/common/condition_filter.cpp.s
 
 storage/common/meta_util.o: storage/common/meta_util.cpp.o
@@ -2238,7 +2238,7 @@ storage/common/meta_util.o: storage/common/meta_util.cpp.o
 
 # target to build an object file
 storage/common/meta_util.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/common/meta_util.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/common/meta_util.cpp.o
 .PHONY : storage/common/meta_util.cpp.o
 
 storage/common/meta_util.i: storage/common/meta_util.cpp.i
@@ -2246,7 +2246,7 @@ storage/common/meta_util.i: storage/common/meta_util.cpp.i
 
 # target to preprocess a source file
 storage/common/meta_util.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/common/meta_util.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/common/meta_util.cpp.i
 .PHONY : storage/common/meta_util.cpp.i
 
 storage/common/meta_util.s: storage/common/meta_util.cpp.s
@@ -2254,7 +2254,7 @@ storage/common/meta_util.s: storage/common/meta_util.cpp.s
 
 # target to generate assembly for a file
 storage/common/meta_util.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/common/meta_util.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/common/meta_util.cpp.s
 .PHONY : storage/common/meta_util.cpp.s
 
 storage/db/db.o: storage/db/db.cpp.o
@@ -2262,7 +2262,7 @@ storage/db/db.o: storage/db/db.cpp.o
 
 # target to build an object file
 storage/db/db.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/db/db.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/db/db.cpp.o
 .PHONY : storage/db/db.cpp.o
 
 storage/db/db.i: storage/db/db.cpp.i
@@ -2270,7 +2270,7 @@ storage/db/db.i: storage/db/db.cpp.i
 
 # target to preprocess a source file
 storage/db/db.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/db/db.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/db/db.cpp.i
 .PHONY : storage/db/db.cpp.i
 
 storage/db/db.s: storage/db/db.cpp.s
@@ -2278,7 +2278,7 @@ storage/db/db.s: storage/db/db.cpp.s
 
 # target to generate assembly for a file
 storage/db/db.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/db/db.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/db/db.cpp.s
 .PHONY : storage/db/db.cpp.s
 
 storage/default/default_handler.o: storage/default/default_handler.cpp.o
@@ -2286,7 +2286,7 @@ storage/default/default_handler.o: storage/default/default_handler.cpp.o
 
 # target to build an object file
 storage/default/default_handler.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/default/default_handler.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/default/default_handler.cpp.o
 .PHONY : storage/default/default_handler.cpp.o
 
 storage/default/default_handler.i: storage/default/default_handler.cpp.i
@@ -2294,7 +2294,7 @@ storage/default/default_handler.i: storage/default/default_handler.cpp.i
 
 # target to preprocess a source file
 storage/default/default_handler.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/default/default_handler.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/default/default_handler.cpp.i
 .PHONY : storage/default/default_handler.cpp.i
 
 storage/default/default_handler.s: storage/default/default_handler.cpp.s
@@ -2302,7 +2302,7 @@ storage/default/default_handler.s: storage/default/default_handler.cpp.s
 
 # target to generate assembly for a file
 storage/default/default_handler.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/default/default_handler.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/default/default_handler.cpp.s
 .PHONY : storage/default/default_handler.cpp.s
 
 storage/field/field.o: storage/field/field.cpp.o
@@ -2310,7 +2310,7 @@ storage/field/field.o: storage/field/field.cpp.o
 
 # target to build an object file
 storage/field/field.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/field/field.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/field/field.cpp.o
 .PHONY : storage/field/field.cpp.o
 
 storage/field/field.i: storage/field/field.cpp.i
@@ -2318,7 +2318,7 @@ storage/field/field.i: storage/field/field.cpp.i
 
 # target to preprocess a source file
 storage/field/field.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/field/field.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/field/field.cpp.i
 .PHONY : storage/field/field.cpp.i
 
 storage/field/field.s: storage/field/field.cpp.s
@@ -2326,7 +2326,7 @@ storage/field/field.s: storage/field/field.cpp.s
 
 # target to generate assembly for a file
 storage/field/field.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/field/field.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/field/field.cpp.s
 .PHONY : storage/field/field.cpp.s
 
 storage/field/field_meta.o: storage/field/field_meta.cpp.o
@@ -2334,7 +2334,7 @@ storage/field/field_meta.o: storage/field/field_meta.cpp.o
 
 # target to build an object file
 storage/field/field_meta.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/field/field_meta.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/field/field_meta.cpp.o
 .PHONY : storage/field/field_meta.cpp.o
 
 storage/field/field_meta.i: storage/field/field_meta.cpp.i
@@ -2342,7 +2342,7 @@ storage/field/field_meta.i: storage/field/field_meta.cpp.i
 
 # target to preprocess a source file
 storage/field/field_meta.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/field/field_meta.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/field/field_meta.cpp.i
 .PHONY : storage/field/field_meta.cpp.i
 
 storage/field/field_meta.s: storage/field/field_meta.cpp.s
@@ -2350,7 +2350,7 @@ storage/field/field_meta.s: storage/field/field_meta.cpp.s
 
 # target to generate assembly for a file
 storage/field/field_meta.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/field/field_meta.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/field/field_meta.cpp.s
 .PHONY : storage/field/field_meta.cpp.s
 
 storage/index/bplus_tree.o: storage/index/bplus_tree.cpp.o
@@ -2358,7 +2358,7 @@ storage/index/bplus_tree.o: storage/index/bplus_tree.cpp.o
 
 # target to build an object file
 storage/index/bplus_tree.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/bplus_tree.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/bplus_tree.cpp.o
 .PHONY : storage/index/bplus_tree.cpp.o
 
 storage/index/bplus_tree.i: storage/index/bplus_tree.cpp.i
@@ -2366,7 +2366,7 @@ storage/index/bplus_tree.i: storage/index/bplus_tree.cpp.i
 
 # target to preprocess a source file
 storage/index/bplus_tree.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/bplus_tree.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/bplus_tree.cpp.i
 .PHONY : storage/index/bplus_tree.cpp.i
 
 storage/index/bplus_tree.s: storage/index/bplus_tree.cpp.s
@@ -2374,7 +2374,7 @@ storage/index/bplus_tree.s: storage/index/bplus_tree.cpp.s
 
 # target to generate assembly for a file
 storage/index/bplus_tree.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/bplus_tree.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/bplus_tree.cpp.s
 .PHONY : storage/index/bplus_tree.cpp.s
 
 storage/index/bplus_tree_index.o: storage/index/bplus_tree_index.cpp.o
@@ -2382,7 +2382,7 @@ storage/index/bplus_tree_index.o: storage/index/bplus_tree_index.cpp.o
 
 # target to build an object file
 storage/index/bplus_tree_index.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/bplus_tree_index.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/bplus_tree_index.cpp.o
 .PHONY : storage/index/bplus_tree_index.cpp.o
 
 storage/index/bplus_tree_index.i: storage/index/bplus_tree_index.cpp.i
@@ -2390,7 +2390,7 @@ storage/index/bplus_tree_index.i: storage/index/bplus_tree_index.cpp.i
 
 # target to preprocess a source file
 storage/index/bplus_tree_index.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/bplus_tree_index.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/bplus_tree_index.cpp.i
 .PHONY : storage/index/bplus_tree_index.cpp.i
 
 storage/index/bplus_tree_index.s: storage/index/bplus_tree_index.cpp.s
@@ -2398,7 +2398,7 @@ storage/index/bplus_tree_index.s: storage/index/bplus_tree_index.cpp.s
 
 # target to generate assembly for a file
 storage/index/bplus_tree_index.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/bplus_tree_index.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/bplus_tree_index.cpp.s
 .PHONY : storage/index/bplus_tree_index.cpp.s
 
 storage/index/index.o: storage/index/index.cpp.o
@@ -2406,7 +2406,7 @@ storage/index/index.o: storage/index/index.cpp.o
 
 # target to build an object file
 storage/index/index.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/index.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/index.cpp.o
 .PHONY : storage/index/index.cpp.o
 
 storage/index/index.i: storage/index/index.cpp.i
@@ -2414,7 +2414,7 @@ storage/index/index.i: storage/index/index.cpp.i
 
 # target to preprocess a source file
 storage/index/index.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/index.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/index.cpp.i
 .PHONY : storage/index/index.cpp.i
 
 storage/index/index.s: storage/index/index.cpp.s
@@ -2422,7 +2422,7 @@ storage/index/index.s: storage/index/index.cpp.s
 
 # target to generate assembly for a file
 storage/index/index.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/index.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/index.cpp.s
 .PHONY : storage/index/index.cpp.s
 
 storage/index/index_meta.o: storage/index/index_meta.cpp.o
@@ -2430,7 +2430,7 @@ storage/index/index_meta.o: storage/index/index_meta.cpp.o
 
 # target to build an object file
 storage/index/index_meta.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/index_meta.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/index_meta.cpp.o
 .PHONY : storage/index/index_meta.cpp.o
 
 storage/index/index_meta.i: storage/index/index_meta.cpp.i
@@ -2438,7 +2438,7 @@ storage/index/index_meta.i: storage/index/index_meta.cpp.i
 
 # target to preprocess a source file
 storage/index/index_meta.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/index_meta.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/index_meta.cpp.i
 .PHONY : storage/index/index_meta.cpp.i
 
 storage/index/index_meta.s: storage/index/index_meta.cpp.s
@@ -2446,7 +2446,7 @@ storage/index/index_meta.s: storage/index/index_meta.cpp.s
 
 # target to generate assembly for a file
 storage/index/index_meta.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/index_meta.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/index/index_meta.cpp.s
 .PHONY : storage/index/index_meta.cpp.s
 
 storage/persist/persist.o: storage/persist/persist.cpp.o
@@ -2454,7 +2454,7 @@ storage/persist/persist.o: storage/persist/persist.cpp.o
 
 # target to build an object file
 storage/persist/persist.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/persist/persist.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/persist/persist.cpp.o
 .PHONY : storage/persist/persist.cpp.o
 
 storage/persist/persist.i: storage/persist/persist.cpp.i
@@ -2462,7 +2462,7 @@ storage/persist/persist.i: storage/persist/persist.cpp.i
 
 # target to preprocess a source file
 storage/persist/persist.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/persist/persist.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/persist/persist.cpp.i
 .PHONY : storage/persist/persist.cpp.i
 
 storage/persist/persist.s: storage/persist/persist.cpp.s
@@ -2470,7 +2470,7 @@ storage/persist/persist.s: storage/persist/persist.cpp.s
 
 # target to generate assembly for a file
 storage/persist/persist.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/persist/persist.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/persist/persist.cpp.s
 .PHONY : storage/persist/persist.cpp.s
 
 storage/record/record_manager.o: storage/record/record_manager.cpp.o
@@ -2478,7 +2478,7 @@ storage/record/record_manager.o: storage/record/record_manager.cpp.o
 
 # target to build an object file
 storage/record/record_manager.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/record/record_manager.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/record/record_manager.cpp.o
 .PHONY : storage/record/record_manager.cpp.o
 
 storage/record/record_manager.i: storage/record/record_manager.cpp.i
@@ -2486,7 +2486,7 @@ storage/record/record_manager.i: storage/record/record_manager.cpp.i
 
 # target to preprocess a source file
 storage/record/record_manager.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/record/record_manager.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/record/record_manager.cpp.i
 .PHONY : storage/record/record_manager.cpp.i
 
 storage/record/record_manager.s: storage/record/record_manager.cpp.s
@@ -2494,7 +2494,7 @@ storage/record/record_manager.s: storage/record/record_manager.cpp.s
 
 # target to generate assembly for a file
 storage/record/record_manager.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/record/record_manager.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/record/record_manager.cpp.s
 .PHONY : storage/record/record_manager.cpp.s
 
 storage/table/table.o: storage/table/table.cpp.o
@@ -2502,7 +2502,7 @@ storage/table/table.o: storage/table/table.cpp.o
 
 # target to build an object file
 storage/table/table.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/table/table.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/table/table.cpp.o
 .PHONY : storage/table/table.cpp.o
 
 storage/table/table.i: storage/table/table.cpp.i
@@ -2510,7 +2510,7 @@ storage/table/table.i: storage/table/table.cpp.i
 
 # target to preprocess a source file
 storage/table/table.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/table/table.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/table/table.cpp.i
 .PHONY : storage/table/table.cpp.i
 
 storage/table/table.s: storage/table/table.cpp.s
@@ -2518,7 +2518,7 @@ storage/table/table.s: storage/table/table.cpp.s
 
 # target to generate assembly for a file
 storage/table/table.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/table/table.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/table/table.cpp.s
 .PHONY : storage/table/table.cpp.s
 
 storage/table/table_meta.o: storage/table/table_meta.cpp.o
@@ -2526,7 +2526,7 @@ storage/table/table_meta.o: storage/table/table_meta.cpp.o
 
 # target to build an object file
 storage/table/table_meta.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/table/table_meta.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/table/table_meta.cpp.o
 .PHONY : storage/table/table_meta.cpp.o
 
 storage/table/table_meta.i: storage/table/table_meta.cpp.i
@@ -2534,7 +2534,7 @@ storage/table/table_meta.i: storage/table/table_meta.cpp.i
 
 # target to preprocess a source file
 storage/table/table_meta.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/table/table_meta.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/table/table_meta.cpp.i
 .PHONY : storage/table/table_meta.cpp.i
 
 storage/table/table_meta.s: storage/table/table_meta.cpp.s
@@ -2542,7 +2542,7 @@ storage/table/table_meta.s: storage/table/table_meta.cpp.s
 
 # target to generate assembly for a file
 storage/table/table_meta.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/table/table_meta.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/table/table_meta.cpp.s
 .PHONY : storage/table/table_meta.cpp.s
 
 storage/trx/latch_memo.o: storage/trx/latch_memo.cpp.o
@@ -2550,7 +2550,7 @@ storage/trx/latch_memo.o: storage/trx/latch_memo.cpp.o
 
 # target to build an object file
 storage/trx/latch_memo.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/latch_memo.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/latch_memo.cpp.o
 .PHONY : storage/trx/latch_memo.cpp.o
 
 storage/trx/latch_memo.i: storage/trx/latch_memo.cpp.i
@@ -2558,7 +2558,7 @@ storage/trx/latch_memo.i: storage/trx/latch_memo.cpp.i
 
 # target to preprocess a source file
 storage/trx/latch_memo.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/latch_memo.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/latch_memo.cpp.i
 .PHONY : storage/trx/latch_memo.cpp.i
 
 storage/trx/latch_memo.s: storage/trx/latch_memo.cpp.s
@@ -2566,7 +2566,7 @@ storage/trx/latch_memo.s: storage/trx/latch_memo.cpp.s
 
 # target to generate assembly for a file
 storage/trx/latch_memo.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/latch_memo.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/latch_memo.cpp.s
 .PHONY : storage/trx/latch_memo.cpp.s
 
 storage/trx/mvcc_trx.o: storage/trx/mvcc_trx.cpp.o
@@ -2574,7 +2574,7 @@ storage/trx/mvcc_trx.o: storage/trx/mvcc_trx.cpp.o
 
 # target to build an object file
 storage/trx/mvcc_trx.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/mvcc_trx.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/mvcc_trx.cpp.o
 .PHONY : storage/trx/mvcc_trx.cpp.o
 
 storage/trx/mvcc_trx.i: storage/trx/mvcc_trx.cpp.i
@@ -2582,7 +2582,7 @@ storage/trx/mvcc_trx.i: storage/trx/mvcc_trx.cpp.i
 
 # target to preprocess a source file
 storage/trx/mvcc_trx.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/mvcc_trx.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/mvcc_trx.cpp.i
 .PHONY : storage/trx/mvcc_trx.cpp.i
 
 storage/trx/mvcc_trx.s: storage/trx/mvcc_trx.cpp.s
@@ -2590,7 +2590,7 @@ storage/trx/mvcc_trx.s: storage/trx/mvcc_trx.cpp.s
 
 # target to generate assembly for a file
 storage/trx/mvcc_trx.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/mvcc_trx.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/mvcc_trx.cpp.s
 .PHONY : storage/trx/mvcc_trx.cpp.s
 
 storage/trx/trx.o: storage/trx/trx.cpp.o
@@ -2598,7 +2598,7 @@ storage/trx/trx.o: storage/trx/trx.cpp.o
 
 # target to build an object file
 storage/trx/trx.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/trx.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/trx.cpp.o
 .PHONY : storage/trx/trx.cpp.o
 
 storage/trx/trx.i: storage/trx/trx.cpp.i
@@ -2606,7 +2606,7 @@ storage/trx/trx.i: storage/trx/trx.cpp.i
 
 # target to preprocess a source file
 storage/trx/trx.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/trx.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/trx.cpp.i
 .PHONY : storage/trx/trx.cpp.i
 
 storage/trx/trx.s: storage/trx/trx.cpp.s
@@ -2614,7 +2614,7 @@ storage/trx/trx.s: storage/trx/trx.cpp.s
 
 # target to generate assembly for a file
 storage/trx/trx.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/trx.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/trx.cpp.s
 .PHONY : storage/trx/trx.cpp.s
 
 storage/trx/vacuous_trx.o: storage/trx/vacuous_trx.cpp.o
@@ -2622,7 +2622,7 @@ storage/trx/vacuous_trx.o: storage/trx/vacuous_trx.cpp.o
 
 # target to build an object file
 storage/trx/vacuous_trx.cpp.o:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/vacuous_trx.cpp.o
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/vacuous_trx.cpp.o
 .PHONY : storage/trx/vacuous_trx.cpp.o
 
 storage/trx/vacuous_trx.i: storage/trx/vacuous_trx.cpp.i
@@ -2630,7 +2630,7 @@ storage/trx/vacuous_trx.i: storage/trx/vacuous_trx.cpp.i
 
 # target to preprocess a source file
 storage/trx/vacuous_trx.cpp.i:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/vacuous_trx.cpp.i
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/vacuous_trx.cpp.i
 .PHONY : storage/trx/vacuous_trx.cpp.i
 
 storage/trx/vacuous_trx.s: storage/trx/vacuous_trx.cpp.s
@@ -2638,7 +2638,7 @@ storage/trx/vacuous_trx.s: storage/trx/vacuous_trx.cpp.s
 
 # target to generate assembly for a file
 storage/trx/vacuous_trx.cpp.s:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/vacuous_trx.cpp.s
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f src/observer/CMakeFiles/observer_static.dir/build.make src/observer/CMakeFiles/observer_static.dir/storage/trx/vacuous_trx.cpp.s
 .PHONY : storage/trx/vacuous_trx.cpp.s
 
 # Help Target
@@ -2973,6 +2973,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/miniob2/miniob/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

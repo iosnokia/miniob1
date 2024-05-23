@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/miniob2/Miniob-Solution-2023-main
+CMAKE_SOURCE_DIR = /root/miniob2/miniob
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/miniob2/Miniob-Solution-2023-main/build_debug
+CMAKE_BINARY_DIR = /root/miniob2/miniob/build_debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(CMAKE_COMMAND) -E cmake_progress_start /root/miniob2/Miniob-Solution-2023-main/build_debug/CMakeFiles /root/miniob2/Miniob-Solution-2023-main/build_debug/deps//CMakeFiles/progress.marks
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/miniob2/Miniob-Solution-2023-main/build_debug/CMakeFiles 0
+	cd /root/miniob2/miniob/build_debug && $(CMAKE_COMMAND) -E cmake_progress_start /root/miniob2/miniob/build_debug/CMakeFiles /root/miniob2/miniob/build_debug/deps//CMakeFiles/progress.marks
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/miniob2/miniob/build_debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/clean
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,17 +158,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/preinstall
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/preinstall
+	cd /root/miniob2/miniob/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/miniob2/miniob/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -195,6 +195,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/miniob2/miniob/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

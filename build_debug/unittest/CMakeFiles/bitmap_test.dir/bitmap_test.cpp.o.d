@@ -1,6 +1,6 @@
 unittest/CMakeFiles/bitmap_test.dir/bitmap_test.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/unittest/bitmap_test.cpp \
- /usr/include/stdc-predef.h /usr/include/string.h \
+ /root/miniob2/miniob/unittest/bitmap_test.cpp /usr/include/stdc-predef.h \
+ /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -299,4 +299,4 @@ unittest/CMakeFiles/bitmap_test.dir/bitmap_test.cpp.o: \
  /usr/local/include/gtest/gtest-typed-test.h \
  /usr/local/include/gtest/gtest_pred_impl.h \
  /usr/local/include/gtest/gtest_prod.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/bitmap.h
+ /root/miniob2/miniob/deps/common/lang/bitmap.h

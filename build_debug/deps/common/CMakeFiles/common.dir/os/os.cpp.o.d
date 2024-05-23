@@ -1,8 +1,7 @@
 deps/common/CMakeFiles/common.dir/os/os.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/os.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/11/thread \
- /usr/include/c++/11/compare /usr/include/c++/11/concepts \
- /usr/include/c++/11/type_traits \
+ /root/miniob2/miniob/deps/common/os/os.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/11/thread /usr/include/c++/11/compare \
+ /usr/include/c++/11/concepts /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -189,9 +188,9 @@ deps/common/CMakeFiles/common.dir/os/os.cpp.o: \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/semaphore.h \
  /usr/include/x86_64-linux-gnu/bits/semaphore.h /usr/include/execinfo.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/fstream /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/bits/codecvt.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/fstream \
+ /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc \
+ /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/iostream \
@@ -211,10 +210,10 @@ deps/common/CMakeFiles/common.dir/os/os.cpp.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/os.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
- /usr/include/assert.h /usr/include/string.h /usr/include/strings.h \
- /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
+ /root/miniob2/miniob/deps/common/os/os.h \
+ /root/miniob2/miniob/deps/common/log/log.h /usr/include/assert.h \
+ /usr/include/string.h /usr/include/strings.h /usr/include/c++/11/map \
+ /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \

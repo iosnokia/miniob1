@@ -1,5 +1,5 @@
 unittest/CMakeFiles/lower_bound_test.dir/lower_bound_test.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/unittest/lower_bound_test.cpp \
+ /root/miniob2/miniob/unittest/lower_bound_test.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/vector \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -300,4 +300,4 @@ unittest/CMakeFiles/lower_bound_test.dir/lower_bound_test.cpp.o: \
  /usr/local/include/gtest/gtest-typed-test.h \
  /usr/local/include/gtest/gtest_pred_impl.h \
  /usr/local/include/gtest/gtest_prod.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/lower_bound.h
+ /root/miniob2/miniob/deps/common/lang/lower_bound.h

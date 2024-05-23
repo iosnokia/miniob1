@@ -1,7 +1,7 @@
 deps/common/CMakeFiles/common.dir/time/datetime.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/time/datetime.cpp \
+ /root/miniob2/miniob/deps/common/time/datetime.cpp \
  /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/time/datetime.h \
+ /root/miniob2/miniob/deps/common/time/datetime.h \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -193,8 +193,7 @@ deps/common/CMakeFiles/common.dir/time/datetime.cpp.o: \
  /usr/include/c++/11/bits/quoted_string.h /usr/include/c++/11/sstream \
  /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/iostream \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/fstream \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/memory \

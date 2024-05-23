@@ -1,7 +1,7 @@
 src/observer/CMakeFiles/observer_static.dir/storage/buffer/frame.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/frame.cpp \
+ /root/miniob2/miniob/src/observer/storage/buffer/frame.cpp \
  /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/frame.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/frame.h \
  /usr/include/pthread.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h \
@@ -35,10 +35,10 @@ src/observer/CMakeFiles/observer_static.dir/storage/buffer/frame.cpp.o: \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/atomic \
  /usr/include/c++/11/bits/atomic_base.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/page.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/page.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/types.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /root/miniob2/miniob/src/observer/common/types.h \
+ /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -59,10 +59,10 @@ src/observer/CMakeFiles/observer_static.dir/storage/buffer/frame.cpp.o: \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/functexcept.h \
  /usr/include/c++/11/bits/stl_multimap.h /usr/include/c++/11/functional \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/memory /usr/include/x86_64-linux-gnu/sys/syscall.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/memory \
+ /usr/include/x86_64-linux-gnu/sys/syscall.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/unistd.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/mutex.h \
+ /root/miniob2/miniob/deps/common/lang/mutex.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/condition_variable \
  /usr/include/c++/11/bits/alloc_traits.h \
  /usr/include/c++/11/bits/shared_ptr.h /usr/include/c++/11/stop_token \
@@ -81,5 +81,5 @@ src/observer/CMakeFiles/observer_static.dir/storage/buffer/frame.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
  /usr/include/c++/11/shared_mutex /usr/include/c++/11/thread \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/session/thread_data.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/session/session.h
+ /root/miniob2/miniob/src/observer/session/thread_data.h \
+ /root/miniob2/miniob/src/observer/session/session.h

@@ -1,15 +1,15 @@
 src/observer/CMakeFiles/observer_static.dir/sql/plan_cache/plan_cache_stage.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/plan_cache/plan_cache_stage.cpp \
+ /root/miniob2/miniob/src/observer/sql/plan_cache/plan_cache_stage.cpp \
  /usr/include/stdc-predef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/strings.h /usr/include/c++/11/string \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/plan_cache/plan_cache_stage.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/rc.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/conf/ini.h \
- /usr/include/stdio.h /usr/include/c++/11/iostream \
+ /root/miniob2/miniob/src/observer/sql/plan_cache/plan_cache_stage.h \
+ /root/miniob2/miniob/src/observer/common/rc.h \
+ /root/miniob2/miniob/deps/common/conf/ini.h /usr/include/stdio.h \
+ /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/c++/11/ostream /usr/include/c++/11/istream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/istream.tcc \
@@ -31,11 +31,9 @@ src/observer/CMakeFiles/observer_static.dir/sql/plan_cache/plan_cache_stage.cpp.
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/io/io.h \
- /usr/include/c++/11/vector \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/errno.h /usr/include/c++/11/fstream \
- /usr/include/c++/11/bits/codecvt.h \
+ /root/miniob2/miniob/deps/common/io/io.h /usr/include/c++/11/vector \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/errno.h \
+ /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/c++/11/bits/locale_classes.h /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
@@ -44,7 +42,7 @@ src/observer/CMakeFiles/observer_static.dir/sql/plan_cache/plan_cache_stage.cpp.
  /usr/include/c++/11/cerrno /usr/include/c++/11/memory \
  /usr/include/x86_64-linux-gnu/sys/syscall.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/unistd.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/string.h \
+ /root/miniob2/miniob/deps/common/lang/string.h \
  /usr/include/c++/11/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
@@ -79,7 +77,7 @@ src/observer/CMakeFiles/observer_static.dir/sql/plan_cache/plan_cache_stage.cpp.
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/alloc_traits.h \
  /usr/include/c++/11/bits/sstream.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \

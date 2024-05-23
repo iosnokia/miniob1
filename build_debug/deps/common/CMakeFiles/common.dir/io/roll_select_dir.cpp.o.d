@@ -1,7 +1,7 @@
 deps/common/CMakeFiles/common.dir/io/roll_select_dir.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/io/roll_select_dir.cpp \
+ /root/miniob2/miniob/deps/common/io/roll_select_dir.cpp \
  /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/io/roll_select_dir.h \
+ /root/miniob2/miniob/deps/common/io/roll_select_dir.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -154,10 +154,9 @@ deps/common/CMakeFiles/common.dir/io/roll_select_dir.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/fstream /usr/include/c++/11/istream \
- /usr/include/c++/11/ios /usr/include/c++/11/exception \
- /usr/include/c++/11/bits/exception_ptr.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/fstream \
+ /usr/include/c++/11/istream /usr/include/c++/11/ios \
+ /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
  /usr/include/c++/11/bits/ios_base.h \
@@ -219,10 +218,10 @@ deps/common/CMakeFiles/common.dir/io/roll_select_dir.cpp.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/io/select_dir.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/mutex.h \
- /usr/include/string.h /usr/include/strings.h \
- /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
+ /root/miniob2/miniob/deps/common/io/select_dir.h \
+ /root/miniob2/miniob/deps/common/lang/mutex.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/c++/11/unordered_map \
+ /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/unordered_map.h \
@@ -238,10 +237,9 @@ deps/common/CMakeFiles/common.dir/io/roll_select_dir.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/semaphore.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
  /usr/include/c++/11/mutex /usr/include/c++/11/shared_mutex \
- /usr/include/c++/11/thread \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /usr/include/c++/11/thread /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/assert.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/functional \
  /usr/include/c++/11/bits/std_function.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/io/io.h
+ /root/miniob2/miniob/deps/common/io/io.h

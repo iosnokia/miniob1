@@ -1,9 +1,9 @@
 deps/common/CMakeFiles/common.dir/seda/metrics_stage.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/metrics_stage.cpp \
+ /root/miniob2/miniob/deps/common/seda/metrics_stage.cpp \
  /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/metrics_stage.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/stage.h \
- /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_algobase.h \
+ /root/miniob2/miniob/deps/common/seda/metrics_stage.h \
+ /root/miniob2/miniob/deps/common/seda/stage.h /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -90,9 +90,9 @@ deps/common/CMakeFiles/common.dir/seda/metrics_stage.cpp.o: \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/list.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/istream \
@@ -211,7 +211,7 @@ deps/common/CMakeFiles/common.dir/seda/metrics_stage.cpp.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/assert.h \
  /usr/include/string.h /usr/include/strings.h /usr/include/c++/11/map \
  /usr/include/c++/11/bits/stl_tree.h \
@@ -229,10 +229,10 @@ deps/common/CMakeFiles/common.dir/seda/metrics_stage.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/stage_event.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/conf/ini.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/io/io.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/string.h \
+ /root/miniob2/miniob/deps/common/seda/stage_event.h \
+ /root/miniob2/miniob/deps/common/conf/ini.h \
+ /root/miniob2/miniob/deps/common/io/io.h \
+ /root/miniob2/miniob/deps/common/lang/string.h \
  /usr/include/c++/11/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/c++/11/stdlib.h /usr/include/signal.h \
@@ -258,14 +258,14 @@ deps/common/CMakeFiles/common.dir/seda/metrics_stage.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/metrics/metrics_registry.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/metrics/metric.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/metrics/snapshot.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/metrics/reporter.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/metrics_report_event.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/timer_stage.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/callback.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/time/datetime.h \
+ /root/miniob2/miniob/deps/common/metrics/metrics_registry.h \
+ /root/miniob2/miniob/deps/common/metrics/metric.h \
+ /root/miniob2/miniob/deps/common/metrics/snapshot.h \
+ /root/miniob2/miniob/deps/common/metrics/reporter.h \
+ /root/miniob2/miniob/deps/common/seda/metrics_report_event.h \
+ /root/miniob2/miniob/deps/common/seda/timer_stage.h \
+ /root/miniob2/miniob/deps/common/seda/callback.h \
+ /root/miniob2/miniob/deps/common/time/datetime.h \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -296,4 +296,4 @@ deps/common/CMakeFiles/common.dir/seda/metrics_stage.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/quoted_string.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/seda_defs.h
+ /root/miniob2/miniob/deps/common/seda/seda_defs.h

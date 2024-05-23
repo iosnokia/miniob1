@@ -1,7 +1,7 @@
 deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/metrics/histogram_snapshot.cpp \
+ /root/miniob2/miniob/deps/common/metrics/histogram_snapshot.cpp \
  /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/metrics/histogram_snapshot.h \
+ /root/miniob2/miniob/deps/common/metrics/histogram_snapshot.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -142,8 +142,8 @@ deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/metrics/snapshot.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/string.h \
+ /root/miniob2/miniob/deps/common/metrics/snapshot.h \
+ /root/miniob2/miniob/deps/common/lang/string.h \
  /usr/include/c++/11/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
@@ -205,8 +205,8 @@ deps/common/CMakeFiles/common.dir/metrics/histogram_snapshot.cpp.o: \
  /usr/include/c++/11/bits/stl_multiset.h \
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/sstream \
  /usr/include/c++/11/bits/sstream.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/fstream \
+ /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/memory \

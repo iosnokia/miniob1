@@ -1,5 +1,5 @@
 unittest/CMakeFiles/arithmetic_expression_test.dir/arithmetic_expression_test.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/unittest/arithmetic_expression_test.cpp \
+ /root/miniob2/miniob/unittest/arithmetic_expression_test.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -199,9 +199,9 @@ unittest/CMakeFiles/arithmetic_expression_test.dir/arithmetic_expression_test.cp
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/expr/expression.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/pch.h \
- /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
+ /root/miniob2/miniob/src/observer/sql/expr/expression.h \
+ /root/miniob2/miniob/src/observer/pch.h /usr/include/c++/11/vector \
+ /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/algorithm \
  /usr/include/c++/11/bits/ranges_algo.h \
@@ -218,14 +218,14 @@ unittest/CMakeFiles/arithmetic_expression_test.dir/arithmetic_expression_test.cp
  /usr/include/c++/11/queue /usr/include/c++/11/bits/stl_queue.h \
  /usr/include/string.h /usr/include/strings.h /usr/include/c++/11/list \
  /usr/include/c++/11/bits/stl_list.h /usr/include/c++/11/bits/list.tcc \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/field/field.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/table/table.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/table/table_meta.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/rc.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/field/field_meta.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/parse_defs.h \
+ /root/miniob2/miniob/src/observer/storage/field/field.h \
+ /root/miniob2/miniob/src/observer/storage/table/table.h \
+ /root/miniob2/miniob/src/observer/storage/table/table_meta.h \
+ /root/miniob2/miniob/src/observer/common/rc.h \
+ /root/miniob2/miniob/src/observer/storage/field/field_meta.h \
+ /root/miniob2/miniob/src/observer/sql/parser/parse_defs.h \
  /usr/include/c++/11/cstddef \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/value.h \
+ /root/miniob2/miniob/src/observer/sql/parser/value.h \
  /usr/include/c++/11/span /usr/include/c++/11/complex \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -252,7 +252,7 @@ unittest/CMakeFiles/arithmetic_expression_test.dir/arithmetic_expression_test.cp
  /usr/include/c++/11/tr1/riemann_zeta.tcc /usr/include/c++/11/sstream \
  /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/date.h \
+ /root/miniob2/miniob/src/observer/sql/parser/date.h \
  /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
@@ -261,13 +261,13 @@ unittest/CMakeFiles/arithmetic_expression_test.dir/arithmetic_expression_test.cp
  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/quoted_string.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/page.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/types.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/index/index_meta.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/serializable.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/page.h \
+ /root/miniob2/miniob/src/observer/common/types.h \
+ /root/miniob2/miniob/src/observer/storage/index/index_meta.h \
+ /root/miniob2/miniob/deps/common/lang/serializable.h \
  /usr/include/c++/11/unordered_set \
  /usr/include/c++/11/bits/unordered_set.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/assert.h \
  /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
@@ -278,8 +278,7 @@ unittest/CMakeFiles/arithmetic_expression_test.dir/arithmetic_expression_test.cp
  /usr/include/c++/11/bits/stl_multimap.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/local/include/gtest/gtest.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/local/include/gtest/gtest.h \
  /usr/local/include/gtest/gtest-assertion-result.h \
  /usr/local/include/gtest/gtest-message.h \
  /usr/local/include/gtest/internal/gtest-port.h \

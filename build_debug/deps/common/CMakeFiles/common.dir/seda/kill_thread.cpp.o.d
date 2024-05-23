@@ -1,7 +1,7 @@
 deps/common/CMakeFiles/common.dir/seda/kill_thread.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/kill_thread.cpp \
+ /root/miniob2/miniob/deps/common/seda/kill_thread.cpp \
  /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/kill_thread.h \
+ /root/miniob2/miniob/deps/common/seda/kill_thread.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -45,9 +45,9 @@ deps/common/CMakeFiles/common.dir/seda/kill_thread.cpp.o: \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/list.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/istream \
@@ -205,10 +205,9 @@ deps/common/CMakeFiles/common.dir/seda/kill_thread.cpp.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/stage.h \
- /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
- /usr/include/c++/11/bits/deque.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /root/miniob2/miniob/deps/common/seda/stage.h /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
+ /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/assert.h \
  /usr/include/string.h /usr/include/strings.h /usr/include/c++/11/map \
  /usr/include/c++/11/bits/stl_tree.h \
@@ -226,5 +225,5 @@ deps/common/CMakeFiles/common.dir/seda/kill_thread.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/stage_event.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/thread_pool.h
+ /root/miniob2/miniob/deps/common/seda/stage_event.h \
+ /root/miniob2/miniob/deps/common/seda/thread_pool.h

@@ -1,6 +1,6 @@
 unittest/CMakeFiles/clog_test.dir/clog_test.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/unittest/clog_test.cpp \
- /usr/include/stdc-predef.h /usr/include/string.h \
+ /root/miniob2/miniob/unittest/clog_test.cpp /usr/include/stdc-predef.h \
+ /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -12,8 +12,7 @@ unittest/CMakeFiles/clog_test.dir/clog_test.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /usr/include/strings.h /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
@@ -184,8 +183,7 @@ unittest/CMakeFiles/clog_test.dir/clog_test.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/memory \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
  /usr/include/c++/11/bits/unique_ptr.h \
@@ -224,25 +222,25 @@ unittest/CMakeFiles/clog_test.dir/clog_test.cpp.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/clog/clog.h \
+ /root/miniob2/miniob/src/observer/storage/clog/clog.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/list.tcc /usr/include/c++/11/atomic \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/record/record.h \
+ /root/miniob2/miniob/src/observer/storage/record/record.h \
  /usr/include/c++/11/limits /usr/include/c++/11/sstream \
  /usr/include/c++/11/bits/sstream.tcc \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/rc.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/types.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/index/index_meta.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/field/field_meta.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/parse_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/pch.h \
- /usr/include/c++/11/algorithm /usr/include/c++/11/bits/ranges_algo.h \
+ /root/miniob2/miniob/src/observer/common/rc.h \
+ /root/miniob2/miniob/src/observer/common/types.h \
+ /root/miniob2/miniob/src/observer/storage/index/index_meta.h \
+ /root/miniob2/miniob/src/observer/storage/field/field_meta.h \
+ /root/miniob2/miniob/src/observer/sql/parser/parse_defs.h \
+ /root/miniob2/miniob/src/observer/pch.h /usr/include/c++/11/algorithm \
+ /usr/include/c++/11/bits/ranges_algo.h \
  /usr/include/c++/11/bits/ranges_util.h \
  /usr/include/c++/11/pstl/glue_algorithm_defs.h /usr/include/c++/11/queue \
  /usr/include/c++/11/bits/stl_queue.h /usr/include/c++/11/cstddef \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/value.h \
+ /root/miniob2/miniob/src/observer/sql/parser/value.h \
  /usr/include/c++/11/span /usr/include/c++/11/complex \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -266,7 +264,7 @@ unittest/CMakeFiles/clog_test.dir/clog_test.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/date.h \
+ /root/miniob2/miniob/src/observer/sql/parser/date.h \
  /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
@@ -274,8 +272,8 @@ unittest/CMakeFiles/clog_test.dir/clog_test.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/quoted_string.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/page.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/persist/persist.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/page.h \
+ /root/miniob2/miniob/src/observer/storage/persist/persist.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
@@ -295,7 +293,7 @@ unittest/CMakeFiles/clog_test.dir/clog_test.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/linux/falloc.h /usr/include/c++/11/stdlib.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/mutex.h \
+ /root/miniob2/miniob/deps/common/lang/mutex.h \
  /usr/include/c++/11/condition_variable /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/unique_lock.h /usr/include/c++/11/stop_token \

@@ -1,10 +1,9 @@
 deps/common/CMakeFiles/common.dir/seda/metrics_report_event.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/metrics_report_event.cpp \
+ /root/miniob2/miniob/deps/common/seda/metrics_report_event.cpp \
  /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/metrics_report_event.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/stage_event.h \
- /usr/include/time.h /usr/include/features.h \
- /usr/include/features-time64.h \
+ /root/miniob2/miniob/deps/common/seda/metrics_report_event.h \
+ /root/miniob2/miniob/deps/common/seda/stage_event.h /usr/include/time.h \
+ /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -154,10 +153,9 @@ deps/common/CMakeFiles/common.dir/seda/metrics_report_event.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/fstream /usr/include/c++/11/istream \
- /usr/include/c++/11/ios /usr/include/c++/11/exception \
- /usr/include/c++/11/bits/exception_ptr.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/fstream \
+ /usr/include/c++/11/istream /usr/include/c++/11/ios \
+ /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
  /usr/include/c++/11/bits/ios_base.h \

@@ -1,5 +1,5 @@
 unittest/CMakeFiles/pidfile_test.dir/pidfile_test.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/unittest/pidfile_test.cpp \
+ /root/miniob2/miniob/unittest/pidfile_test.cpp \
  /usr/include/stdc-predef.h /usr/include/unistd.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -299,11 +299,10 @@ unittest/CMakeFiles/pidfile_test.dir/pidfile_test.cpp.o: \
  /usr/local/include/gtest/gtest-typed-test.h \
  /usr/local/include/gtest/gtest_pred_impl.h \
  /usr/local/include/gtest/gtest_prod.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/pidfile.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/io/io.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/fstream \
+ /root/miniob2/miniob/deps/common/os/pidfile.h \
+ /root/miniob2/miniob/deps/common/io/io.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/string.h
+ /root/miniob2/miniob/deps/common/lang/string.h

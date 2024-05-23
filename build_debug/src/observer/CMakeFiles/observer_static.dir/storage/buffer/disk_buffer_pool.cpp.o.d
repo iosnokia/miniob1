@@ -1,12 +1,12 @@
 src/observer/CMakeFiles/observer_static.dir/storage/buffer/disk_buffer_pool.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/disk_buffer_pool.cpp \
+ /root/miniob2/miniob/src/observer/storage/buffer/disk_buffer_pool.cpp \
  /usr/include/stdc-predef.h /usr/include/errno.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/strings.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/disk_buffer_pool.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/disk_buffer_pool.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -43,10 +43,10 @@ src/observer/CMakeFiles/observer_static.dir/storage/buffer/disk_buffer_pool.cpp.
  /usr/include/c++/11/bits/unique_lock.h /usr/include/c++/11/bits/move.h \
  /usr/include/c++/11/ext/atomicity.h /usr/include/c++/11/unordered_map \
  /usr/include/c++/11/functional \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/rc.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/types.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/mutex.h \
- /usr/include/pthread.h /usr/include/c++/11/condition_variable \
+ /root/miniob2/miniob/src/observer/common/rc.h \
+ /root/miniob2/miniob/src/observer/common/types.h \
+ /root/miniob2/miniob/deps/common/lang/mutex.h /usr/include/pthread.h \
+ /usr/include/c++/11/condition_variable \
  /usr/include/c++/11/bits/alloc_traits.h \
  /usr/include/c++/11/bits/shared_ptr.h \
  /usr/include/c++/11/bits/cxxabi_forced.h /usr/include/c++/11/stop_token \
@@ -84,8 +84,7 @@ src/observer/CMakeFiles/observer_static.dir/storage/buffer/disk_buffer_pool.cpp.
  /usr/include/c++/11/istream /usr/include/c++/11/ios \
  /usr/include/c++/11/ostream /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/shared_mutex \
- /usr/include/c++/11/thread \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /usr/include/c++/11/thread /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/assert.h /usr/include/c++/11/fstream \
  /usr/include/c++/11/bits/codecvt.h \
  /usr/include/c++/11/bits/locale_classes.h /usr/include/c++/11/cstdio \
@@ -94,22 +93,19 @@ src/observer/CMakeFiles/observer_static.dir/storage/buffer/disk_buffer_pool.cpp.
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/iostream \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/memory /usr/include/x86_64-linux-gnu/sys/syscall.h \
- /usr/include/unistd.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/mm/mem_pool.h \
- /usr/include/c++/11/queue /usr/include/c++/11/list \
- /usr/include/c++/11/bits/stl_list.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/memory \
+ /usr/include/x86_64-linux-gnu/sys/syscall.h /usr/include/unistd.h \
+ /root/miniob2/miniob/deps/common/mm/mem_pool.h /usr/include/c++/11/queue \
+ /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/bits/list.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/os.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/lru_cache.h \
+ /root/miniob2/miniob/deps/common/os/os.h \
+ /root/miniob2/miniob/deps/common/lang/lru_cache.h \
  /usr/include/c++/11/unordered_set /usr/include/c++/11/bits/stl_pair.h \
  /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/unordered_set.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/bitmap.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/page.h \
+ /root/miniob2/miniob/deps/common/lang/bitmap.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/page.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/frame.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/io/io.h \
- /usr/include/c++/11/vector
+ /root/miniob2/miniob/src/observer/storage/buffer/frame.h \
+ /root/miniob2/miniob/deps/common/io/io.h /usr/include/c++/11/vector

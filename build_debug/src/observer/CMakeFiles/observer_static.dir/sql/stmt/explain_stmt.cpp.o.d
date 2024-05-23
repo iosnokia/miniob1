@@ -1,18 +1,17 @@
 src/observer/CMakeFiles/observer_static.dir/sql/stmt/explain_stmt.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/stmt/explain_stmt.cpp \
+ /root/miniob2/miniob/src/observer/sql/stmt/explain_stmt.cpp \
  /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/stmt/explain_stmt.h \
+ /root/miniob2/miniob/src/observer/sql/stmt/explain_stmt.h \
  /usr/include/c++/11/memory \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/stmt/stmt.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/rc.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/parse_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/pch.h \
- /usr/include/c++/11/cstddef \
+ /root/miniob2/miniob/src/observer/sql/stmt/stmt.h \
+ /root/miniob2/miniob/src/observer/common/rc.h \
+ /root/miniob2/miniob/src/observer/sql/parser/parse_defs.h \
+ /root/miniob2/miniob/src/observer/pch.h /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/c++/11/utility /usr/include/c++/11/vector \
  /usr/include/c++/11/string \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/value.h \
+ /root/miniob2/miniob/src/observer/sql/parser/value.h \
  /usr/include/c++/11/span /usr/include/c++/11/array \
  /usr/include/c++/11/bits/stl_iterator.h \
  /usr/include/c++/11/bits/ranges_base.h /usr/include/c++/11/complex \
@@ -50,7 +49,7 @@ src/observer/CMakeFiles/observer_static.dir/sql/stmt/explain_stmt.cpp.o: \
  /usr/include/c++/11/bits/cxxabi_forced.h \
  /usr/include/c++/11/bits/alloc_traits.h \
  /usr/include/c++/11/bits/sstream.tcc \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/date.h \
+ /root/miniob2/miniob/src/observer/sql/parser/date.h \
  /usr/include/c++/11/iomanip /usr/include/c++/11/iosfwd \
  /usr/include/c++/11/bits/ios_base.h /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/localefwd.h \
@@ -67,10 +66,10 @@ src/observer/CMakeFiles/observer_static.dir/sql/stmt/explain_stmt.cpp.o: \
  /usr/include/c++/11/bits/allocator.h \
  /usr/include/c++/11/bits/unique_ptr.h \
  /usr/include/c++/11/bits/quoted_string.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/page.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/page.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/types.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /root/miniob2/miniob/src/observer/common/types.h \
+ /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
@@ -98,6 +97,6 @@ src/observer/CMakeFiles/observer_static.dir/sql/stmt/explain_stmt.cpp.o: \
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/functional \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
+ /root/miniob2/miniob/deps/common/defs.h \
  /usr/include/x86_64-linux-gnu/sys/syscall.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/unistd.h

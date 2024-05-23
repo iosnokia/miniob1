@@ -1,4 +1,4 @@
-# Install script for directory: /root/miniob2/Miniob-Solution-2023-main/deps
+# Install script for directory: /root/miniob2/miniob/deps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/miniob2/Miniob-Solution-2023-main/build_debug/deps/common/cmake_install.cmake")
+  include("/root/miniob2/miniob/build_debug/deps/common/cmake_install.cmake")
 
 endif()
 

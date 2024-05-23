@@ -1,13 +1,13 @@
 src/observer/CMakeFiles/observer_static.dir/storage/trx/latch_memo.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/trx/latch_memo.cpp \
+ /root/miniob2/miniob/src/observer/storage/trx/latch_memo.cpp \
  /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/trx/latch_memo.h \
+ /root/miniob2/miniob/src/observer/storage/trx/latch_memo.h \
  /usr/include/c++/11/deque /usr/include/c++/11/vector \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/rc.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/page.h \
+ /root/miniob2/miniob/src/observer/common/rc.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/page.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/types.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/frame.h \
+ /root/miniob2/miniob/src/observer/common/types.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/frame.h \
  /usr/include/pthread.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h \
@@ -41,7 +41,7 @@ src/observer/CMakeFiles/observer_static.dir/storage/trx/latch_memo.cpp.o: \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/atomic \
  /usr/include/c++/11/bits/atomic_base.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -62,10 +62,10 @@ src/observer/CMakeFiles/observer_static.dir/storage/trx/latch_memo.cpp.o: \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/functexcept.h \
  /usr/include/c++/11/bits/stl_multimap.h /usr/include/c++/11/functional \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/memory /usr/include/x86_64-linux-gnu/sys/syscall.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/memory \
+ /usr/include/x86_64-linux-gnu/sys/syscall.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/unistd.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/mutex.h \
+ /root/miniob2/miniob/deps/common/lang/mutex.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/condition_variable \
  /usr/include/c++/11/bits/alloc_traits.h \
  /usr/include/c++/11/bits/shared_ptr.h /usr/include/c++/11/stop_token \
@@ -84,7 +84,7 @@ src/observer/CMakeFiles/observer_static.dir/storage/trx/latch_memo.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
  /usr/include/c++/11/shared_mutex /usr/include/c++/11/thread \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/disk_buffer_pool.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/disk_buffer_pool.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
@@ -105,14 +105,13 @@ src/observer/CMakeFiles/observer_static.dir/storage/trx/latch_memo.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/linux/falloc.h /usr/include/c++/11/stdlib.h \
  /usr/include/c++/11/cstdlib \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/mm/mem_pool.h \
- /usr/include/c++/11/queue /usr/include/c++/11/list \
- /usr/include/c++/11/bits/stl_list.h \
+ /root/miniob2/miniob/deps/common/mm/mem_pool.h /usr/include/c++/11/queue \
+ /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/bits/list.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/os.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/lru_cache.h \
+ /root/miniob2/miniob/deps/common/os/os.h \
+ /root/miniob2/miniob/deps/common/lang/lru_cache.h \
  /usr/include/c++/11/unordered_set /usr/include/c++/11/bits/stl_pair.h \
  /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/unordered_set.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/bitmap.h
+ /root/miniob2/miniob/deps/common/lang/bitmap.h

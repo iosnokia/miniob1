@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/miniob2/Miniob-Solution-2023-main
+CMAKE_SOURCE_DIR = /root/miniob2/miniob
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/miniob2/Miniob-Solution-2023-main/build_debug
+CMAKE_BINARY_DIR = /root/miniob2/miniob/build_debug
 
 # Include any dependencies generated for this target.
 include benchmark/CMakeFiles/record_manager_concurrency_test.dir/depend.make
@@ -72,16 +72,16 @@ include benchmark/CMakeFiles/record_manager_concurrency_test.dir/flags.make
 benchmark/CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.o: benchmark/CMakeFiles/record_manager_concurrency_test.dir/flags.make
 benchmark/CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.o: ../benchmark/record_manager_concurrency_test.cpp
 benchmark/CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.o: benchmark/CMakeFiles/record_manager_concurrency_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/miniob2/Miniob-Solution-2023-main/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object benchmark/CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.o"
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug/benchmark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT benchmark/CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.o -MF CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.o.d -o CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.o -c /root/miniob2/Miniob-Solution-2023-main/benchmark/record_manager_concurrency_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/miniob2/miniob/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object benchmark/CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.o"
+	cd /root/miniob2/miniob/build_debug/benchmark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT benchmark/CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.o -MF CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.o.d -o CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.o -c /root/miniob2/miniob/benchmark/record_manager_concurrency_test.cpp
 
 benchmark/CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.i"
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug/benchmark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/miniob2/Miniob-Solution-2023-main/benchmark/record_manager_concurrency_test.cpp > CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.i
+	cd /root/miniob2/miniob/build_debug/benchmark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/miniob2/miniob/benchmark/record_manager_concurrency_test.cpp > CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.i
 
 benchmark/CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.s"
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug/benchmark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/miniob2/Miniob-Solution-2023-main/benchmark/record_manager_concurrency_test.cpp -o CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.s
+	cd /root/miniob2/miniob/build_debug/benchmark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/miniob2/miniob/benchmark/record_manager_concurrency_test.cpp -o CMakeFiles/record_manager_concurrency_test.dir/record_manager_concurrency_test.cpp.s
 
 # Object files for target record_manager_concurrency_test
 record_manager_concurrency_test_OBJECTS = \
@@ -99,18 +99,18 @@ bin/record_manager_concurrency_test: /usr/lib/x86_64-linux-gnu/libreadline.so
 bin/record_manager_concurrency_test: /usr/local/lib/libevent_pthreads.a
 bin/record_manager_concurrency_test: /usr/local/lib/libevent_core.a
 bin/record_manager_concurrency_test: benchmark/CMakeFiles/record_manager_concurrency_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/miniob2/Miniob-Solution-2023-main/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/record_manager_concurrency_test"
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug/benchmark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/record_manager_concurrency_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/miniob2/miniob/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/record_manager_concurrency_test"
+	cd /root/miniob2/miniob/build_debug/benchmark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/record_manager_concurrency_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 benchmark/CMakeFiles/record_manager_concurrency_test.dir/build: bin/record_manager_concurrency_test
 .PHONY : benchmark/CMakeFiles/record_manager_concurrency_test.dir/build
 
 benchmark/CMakeFiles/record_manager_concurrency_test.dir/clean:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug/benchmark && $(CMAKE_COMMAND) -P CMakeFiles/record_manager_concurrency_test.dir/cmake_clean.cmake
+	cd /root/miniob2/miniob/build_debug/benchmark && $(CMAKE_COMMAND) -P CMakeFiles/record_manager_concurrency_test.dir/cmake_clean.cmake
 .PHONY : benchmark/CMakeFiles/record_manager_concurrency_test.dir/clean
 
 benchmark/CMakeFiles/record_manager_concurrency_test.dir/depend:
-	cd /root/miniob2/Miniob-Solution-2023-main/build_debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/miniob2/Miniob-Solution-2023-main /root/miniob2/Miniob-Solution-2023-main/benchmark /root/miniob2/Miniob-Solution-2023-main/build_debug /root/miniob2/Miniob-Solution-2023-main/build_debug/benchmark /root/miniob2/Miniob-Solution-2023-main/build_debug/benchmark/CMakeFiles/record_manager_concurrency_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/miniob2/miniob/build_debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/miniob2/miniob /root/miniob2/miniob/benchmark /root/miniob2/miniob/build_debug /root/miniob2/miniob/build_debug/benchmark /root/miniob2/miniob/build_debug/benchmark/CMakeFiles/record_manager_concurrency_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : benchmark/CMakeFiles/record_manager_concurrency_test.dir/depend
 

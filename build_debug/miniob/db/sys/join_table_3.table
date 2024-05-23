@@ -1,0 +1,32 @@
+{
+	"fields" : 
+	[
+		{
+			"len" : 4,
+			"name" : "null_field",
+			"null" : false,
+			"offset" : 0,
+			"type" : "chars",
+			"visible" : false
+		},
+		{
+			"len" : 4,
+			"name" : "id",
+			"null" : false,
+			"offset" : 4,
+			"type" : "ints",
+			"visible" : true
+		},
+		{
+			"len" : 4,
+			"name" : "num2",
+			"null" : false,
+			"offset" : 8,
+			"type" : "ints",
+			"visible" : true
+		}
+	],
+	"indexes" : null,
+	"table_id" : 2,
+	"table_name" : "join_table_3"
+}

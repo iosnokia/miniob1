@@ -1,4 +1,4 @@
-# Install script for directory: /root/miniob2/Miniob-Solution-2023-main
+# Install script for directory: /root/miniob2/miniob
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY PERMISSIONS OWNER_WRITE OWNER_READ GROUP_READ WORLD_READ FILES "/root/miniob2/Miniob-Solution-2023-main/etc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY PERMISSIONS OWNER_WRITE OWNER_READ GROUP_READ WORLD_READ FILES "/root/miniob2/miniob/etc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -52,13 +52,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/miniob2/Miniob-Solution-2023-main/build_debug/deps/cmake_install.cmake")
-  include("/root/miniob2/Miniob-Solution-2023-main/build_debug/src/obclient/cmake_install.cmake")
-  include("/root/miniob2/Miniob-Solution-2023-main/build_debug/src/observer/cmake_install.cmake")
-  include("/root/miniob2/Miniob-Solution-2023-main/build_debug/test/perf/cmake_install.cmake")
-  include("/root/miniob2/Miniob-Solution-2023-main/build_debug/benchmark/cmake_install.cmake")
-  include("/root/miniob2/Miniob-Solution-2023-main/build_debug/tools/cmake_install.cmake")
-  include("/root/miniob2/Miniob-Solution-2023-main/build_debug/unittest/cmake_install.cmake")
+  include("/root/miniob2/miniob/build_debug/deps/cmake_install.cmake")
+  include("/root/miniob2/miniob/build_debug/src/obclient/cmake_install.cmake")
+  include("/root/miniob2/miniob/build_debug/src/observer/cmake_install.cmake")
+  include("/root/miniob2/miniob/build_debug/test/perf/cmake_install.cmake")
+  include("/root/miniob2/miniob/build_debug/benchmark/cmake_install.cmake")
+  include("/root/miniob2/miniob/build_debug/tools/cmake_install.cmake")
+  include("/root/miniob2/miniob/build_debug/unittest/cmake_install.cmake")
 
 endif()
 
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/root/miniob2/Miniob-Solution-2023-main/build_debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/miniob2/miniob/build_debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

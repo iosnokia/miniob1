@@ -1,5 +1,5 @@
 unittest/CMakeFiles/mem_pool_test.dir/mem_pool_test.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/unittest/mem_pool_test.cpp \
+ /root/miniob2/miniob/unittest/mem_pool_test.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/list \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -160,9 +160,8 @@ unittest/CMakeFiles/mem_pool_test.dir/mem_pool_test.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/mm/mem_pool.h \
- /usr/include/c++/11/queue /usr/include/c++/11/deque \
- /usr/include/c++/11/bits/stl_uninitialized.h \
+ /root/miniob2/miniob/deps/common/mm/mem_pool.h /usr/include/c++/11/queue \
+ /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
@@ -219,11 +218,11 @@ unittest/CMakeFiles/mem_pool_test.dir/mem_pool_test.cpp.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/mutex.h \
- /usr/include/string.h /usr/include/strings.h \
- /usr/include/c++/11/condition_variable /usr/include/c++/11/chrono \
- /usr/include/c++/11/ratio /usr/include/c++/11/limits \
- /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
+ /root/miniob2/miniob/deps/common/lang/mutex.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/c++/11/condition_variable \
+ /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
+ /usr/include/c++/11/limits /usr/include/c++/11/ctime \
+ /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/unique_lock.h /usr/include/c++/11/stop_token \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/std_thread.h \
  /usr/include/c++/11/semaphore /usr/include/c++/11/bits/semaphore_base.h \
@@ -234,14 +233,13 @@ unittest/CMakeFiles/mem_pool_test.dir/mem_pool_test.cpp.o: \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h /usr/include/c++/11/mutex \
  /usr/include/c++/11/shared_mutex /usr/include/c++/11/thread \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
- /usr/include/assert.h /usr/include/c++/11/fstream \
- /usr/include/c++/11/bits/codecvt.h \
+ /root/miniob2/miniob/deps/common/log/log.h /usr/include/assert.h \
+ /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/os.h \
+ /root/miniob2/miniob/deps/common/defs.h \
+ /root/miniob2/miniob/deps/common/os/os.h \
  /usr/local/include/gtest/gtest.h /usr/include/c++/11/cstddef \
  /usr/local/include/gtest/gtest-assertion-result.h \
  /usr/local/include/gtest/gtest-message.h \

@@ -1,17 +1,16 @@
 src/observer/CMakeFiles/observer_static.dir/sql/stmt/select_stmt.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/stmt/select_stmt.cpp \
+ /root/miniob2/miniob/src/observer/sql/stmt/select_stmt.cpp \
  /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/stmt/select_stmt.h \
+ /root/miniob2/miniob/src/observer/sql/stmt/select_stmt.h \
  /usr/include/c++/11/vector /usr/include/c++/11/memory \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/rc.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/stmt/stmt.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/parse_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/pch.h \
- /usr/include/c++/11/cstddef \
+ /root/miniob2/miniob/src/observer/common/rc.h \
+ /root/miniob2/miniob/src/observer/sql/stmt/stmt.h \
+ /root/miniob2/miniob/src/observer/sql/parser/parse_defs.h \
+ /root/miniob2/miniob/src/observer/pch.h /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/c++/11/utility /usr/include/c++/11/string \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/value.h \
+ /root/miniob2/miniob/src/observer/sql/parser/value.h \
  /usr/include/c++/11/span /usr/include/c++/11/array \
  /usr/include/c++/11/bits/stl_iterator.h \
  /usr/include/c++/11/bits/ranges_base.h /usr/include/c++/11/complex \
@@ -49,7 +48,7 @@ src/observer/CMakeFiles/observer_static.dir/sql/stmt/select_stmt.cpp.o: \
  /usr/include/c++/11/bits/cxxabi_forced.h \
  /usr/include/c++/11/bits/alloc_traits.h \
  /usr/include/c++/11/bits/sstream.tcc \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/parser/date.h \
+ /root/miniob2/miniob/src/observer/sql/parser/date.h \
  /usr/include/c++/11/iomanip /usr/include/c++/11/iosfwd \
  /usr/include/c++/11/bits/ios_base.h /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/localefwd.h \
@@ -66,16 +65,16 @@ src/observer/CMakeFiles/observer_static.dir/sql/stmt/select_stmt.cpp.o: \
  /usr/include/c++/11/bits/allocator.h \
  /usr/include/c++/11/bits/unique_ptr.h \
  /usr/include/c++/11/bits/quoted_string.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/buffer/page.h \
+ /root/miniob2/miniob/src/observer/storage/buffer/page.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/types.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/field/field.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/table/table.h \
+ /root/miniob2/miniob/src/observer/common/types.h \
+ /root/miniob2/miniob/src/observer/storage/field/field.h \
+ /root/miniob2/miniob/src/observer/storage/table/table.h \
  /usr/include/c++/11/functional \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/table/table_meta.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/field/field_meta.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/index/index_meta.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/serializable.h \
+ /root/miniob2/miniob/src/observer/storage/table/table_meta.h \
+ /root/miniob2/miniob/src/observer/storage/field/field_meta.h \
+ /root/miniob2/miniob/src/observer/storage/index/index_meta.h \
+ /root/miniob2/miniob/deps/common/lang/serializable.h \
  /usr/include/c++/11/unordered_set /usr/include/c++/11/initializer_list \
  /usr/include/c++/11/ext/alloc_traits.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
@@ -86,7 +85,7 @@ src/observer/CMakeFiles/observer_static.dir/sql/stmt/select_stmt.cpp.o: \
  /usr/include/c++/11/bits/unordered_set.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/erase_if.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/expr/expression.h \
+ /root/miniob2/miniob/src/observer/sql/expr/expression.h \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/strings.h /usr/include/c++/11/list \
@@ -94,7 +93,7 @@ src/observer/CMakeFiles/observer_static.dir/sql/stmt/select_stmt.cpp.o: \
  /usr/include/c++/11/bits/concept_check.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/bits/list.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
@@ -113,14 +112,14 @@ src/observer/CMakeFiles/observer_static.dir/sql/stmt/select_stmt.cpp.o: \
  /usr/include/c++/11/bits/stl_multimap.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
+ /root/miniob2/miniob/deps/common/defs.h \
  /usr/include/x86_64-linux-gnu/sys/syscall.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/unistd.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/expr/tuple_cell.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/stmt/join_stmt.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/sql/stmt/filter_stmt.h \
+ /root/miniob2/miniob/src/observer/sql/expr/tuple_cell.h \
+ /root/miniob2/miniob/src/observer/sql/stmt/join_stmt.h \
+ /root/miniob2/miniob/src/observer/sql/stmt/filter_stmt.h \
  /usr/include/c++/11/unordered_map \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/string.h \
+ /root/miniob2/miniob/deps/common/lang/string.h \
  /usr/include/c++/11/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
@@ -152,4 +151,4 @@ src/observer/CMakeFiles/observer_static.dir/sql/stmt/select_stmt.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/db/db.h
+ /root/miniob2/miniob/src/observer/storage/db/db.h

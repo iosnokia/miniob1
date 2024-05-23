@@ -1,7 +1,7 @@
 deps/common/CMakeFiles/common.dir/os/process_param.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/process_param.cpp \
+ /root/miniob2/miniob/deps/common/os/process_param.cpp \
  /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/process_param.h \
+ /root/miniob2/miniob/deps/common/os/process_param.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

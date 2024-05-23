@@ -1,7 +1,6 @@
 src/observer/CMakeFiles/observer_static.dir/main.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/main.cpp \
- /usr/include/stdc-predef.h /usr/include/netinet/in.h \
- /usr/include/features.h \
+ /root/miniob2/miniob/src/observer/main.cpp /usr/include/stdc-predef.h \
+ /usr/include/netinet/in.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -31,12 +30,11 @@ src/observer/CMakeFiles/observer_static.dir/main.cpp.o: \
  /usr/include/c++/11/ostream /usr/include/c++/11/istream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/cxxabi_forced.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/init.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/process_param.h \
+ /root/miniob2/miniob/src/observer/common/init.h \
+ /root/miniob2/miniob/deps/common/os/process_param.h \
  /usr/include/c++/11/string /usr/include/c++/11/vector \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/conf/ini.h \
- /usr/include/stdio.h /usr/include/c++/11/map \
- /usr/include/c++/11/bits/stl_tree.h \
+ /root/miniob2/miniob/deps/common/conf/ini.h /usr/include/stdio.h \
+ /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/c++/11/bits/allocator.h \
  /usr/include/c++/11/bits/stl_function.h \
@@ -53,10 +51,9 @@ src/observer/CMakeFiles/observer_static.dir/main.cpp.o: \
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/ini_setting.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/process.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/signal.h \
- /usr/include/signal.h \
+ /root/miniob2/miniob/src/observer/common/ini_setting.h \
+ /root/miniob2/miniob/deps/common/os/process.h \
+ /root/miniob2/miniob/deps/common/os/signal.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
@@ -83,7 +80,7 @@ src/observer/CMakeFiles/observer_static.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/string.h \
+ /root/miniob2/miniob/deps/common/lang/string.h \
  /usr/include/c++/11/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
@@ -91,9 +88,8 @@ src/observer/CMakeFiles/observer_static.dir/main.cpp.o: \
  /usr/include/c++/11/cstdlib /usr/include/c++/11/sstream \
  /usr/include/c++/11/bits/alloc_traits.h \
  /usr/include/c++/11/bits/sstream.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/errno.h /usr/include/c++/11/fstream \
- /usr/include/c++/11/bits/codecvt.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/errno.h \
+ /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/c++/11/bits/locale_classes.h /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
@@ -101,13 +97,12 @@ src/observer/CMakeFiles/observer_static.dir/main.cpp.o: \
  /usr/include/c++/11/bits/move.h /usr/include/c++/11/bits/fstream.tcc \
  /usr/include/c++/11/cerrno /usr/include/c++/11/memory \
  /usr/include/x86_64-linux-gnu/sys/syscall.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/net/server.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/stage.h \
- /usr/include/c++/11/deque /usr/include/c++/11/list \
- /usr/include/c++/11/bits/stl_list.h \
+ /root/miniob2/miniob/src/observer/net/server.h \
+ /root/miniob2/miniob/deps/common/seda/stage.h /usr/include/c++/11/deque \
+ /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/bits/list.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
  /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/assert.h \
@@ -115,10 +110,9 @@ src/observer/CMakeFiles/observer_static.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/strings.h /usr/include/c++/11/functional \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/seda/stage_event.h \
- /usr/include/time.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/net/server_param.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/net/communicator.h \
+ /root/miniob2/miniob/deps/common/seda/stage_event.h /usr/include/time.h \
+ /root/miniob2/miniob/src/observer/net/server_param.h \
+ /root/miniob2/miniob/src/observer/net/communicator.h \
  /usr/local/include/event.h /usr/local/include/event2/event-config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
@@ -138,4 +132,4 @@ src/observer/CMakeFiles/observer_static.dir/main.cpp.o: \
  /usr/local/include/event2/bufferevent_struct.h \
  /usr/local/include/event2/bufferevent_compat.h \
  /usr/local/include/event2/tag.h /usr/local/include/event2/tag_compat.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/common/rc.h
+ /root/miniob2/miniob/src/observer/common/rc.h

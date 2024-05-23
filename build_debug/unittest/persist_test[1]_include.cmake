@@ -1,5 +1,5 @@
-if(EXISTS "/root/miniob2/Miniob-Solution-2023-main/build_debug/unittest/persist_test[1]_tests.cmake")
-  include("/root/miniob2/Miniob-Solution-2023-main/build_debug/unittest/persist_test[1]_tests.cmake")
+if(EXISTS "/root/miniob2/miniob/build_debug/unittest/persist_test[1]_tests.cmake")
+  include("/root/miniob2/miniob/build_debug/unittest/persist_test[1]_tests.cmake")
 else()
   add_test(persist_test_NOT_BUILT persist_test_NOT_BUILT)
 endif()

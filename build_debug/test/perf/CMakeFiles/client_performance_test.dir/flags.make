@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DENABLE_DEBUG -DLINUX -DUNIX
 
-CXX_INCLUDES = -I/root/miniob2/Miniob-Solution-2023-main/. -I/root/miniob2/Miniob-Solution-2023-main/deps
+CXX_INCLUDES = -I/root/miniob2/miniob/. -I/root/miniob2/miniob/deps
 
 CXX_FLAGS = -g -std=gnu++20
 

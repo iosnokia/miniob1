@@ -1,7 +1,6 @@
 src/observer/CMakeFiles/observer_static.dir/storage/common/meta_util.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/common/meta_util.cpp \
- /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
+ /root/miniob2/miniob/src/observer/storage/common/meta_util.cpp \
+ /usr/include/stdc-predef.h /root/miniob2/miniob/deps/common/defs.h \
  /usr/include/errno.h /usr/include/c++/11/fstream \
  /usr/include/c++/11/istream /usr/include/c++/11/ios \
  /usr/include/c++/11/ostream /usr/include/c++/11/bits/istream.tcc \
@@ -18,4 +17,4 @@ src/observer/CMakeFiles/observer_static.dir/storage/common/meta_util.cpp.o: \
  /usr/include/c++/11/iostream /usr/include/c++/11/memory \
  /usr/include/x86_64-linux-gnu/sys/syscall.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/unistd.h \
- /root/miniob2/Miniob-Solution-2023-main/src/observer/storage/common/meta_util.h
+ /root/miniob2/miniob/src/observer/storage/common/meta_util.h

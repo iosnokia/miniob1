@@ -1,8 +1,8 @@
 deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/metrics/sampler.cpp \
+ /root/miniob2/miniob/deps/common/metrics/sampler.cpp \
  /usr/include/stdc-predef.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/metrics/sampler.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/math/random_generator.h \
+ /root/miniob2/miniob/deps/common/metrics/sampler.h \
+ /root/miniob2/miniob/deps/common/math/random_generator.h \
  /usr/include/c++/11/stdlib.h /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -172,7 +172,7 @@ deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.o: \
  /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/bit \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/assert.h \
  /usr/include/string.h /usr/include/strings.h /usr/include/c++/11/fstream \
  /usr/include/c++/11/istream /usr/include/c++/11/ios \
@@ -216,8 +216,7 @@ deps/common/CMakeFiles/common.dir/metrics/sampler.cpp.o: \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/unordered_map.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/memory \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bits/unique_ptr.h \
  /usr/include/c++/11/bits/shared_ptr.h \

@@ -1,6 +1,6 @@
 deps/common/CMakeFiles/common.dir/log/log.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.cpp \
- /usr/include/stdc-predef.h /usr/include/assert.h /usr/include/features.h \
+ /root/miniob2/miniob/deps/common/log/log.cpp /usr/include/stdc-predef.h \
+ /usr/include/assert.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
@@ -37,8 +37,7 @@ deps/common/CMakeFiles/common.dir/log/log.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/include/execinfo.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/lang/string.h \
+ /usr/include/execinfo.h /root/miniob2/miniob/deps/common/lang/string.h \
  /usr/include/c++/11/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/c++/11/bits/cxxabi_forced.h /usr/include/c++/11/stdlib.h \
@@ -203,8 +202,8 @@ deps/common/CMakeFiles/common.dir/log/log.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/fstream \
+ /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/memory \
@@ -242,7 +241,7 @@ deps/common/CMakeFiles/common.dir/log/log.cpp.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
+ /root/miniob2/miniob/deps/common/log/log.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/string.h \
  /usr/include/strings.h /usr/include/c++/11/map \
  /usr/include/c++/11/bits/stl_map.h \

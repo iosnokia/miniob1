@@ -1,5 +1,5 @@
 deps/common/CMakeFiles/common.dir/os/process.cpp.o: \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/process.cpp \
+ /root/miniob2/miniob/deps/common/os/process.cpp \
  /usr/include/stdc-predef.h /usr/include/fcntl.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -158,15 +158,14 @@ deps/common/CMakeFiles/common.dir/os/process.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/io/io.h \
- /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
+ /root/miniob2/miniob/deps/common/io/io.h /usr/include/c++/11/vector \
+ /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/defs.h \
- /usr/include/c++/11/fstream /usr/include/c++/11/istream \
- /usr/include/c++/11/ios /usr/include/c++/11/exception \
- /usr/include/c++/11/bits/exception_ptr.h \
+ /root/miniob2/miniob/deps/common/defs.h /usr/include/c++/11/fstream \
+ /usr/include/c++/11/istream /usr/include/c++/11/ios \
+ /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
  /usr/include/c++/11/bits/ios_base.h \
@@ -233,9 +232,8 @@ deps/common/CMakeFiles/common.dir/os/process.cpp.o: \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/log/log.h \
- /usr/include/assert.h /usr/include/c++/11/map \
- /usr/include/c++/11/bits/stl_tree.h \
+ /root/miniob2/miniob/deps/common/log/log.h /usr/include/assert.h \
+ /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
@@ -247,5 +245,5 @@ deps/common/CMakeFiles/common.dir/os/process.cpp.o: \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/unordered_map.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/path.h \
- /root/miniob2/Miniob-Solution-2023-main/deps/common/os/process.h
+ /root/miniob2/miniob/deps/common/os/path.h \
+ /root/miniob2/miniob/deps/common/os/process.h
