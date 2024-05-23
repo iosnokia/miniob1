@@ -1,1 +1,0 @@
-[2024-05-23 14:10:13.657010 pid:5807 tid:7fcf80e4c740 ctx:0 INFO: cleanup@mem_pool.h:237] >> Successfully do cleanup, this->name:BufPool.

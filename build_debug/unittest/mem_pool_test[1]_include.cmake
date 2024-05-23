@@ -1,5 +1,0 @@
-if(EXISTS "/root/miniob2/miniob/build_debug/unittest/mem_pool_test[1]_tests.cmake")
-  include("/root/miniob2/miniob/build_debug/unittest/mem_pool_test[1]_tests.cmake")
-else()
-  add_test(mem_pool_test_NOT_BUILT mem_pool_test_NOT_BUILT)
-endif()
