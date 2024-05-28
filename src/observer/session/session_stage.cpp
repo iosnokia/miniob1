@@ -109,6 +109,7 @@ void SessionStage::handle_request(StageEvent *event)
   Session::set_current_session(nullptr);
 }
 
+
 RC SessionStage::handle_sql_expr(SqlExpr &root, SQLStageEvent *sql_event)
 {
   new_call_stack;

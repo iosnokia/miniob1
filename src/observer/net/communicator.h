@@ -88,6 +88,9 @@ public:
     return addr_.c_str();
   }
 
+  int fd(){
+    return fd_;
+  }
 protected:
   Session *session_ = nullptr;
   struct event read_event_;

@@ -46,6 +46,7 @@ public:
 protected:
   // common function
   SessionStage(const char *tag);
+  SessionStage();
   bool set_properties() override;
 
   bool initialize() override;
